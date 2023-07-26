@@ -1,0 +1,1874 @@
+対策:見逃し対策
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+"""NDS耐久試験結果および、リング応力解析結果から強度上の問題は無いと判断するが、非正常組付け時の
+過大外部入力によるリング亀裂に対するロバスト性向上の為、リング曲げR最小値を以下の通り変更する。　（先行反映済）
+1.9mm±0.3mm → 2.0 mm Min (参考　R下限値品の解析比較で5%応力低減））　"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+-
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+‐
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+-
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+-
+
+
+
+　
+工程上、検査箇所でないため対象外
+
+　
+
+
+
+-
+
+
+
+
+
+
+
+
+
+　
+
+
+
+
+
+
+
+
+
+
+
+
+-
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+"{NML-PIR-20-00735}
+基板検査時にドライバ基板が誤動作し過電流が流れた場合の検知性を向上させるため、ドライバ回路基板VB消費電流検査の検査規格値を0.30～0.61Aから0.42～0.54Aに狭める"
+
+
+
+
+
+
+-
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+-
+
+
+
+
+
+
+
+
+
+
+
+　
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+-
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+{NML-CAR-20-00486}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+-
+
+
+
+-
+
+
+
+
+
+"{JP-CAR-2019-01120}
+New AIVI SW 3131 Whenever there is change in language, all components will update the language irrespective of Update flag so that it will match language code between Navi HMI/ Middleware and SDS. 
+New AIVI SW 3131 Whenever there is change in language, all components will update the language irrespective of Update flag so that it will match language code between Navi HMI/ Middleware and SDS."
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+"{NNA-PIR-20-00096}
+Annual Audit ESD compliance.
+1.External ESD audit was performed at Valeo facilities for B12P process, equipment's and tools. (External Audit Once per year) 1st evaluation date: 03/26/2021 (Aztec Supplier)"
+
+
+
+
+
+-
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+　
+
+
+
+
+"{NNA-PIR-20-00149}
+Countermeasure
+1. Added Air blow process after assembling coil part. (Implemented from March 16, 2020)
+2. Added appearance check when assembling coil part, check for scratches and burrs.(Implemented from March 16, 2020)
+Countermeasure RAN;SW72270~(292C0-5SA1B) For NNA
+Countermeasure
+1. Added Air blow process after assembling coil part. (Implemented from March 16, 2020)
+2. Added appearance check when assembling coil part, check for scratches and burrs.(Implemented from March 16, 2020)
+Countermeasure RAN;SW72270~(292C0-5SA1B) For NNA"
+
+
+
+
+
+"{NML-PIR-20-02484}
+
+{NML-PIR-21-00035}
+
+{NML-PIR-21-00427}"
+
+
+
+
+-
+
+"{NNA-PIR-20-00415}
+At tier 5 supplier, Implement stress test at HV line forced to 79V on 5/31/2020.
+Q4 VIN: 1N4AZ1BV2NC550031 on 6/25/2021"
+
+{NML-PIR-20-02599}
+
+
+
+
+EV　シナリオ評価としてBatteryレベルがＬow Battery状態でのユースケースを想定し、それに応じた評価項目とその評価条件を決定しなければならない事を追記する
+
+
+
+
+
+-
+
+
+
+
+
+
+
+
+
+
+
+{NML-CAR-20-00154}
+"{NMA-CAR-20-00009}
+cut-off provided from NMUK is SJNFAAZE1U0130162 - 19-Apr-2021"
+
+
+Communicated to team during shift start meetings. One point lesson created to make sure technicians are aware that when this condition (large gap in metal) is seen they must alert management and do not let the unit advance. Clean date: 7/8/2020 Clean VIN: 1N4AZ1BP4LC307805 
+
+
+
+"<工場>
+詳細はNML-CAR-20-00251を参照願います（2020/6/29回答済）"
+
+
+
+
+
+
+
+
+
+
+
+
+
+-
+
+
+
+
+EV評価として強電Batteryレベルを、Normal／Ｌow Battery各々の場合のユースケースを設定し、それに応じた評価項目を決定しなければならない事を追記する。
+
+シャットダウン処理中の起動タイミングに対する、サプライヤのデザインレビュー結果を確認し、その検証方法である品質確認内容をレビュー、その検証結果を刈り取る事とする。
+
+
+
+-
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+　
+
+
+-
+
+
+
+
+
+
+
+
+
+
+
+
+
+-
+
+
+-
+"Root Cause
+Why shipped: Incorrect technique
+
+Why made: Missed Process"
+"{NML-CAR-20-00354}
+高温テストの条件リミットの修正を実施致しました。(1.5～0.5に変更）　　実施日：2020年1月27日
+高温テストの条件リミットの修正を実施致しました。(1.5～0.5に変更）　　実施日：2020年1月27日"
+
+
+"{NNA-PIR-20-00884}
+OPL issued to the zone and revision to the SOS with adding a Key Point and updated image for the harness routing portion of this process. Also added instruction for routing the mirror harness in front of door sash prior to making the mirror connections. (5/28/2020) Relocated routing of the mirror harness prior to installation of glass to allow an improved installation method for the harness. Added quality confirmation check for the harness interference concern while functioning the glass on our Glass Install job. Updated the Supervisor's CIL to be checked each production run by all Zone Supervisor's until zero issues are identified. Also added a verification of the mirror harness routing process to the Zone Leader's and Offline Repair procedures.
+
+Clean Point: 7/31/20 - 1N4BL4A92LC269162"
+
+
+
+
+
+
+"{NNA-CAR-21-00834}
+Q3: 100% visual inspection for plate straightness adopted in February 2021 at final inspection station. VIN 1N4BZ1DV21MC552880 
+
+
+
+{NNA-PIR-21-01493}
+Until the adoption of Kapton tape, a fiberscope is used to inspect for bending and repel defective products.
+After adopting Kapton tape, no countermeasures are required because insulation does not deteriorate even if it bends."
+"{NNA-CAR-20-01454}
+By eliminating identified source of contamination introduction in process
+{NNA-CAR-20-01003}
+Inventory report with target ages by component type reviewed weekly by plant leadership to prevent ageing material.
+
+Creation of new electronic system to prevent FIFO issue with upstream sub-assemblies:
+Initial detection score = 0
+Final detection = 30 (increased by new system, not tied to manufacturing line)
+{NNA-PIR-22-00361}
+Reduction in internal defects confirms reduced risk of latent defect outflow
+
+
+
+Documented reduction in internal contamination defects at supplier.
+
+Magnet always in place, tool not tied to line - estimate effectiveness at 30%.
+New detection rank = 4 [ New RPN = 8x3x7 = 168]"
+
+　
+
+評価計画策定に於いて、追加機能の変更内容に対するサプライヤの検証結果と、問題無い事の確認結果を提出させる事
+
+
+
+
+"{NML-PIR-21-00426}
+
+{NML-CAR-22-00013}
+e-Pedalによる回生ブレーキを考慮した実験方法にNEMを変更する。"
+"{NNA-PIR-20-00805}
+N/A"
+
+
+
+
+
+
+
+
+
+
+
+
+
+ー
+"-
+{NML-PIR-20-01792}"
+
+-
+
+
+
+
+
+"{NNA-PIR-20-00940}
+
+Bolt counter only dispenses the correct amount of bolts for the process so the operator knows if a bolt is missing or if there is extra. Standard put in place for the operator to pull the light and alert offline if they have not enough and/or extra bolts after the PDM has been secured so that the leader can inspect the entire PDM process to ensure there are no dropped bolts and everything has been secured."
+"{NNA-PIR-20-00941}
+Conclusion: Supplier cannot keep the analysi part due to affected part was scraped. for these reason que improvement on supplier process line are:
+
+1. Before and after condition.
+Before: supplier just make harness connections without ""full connection confirmation"".
+After: supplier implement for harness conecctions the ""push-pull-push"" system.
+
+
+
+
+2. Investigation process improvements:
+Supplier modified their official formarts to spcrap material just with PQE appovals and just by supplier Quality area.
+
+All this documents are attached for more information."
+
+
+
+
+"{NNA-CAR-20-01055}
+Countermeasure activity found below in MQM slides.
+
+Clean Point: 1/13/2021 - 1N4BZ1DV3NC055502"
+{NML-PIR-21-01469}
+"{NNA-PIR-20-01093}
+Temperature variation in check list machine start.
+- The module was bolted, the ward avoid that amperage be changed. (CM evidences pg. 7)
+- Personnel involved were trained and informed that the guard could not be removed."
+
+
+
+
+
+
+
+
+　
+
+
+
+
+
+"{NNA-PIR-20-01281}
+N/A"
+
+"{NNA-PIR-20-01257}
+PTU tablet will ask if Homelink button works."
+"{NNA-PIR-20-01256}
+1. Process parameters verification according to FOR-CAL-202 - Verification Check List.
+Evaporators.
+2. Rotary motors upgraded.
+3. Manometer based on system feedback implemented."
+
+
+
+"{NNA-CAR-20-01353}
+Repaired equipment and retrained operators for leak testing."
+
+
+
+
+
+{NML-PIR-20-02190}
+
+
+
+"{NML-PIR-20-02192}
+現在試験条件設定見直しを検討中（再発防止回答までに検討完了する）"
+{NML-PIR-20-02284}
+
+
+"CC0記：
+IC製造時の問題であり、ﾒﾀﾙ層形成時に層上の異物付着が原因との事であり、
+また市場指摘も販売から2年、13000Km経過後の発生であり、さらに調査時の再現性も低かった事より、見逃しは対策は困難と思われる。"
+"{NML-PIR-20-02148}
+実験では発生頻度が低いため実験部での対策は無しとする"
+-
+
+
+
+
+
+{NML-PIR-20-02586}
+
+
+-
+
+
+
+
+
+"{NNA-CAR-20-01472}
+Push/Push verification at secondary station with on screen confirmation on 12/2/20.
+Q4 VIN: 1N4AZ1CV6MC550966 on 12/2/20"
+
+
+
+
+
+
+
+
+
+"{NML-PIR-21-00236}
+再発防止完了後対応→サプライヤがどのように保証出来ているのか、評価内容とその結果を納入時に刈り取る。"
+"{NNA-CAR-20-01415}
+A double check that this part is in place.
+{NNA-PIR-21-00444}
+From a Manufacturing standpoint- Raised awareness to workgroup of the warranty concerns via shift start meeting. SOS work instructions were revised by adding verbiage to state, ""insert push pin into insulator until it is fully locked and flush with insulator"" to help prevent half engaged and/or loose push pins. Operators were shown how to check push pins to ensure they were properly seated to prevent outflow. 
+{NNA-PIR-22-00333}
+Quality best controlled through process improvements. Raised awareness to workgroup of warranty concern. Yard audit was conducted to check units in the yard. All units checked in the yard checked OK- zero issues identified. Process has since been rebalanced upstream to a process that has adequate cycle time to install the fender insulators. A downstream check has been implemented at the end of the line to verify the fender insulator is properly installed to the fender and that all (4) push pins are fully seated to prevent outflow. SOS work instructions updated to reflect downstream quality check."
+"{NNA-PIR-20-01522}
+The added foam padding ensures that proper contact is made on each respective badge. The aforementioned changes to the Final Line vision system ensure that any suspect units will be routed offline and a member of Manufacturing/SCM will have to verify emblem is ""good"" before buying out of Inspect.
+
+Sequence Changed Was Made: 476631/1N4BZ1BV5MC551788"
+"{NNA-PIR-20-01521}
+Tactile check ensures the part is physically touched prior to leaving the job to ensure the part is fully secured and not loose."
+{NML-QRR-20-00294}
+{NML-QRR-20-00293}
+"{NMEX-CAR-20-00182}
+Vision system added to confirm the plugs are present and completely seated with poka yoke verification to confirm the sensor is functioning correctly."
+-
+"{NML-PIR-20-02745}
+再発防止までに検討を完了する。"
+"{NNA-CAR-20-01567}
+Now the same job is responsible for making all IPDM connections on all models rather than this being a split process between lines. This allows the technician to start and complete the IPDM process on all models and not have to rely on unit mix to determine workload."
+
+".
+{NCHL-CAR-20-00005}
+."
+
+
+
+
+"{NNA-PIR-21-00119}
+Added a tactile check to grasp the harness at the white ID mark near the inner door sash and wiggle to ensure harness has movement and is not trapped. If the harness is trapped, there will not be any movement in the harness. Operator should pull the help call and alert offline for review and/or replacement of the harness to prevent defect outflow."
+{NML-QRR-21-00029}
+
+"{NNA-PIR-21-00105}
+Raised awareness with the zone supervisors and communicated the warranty claim condition to the work group during shift start meeting. Job observations were completed to ensure technicians are being compliant in terms of following the standard work instructions. Process rebalanced with elements being reallocated from the Lower Trunk job to the LH Lug process in a different rotating pod. This required technicians to be trained according to the 3 step training method and sign off on the updating allocation steps for this process.
+
+Clean Point: 1/19/21 - 5N1AT3CA6MC719755"
+"{NNA-PIR-21-00104}
+NA"
+"{NNA-PIR-21-00294}
+Temporary countermeasure:
+1. 100% Visually sorted all in-house stock.
+2. Issued Quality Alert
+3. Kasai on-site representative will visually inspect all parts until clean point is received at Nissan
+Q3 VIN: 1N4BZ1CV4MC553062 on 2/22/2021
+
+Permanent countermeasure:
+1. Measurement method / reference developed with Engineering to assist in EPT assembly/Inspection on 3/11/2021.
+2. Prototype Assembly EPT End Point Limit Guide on 3/3/2021
+Q4 VIN: 1N4BZ1DV9MC554397 on 3/26/2021"
+"{NNA-PIR-21-00091}
+
+They improve on Tier 2 is a machine that detect a) the full fitting and b) the pull force, with this they assure no damage on connector.
+
+SEVERITY – 5
+
+OCCURRENCE – 3
+
+INITIAL Detection – 8 (120)
+
+FINAL Detection – 4 (60)"
+"{NNA-PIR-21-00082}
+Check was added to LH Scuff Plate job to check both front and rear defrost connections on Leaf units. Operators were trained to new standard for added check. Job observation performed to ensure the check was performed properly. Red Rabbits also ran to ensure missed connections were identified on the check job. All red rabbits ran were identified and help call was pulled to alert offline of missed process."
+"{NMA-CAR-21-00008}
+
+The Braga Plant, Connectivity Team, Security Team & vNEXT server team process improvements and feature maturity eliminate the risk of further certification/security errors."
+"{NML-PIR-21-00164}
+現在振り返り中、再発防止までに回答を完了する。"
+
+"{NNA-PIR-21-00073}
+Temporary Countermeasure:
+Quality Alert issued to Car CPM at Station 19, Audio Install. Tech is to perform PUSH/PULL/PUSH.
+Q3 VIN: 1N4BZ1DV8MC551605
+Q3 Date: 1/20/2021
+Permanent Countermeasure:
+Add Push/Pull/Push confirmation to Station 20 SOS before secure (Buddy Check) on 2/11/21
+Q4 VIN: 1N4BZ1BV5MC552911 on 2/11/21"
+
+
+
+{NML-QRR-21-00013}
+"{NNA-PIR-21-00041}
+Q3 - 1)One point lesson was in placed with direction of visual check for not seated rack bushing. 2) Re-Inspect work instruction issued to remove journal end steering boot, inspect rack bushing and re-install steering boot. Instruction included 200% Inspection to ensure correct replacement of steering boot and centering of gear assembly
+
+Q4 - Verification inspection at OP90"
+"{NNA-CAR-21-00036}
+Designated torque wrench implemented to ensure proper repair and torque has been achieved after a repair has been made to prevent defect outflow."
+"{NNA-PIR-21-00035}
+Blades exposed to elements without operation for over 5 months are known to deteriorate."
+"{NNA-PIR-21-00030}
+TCM
+
+- quality alert and visual inspection
+
+Clean VIN: 1N4AZ1BV8MC551554
+Clean Date: 1/20/21
+
+PCM
+- SOP updated, operator training, and limit samples including this condition.
+
+Clean VIN:1N4BZ1DV4MC553108 
+Clean Date: 2/23/21"
+"{NNA-PIR-21-00029}
+Temporary Countermeasure:
+Marelli added second person verification for manual assembly of connector from MC harness to current sensor to ensure seating is completed, silver mark confirms checked and OK part. Posted Quality Alert at harness assembly station.
+Q3 RAN: SK83303
+Q3 VIN: 1N4AZ1CV7MC551074
+Q3 Date: 12/7/2020
+
+Permanent Countermeasure:
+
+2. add laser detection for MC-DR harness CN's to current sensors are properly seated (first Inv part = M1V310087)B McNuttEngineering1/29/2021
+Q4 RANs: RAN for SR06019 for 291A05SA1A and RAN for SR305569 for 291A05SN1A
+Q4 VIN: 1N4AZ1CV3MC553291 on 2/24/2021
+Q4 VIN: 1N4BZ1CV0MC553219 on 2/24/2021"
+
+"{NNA-PIR-21-00003}
+Designed a plunger style pokayoke system that serves the same purpose as a confirmation screen so that the operator can confirm the connection has been made online without having to step off the line and through the kits to confirm the alert screen. This records data and has the function to stop the line if the pokayoke is not confirmed as good, which will require a bypass and offline review/repair to prevent defect outflow."
+"{NNA-CAR-21-00003}
+Zone was rebalanced and the install and clamp secure for both ends of the hose was moved to one job (LS Half Shaft) so that the entire process is completed at once. Revised install method for the cooler hose to PDM inlet to be installed and clamped before the cooler hose to inverter inlet was installed and clamped to prevent improper routing of the hose that could allow the hose to leak or come off. Process was also changed to install the hose and engage the first grenade clamp then proceed to the install of the other end of the hose and engage grenade clamp to prevent operators from having to go back to the bottom hose a second time. Clip counters installed on the job with line stop capability that requires the operator to discard the blue grenade clamps once the clamp has been engaged to the hose. If the grenade clamp is not properly discarded into the clip counter, the line will stop and require a bypass, alerting the operator and offline of an abnormal condition to prevent defect outflow."
+"{NML-CAR-21-00365}
+・組み立て工程では、シャーペンの使用を禁止する。
+{NML-PIR-21-02852}
+・検査工程の作業者へ転舵音をﾌｨｰﾄﾞﾊﾞｯｸﾞし、聴覚による異音検出のﾚﾍﾞﾘﾝｸﾞを実施し流出防止を図る。"
+
+
+
+
+"{NNA-PIR-21-00242}
+Raised awareness with the work group during shift start meeting for the connection process and also final line drive off to look for fast blinking condition. Job observations completed during process review while determining potential factors involved for this concern. Work instructions revised to add a built in quality confirmation after the initial connection is made by the operator. Trained all operators certified on this process on the proper way to verify connection and hand placement while doing so.
+
+Clean Point: 2/26/21 - 1N4BZ1CV1MC553374
+
+Revision Log:"
+"{NNA-PIR-21-00238}
+Downstream check in place gives an added level of protection to ensure the connector is fully seated prior to the airbag being installed and covering up the connection to prevent partial and no connects."
+
+"{NML-CAR-21-00167}
+回転摺動音測定の測定条件を変更し、150rpmまで保証する。"
+"{NML-QRR-21-00065}
+恒久対策：
+　検出時の手の向きを標準作業書に追記改訂
+　2021/2/9
+CCR NO:202200～　　　C/#:E13-019720～"
+
+{NML-QRR-21-00064}
+
+"{NNA-PIR-21-00183}
+Permanent Countermeasure:
+Implement relay check at mid-line safe launch inspection station on 12/7/20.
+Q4 VIN: 1N4AZ1CV2MC551094
+Q4 Date: 12/7/2020"
+
+"{NML-PIR-21-00534}
+・なし。"
+"{NML-PIR-21-00195}
+対策前後で部番変え、部番管理することで見逃しを対策。"
+"{NML-PIR-21-00703}
+暫定対策：2021/4/7~
+H０工程AOI 検査のプロセスに実装部品に対して検査内容を追加
+初回シリアルNo.：CE-JN26EDAD 0530327
+
+
+流出対策
+①手挿入部品はんだ付け後のAOIに、IC5を含む表面実装部品3カ所のAOI検査を同時に実施(~5/20)
+②作業員に対して不具合情報の共有、目視検査とAOI追加対策の作業教育、作業指導票落とし込み実施(4/7暫定から正式化)"
+"{NNA-PIR-21-00450}
+SOS work instructions were updated on the left side process to match the right side process to better clarify the main steps and key points. Check was added to internal quality check job to gently wiggle both left and right side interior A-Pillar's to check for looseness to prevent outflow."
+{NML-CAR-21-00211}
+"{NNA-PIR-21-00445}
+All front scuff plate installations were moved from pre final to trim 2 for better visibility and ergonomics for the installation of this part. Training was conducted for all Trim 2 operators by Z23 skilled operators on how to properly install the scuff plates to prevent damaged/unseated parts. A downstream in line check was also added after the process to check and verify all scuff plates are installed and seated correctly to prevent defect outflow."
+"{NNA-PIR-21-00441}
+SOS work instructions were revised by adding verbiage to slightly pull the hose after it is seated into the clips to eliminate any excess slack that could potentially cause a kink and/or inop function of the washer hose. Detailed good/no good images were added to the SOS work instructions showing how the line should appear when the slack has been relieved to prevent defect outflow. Operators were trained on the proper routing of this harness according to new work instructions."
+"{NNA-PIR-21-00414}
+Quality confirmation check is now in place. Revised SOS work instructions for the operator to power on the unit and verify that the light on the defrost button illuminates when the unit is powered on. If this button illuminates, that signifies a proper connection to this connector to prevent defect outflow."
+"{NML-PIR-21-00636}
+・暫定：おかもちセット前に変形無き事を目視確認する。’20/7/10～
+・頻度：全数。
+・恒久：支持板のおかもちセット作業前に3mmを超える曲がりが無いかどうか 定盤上で全数確認してから設備にセットする。’20/9/18～
+・頻度：全数。"
+
+
+
+
+
+"{NML-PIR-21-00505}
+【002】□版UPク対で回答
+{NML-PIR-21-00947}
+評価メニューを見直し、仕様とのアンマッチを評価で検出できるようにする"
+"{NML-QRR-21-00081}
+検出時の手の向きを指導（右90°)
+恒久対策：
+　検出時の手の向きを標準作業書に追記改訂
+　2021/2/9  CCR NO:202200～  C/#:E13-019720～"
+
+
+
+"{NML-PIR-21-00782}
+当該設備に関して、不具合当該ロット生産以降にワイヤーボンド前の素子表面認識検査を導入。20/11/9
+そのため、現在生産を行っている製品については、万一素子表面にAgペーストが付着していてもワイヤーボンドを実施せず、測定工程で不良排出される機構となっている。"
+
+
+
+"{NML-PIR-21-00974}
+ダンパの接着剤はみ出し確認工程の追加(2020/3/5)
+半田作業者への作業教育の実施(2020/3/5)-
+
+
+ダンパの接着剤はみ出し確認工程の追加(2020/3/5)
+半田作業者への作業教育の実施(2020/3/5)-"
+"{NML-QRR-21-00117}
+流出防止対策：
+　中央部の触手チェック用軌跡バンパーで作業指導。"
+
+"{NPI-CAR-21-00007}
+Operator selects the Charge Port Trim via P.S.S, and confirms the spec with the build label."
+
+"{NML-CAR-21-00485}
+作り込み対策で実施"
+"{NML-CAR-21-00253}
+工程作業表修正　部品の仕様確認する指示を明記
+ﾋﾟｯｷﾝｸﾞ作業者がKIT台車に搭載する際に、突起部有無の目視確認を行う。標準作業書に追記 CCR:225760～
+組付け作業者が部品の仕様確認とﾏｰｷﾝｸﾞﾁｪｯｸする。標準作業書に追記 CCR:225760～"
+
+"{NNA-PIR-21-00500}
+NA"
+-
+{NML-QRR-21-00101}
+"Refer to NNA-PIR-21-00984
+
+"
+"{NNA-PIR-21-00491}
+SOS work instructions did not call out to tuck the harness or how to properly ensure that the harness was routed away from the switch finisher to prevent interference, so the SOS work instructions were updated by adding a step to seat harness into the door trim panel away from the switch finisher before seating the finisher to prevent interference. Operators were retrained to this method to ensure the method was understood and properly followed to prevent fallout."
+
+"{NML-CAR-21-00343}
+再発防止までに検討を完了する。
+再発防止までに検討を完了する。"
+"{NML-CAR-21-00344}
+再発防止までに回答する。
+再発防止までに回答する。
+
+再発防止までに回答する。"
+"{NML-CAR-21-00336}
+再発防止までに検討を完了する。
+再発防止までに検討を完了する。"
+
+"{NNA-PIR-21-00722}
+Raised awareness to work group of warranty concern. Kasai process was reviewed and determined that there are scribe lines on the headliner that should indicate where the harness should be taped. Kasai ensured their process was being followed and agreed to raise awareness to their operators on the importance of ensuring the harness is placed in the proper location and that an electrical inop could occur if not applied properly. Manufacturing revised SOS work instructions by adding to check that the harness is not routed around the screw holes after tucking the harness to prevent securing into the wires. Operators were shown the proper routing and awareness was raised on the failure mode that can occur if the process is not followed."
+"{NNA-PIR-21-00721}
+Improvements around this connection is best made at the process level. Raised awareness to workgroup of warranty concern. Job observation was performed on operators who perform this process to ensure the process was properly followed. All operators observed were following the standard at the time of review. SOS work instructions were revised by adding ok/no good visuals of the locking tab on the connector for reference and verbiage was added to rub finger across the locking tab to ensure it is flush to the connector to prevent partial connections. All operators were trained on this method."
+
+{NML-QRR-21-00133}
+"{NML-CAR-22-00404}
+強度スペックでガス漏れ無き事を確認する"
+"{NNA-PIR-21-00662}
+Aptiv is conducting visual confirmation during terminal acceptance inspection
+
+
+Aptiv is conducting visual confirmation during terminal acceptance inspection"
+"{NNA-PIR-21-00689}
+
+• increase the cut & etch frequency on weekly basis due to the incident of cold welding
+• Perform destruct 2X daily, Start of Shift/Lunch
+• Add Witness Mark"
+"{NNA-PIR-21-00619}
+If a shot reads above 200 angle this will turn the light stack red and indicate to the technician that a concern with that secure is present. Tooling will need to have a good secure before released from the fixture. "
+"{NML-CAR-21-00397}
+ー"
+
+
+"{NML-CAR-21-00378}
+再発防止までに要因を分析する。
+再発防止までに要因を分析する。
+
+再発防止までに要因を分析する。"
+
+
+"{NNA-PIR-21-00815}
+1. Implement Reset count check at Final Test - Sep 2021 (Tier 1)
+- improved the sensitivity of burn in test for whether this will catch issue
+
+Adoption: RAN SV12721, shipped May 5, 2021 from ZF to Nissan Smyrna.
+Estimated vehicle adoption clean point: 5/21/2021
+Clean VIN (Leaf): 1N4AZ1BV0MC556179"
+
+
+"{NNA-PIR-21-00806}
+Raised awareness to workgroup of quality concern. Reviewed pick and kitting processes to ensure handling procedures were robust. Zero issues identified during the review that indicated mishandling of the carpet. Revised SOS work instructions by adding images of the flange clips properly installed to the clear carpet clips and verbiage to state installing metal clips to the clear carpet clips to prevent the carpet from shifting out of position to ensure proper installation of the carpet."
+
+"{NML-PIR-21-01361}
+再発防止までに回答する。
+再発防止までに回答する。
+
+再発防止までに回答する。"
+"{NML-PIR-22-00053}
+データーシートに従い、DESの起動信号のONタイミングが映像信号受信した後になっていることを確認した"
+"{NNA-CAR-21-00882}
+Parts are now moved in to completely different picking cells that are picked by a different person. "
+"{NML-PIR-21-01179}
+・暫定＝ セル外観検査工程のオペレーター再トレーニング。’19/2/13以降のトレーニングが対象。"
+
+"{NML-PIR-21-01709}
+【暫定対策】
+　・支持板おかもちセット作業前のWチェックの追加。’21/8/23～実施済み
+　・支持板投入履歴チェックシートの記載を追加。’21/8/23～実施済み"
+{NML-PIR-21-02024}
+{NML-PIR-21-02023}
+"{NNA-PIR-21-00984}
+Raised awareness to workgroup of quality concern. SOS work instructions were revised to add a check for verifying the AC caps are present incoming from the Pick Area. Check was also added to visually check o-ring for any visible damage to the o-ring prior to installation. Process was updated to hold AC joint into place during secure to prevent the AC line from shifting. All operators were trained to standard to ensure standard was understood and followed properly. Supervisors added a check to their Supervisor Controlled Items List to check daily that the operators are holding the AC line in place when making secure to ensure quality. 
+{NNA-PIR-22-00607}
+Quality best controlled through process improvements. Raised awareness to workgroup of warranty concern. Process was updated to ensure the AC lines are not bent prior to installation and for the operator to insert the lines carefully and straight- not at an angle to prevent potential damage/cuts to the o-ring. SOS work instructions were updated to reflect these updates and operators shown the best method to ensure compliance.
+{NNA-PIR-22-01011}
+Worked with Maintenance and Mfg. to investigated and determine the root cause for the failure and why shipped. Standard work instructions for all Leaf AC process revised and communized with process flow to match GOS.  Allocation sheets adjusted to reflect correct build of sequence.  Standard work instructions updated with quality checks regarding caps not present, O-ring verification, properly alignment and holding while secure process takes place to prevent pinched O-rings to reduce the likely hood of O-ring damage during the installation process. Mfg. team retrained operators and added to control items list to confirm process daily to ensure process improvement results. 10/11/2022 Clean Vin# 1N4AZ1BV1PC553943
+
+Maintenance evacuated the A/C #2 parameters and modified the recipe to ensure unit would not pass if upper limit was reached during system fill / vacuum check. Program added to ensure if upper limit was achieved unit would fail. 10/12/2022 Clean Vin# 1N4AZ1BV8PC553969
+
+Q4 Clean Vin# 1N4AZ1BV8PC553969 10/12/2022"
+
+
+
+"{NML-PIR-21-01645}
+・内容：負極当て板切断 工程の切断刃周辺の定期清掃を追加
+・頻度：暫定＝1 回/ 月 （初回 ’20/9/1 実施済） 量産再開 ‘20/9/2
+　　　　　恒久＝1 回 /月 （‘2021/2/23 実施済）"
+
+
+
+"{NML-PIR-21-02572}
+サプライヤー大連工場生産ラインにてスクリーニングを実施する。
+
+
+CC0記：
+
+補足。通常動作温度内では非再現であったが、加温すると断線検知されることがあることがわかった。
+
+よって、スクリーニングをして、保証度をあげる改善を織り込んだ。
+
+
+
+
+CC0記：4/22
+
+号機はNML-PRO-21-02744にて取得中であり、本PROはクローズとする。"
+
+"{NML-PIR-21-01595}
+再発防止回答までに検証する。
+再発防止回答までに検証する。"
+"{NML-PIR-21-01695}
+HWの起動タイミングに依存する為、検出出来ず。
+HWの起動タイミングに依存する為、検出出来ず。"
+"{NML-PIR-21-01594}
+再発防止までに要因分析を実施する。
+再発防止までに要因分析を実施する。"
+"{NML-CAR-21-00409}
+今回は見逃し対策はありません
+今回は見逃し対策はありません"
+
+"{NML-PIR-21-01615}
+再発防止までに回答する。
+再発防止までに回答する。
+
+再発防止までに回答する。"
+"{NML-PIR-21-01614}
+リカバリ処理のレビューと、その検証結果についてサプライヤーから刈取る。
+
+
+
+
+リカバリ処理のレビューと、その検証結果についてサプライヤーから刈取る。"
+
+
+"{NNA-PIR-21-01138}
+The data is monitored daily."
+
+
+
+"{NNA-PIR-21-01116}
+Temporary countermeasure:
+Quality Alert was issued to Station 19 to verify and place a witness mark on the connector.
+Q3 VIN: 1N4AZ1CV3NC550876 on 9/13/2021
+
+Permanent countermeasure:
+Install G/NG Gauge that will only fit over connectors when fully seated.C. SloanEngineering10/29/21
+
+Tie G/NG Gauge to system PDS for use confirmation.C. SloanEngineering10/29/21
+
+Create training document and update control documents to standardize gauge process.CFTAll11/1/21
+Q4 VIN: 1N4BZ1CVXNC553293 on 11/1/2021
+Temporary countermeasure:
+Quality Alert was issued to Station 19 to verify and place a witness mark on the connector.
+Q3 VIN: 1N4AZ1CV3NC550876 on 9/13/2021
+
+Permanent countermeasure:
+Install G/NG Gauge that will only fit over connectors when fully seated.C. SloanEngineering1/18/22
+
+Tie G/NG Gauge to system PDS for use confirmation.C. SloanEngineering1/18/22
+
+Create training document and update control documents to standardize gauge process.CFTAll1/20/22
+
+Q4 VIN: 1N4AZ1CVXNC558022 on 1/21/22"
+"{NNA-PIR-21-01112}
+Raised awareness to workgroup of warranty concern. New AC drain hose pucks were fabricated with a smaller diameter at the widest opening of the puck (15mm vs 17mm) for use on Leaf AC drain hoses only. These pucks are blue in color to differentiate between the white pucks used on other models and labeled Leaf only for reference. SOS work instructions were updated to callout the use of the new blue pucks on Leaf and visuals were also updated with the new pucks. Operators were trained on the reasoning behind the blue pucks and were instructed to no longer use the white pucks to ensure quality. All old style pucks were removed from both the scan in and scan out station and replaced with the new style. These two scan in and scan out stations only handle Leaf pucks. 
+{NNA-PIR-22-00652}
+Raised awareness to workgroup of warranty concern. Quality alert was issued to all zones responsible for the AC drain hose process to heighten awareness around the outflow and also level operators on the purpose behind the installation and removal of the pucks and how to detect/respond if a no good condition is found during the installation or removal of the pucks to prevent outflow. Jobs were rebalanced to eliminate scanning the puck and placing the puck in the floor board. The process is now set up for the AC drain hose to be connected in Z13, the puck scanned and immediately inserted to the hose in z15 for the first quality check, and then the puck be removed and scanned out as OK in z17 as the second (200%) quality check. The previous process was set up to remove the puck in Chassis versus Trim where the puck was installed so the reaction time to a no good condition could be delayed or potentially missed if identified. The connection, puck installation, and puck removal is now all performed in Trim to allow better visibility and feedback in the event of an issue to better protect quality. SOS work instructions in all affected zones were updated to reflect process improvements. Red rabbits were ran to verify effectiveness. All red rabbits performed were identified by the operators and proper help call procedures/repairs were followed.
+
+
+
+VIN: 1N4CZ1CV0PC550393
+Date: 6/15/22
+{NNA-PIR-22-01323}
+Yard containment conducted with no findings of this condition. Standard work instructions were updated to reflect best method installing the drain hose with up / down motion until fully seated.  Supervisor added to control items list to confirm process and ensure process completion. Operators retrained to new standard 
+
+
+Clean Vin #1N4AZ1BV8PC556564 12/19/2022"
+
+
+
+
+"{NNA-PIR-21-01056}
+Reviewed tooling to ensure parameters were properly set. Added a self confirmation wiggle check to the process which will require the operator to perform a wiggle check to the coupler after secure to ensure the fitting is tight and bolt has been properly secured. SOS work instructions were updated to reflect added quality check."
+
+"{NML-CAR-21-00523}
+CSでのSASH上部の隙確認実施（全数）
+SASH部が下限で狭い方向の時は、SASH部上端部の隙を確認する様、標準作業書の図解に不具合事例、測定指示を追加。
+
+
+{NML-CAR-21-00531}
+・完成検査時にドア開閉確認を実施"
+
+"{NNA-PIR-21-01258}
+TCM
+- operator is performing visual inspection and a light push/pull test to ensure the finisher is completely seated.
+
+Clean Date: 9/27/21
+Clean VIN: 1N4BZ1DV4NC551389
+
+PCM
+- 1) Inspection by sampling visually with the help of lamps verifying there is no obstruction in cavities.
+- 1a) Staff training, inspection by samples vs components.
+- 2)Plan of Observation of the operation with a monthly frequency
+- 2a) Establish in CP size and frequency of Finisher Check and Update of Quality Check Sheet as a critical point HC-Q10-1714
+- 3) Update of inspection instructions, mention this cavities as critical point
+- 3a) Generate physical aids for cavity detection / inspection
+- 4) Update NRI check point sheets to show leather obstruction of cavity
+
+Clean VIN:1N4AZ1BV9NC552679
+Clean Date: 10/20/21"
+
+"{NNA-PIR-21-01236}
+Quality best controlled through process improvements. Raised awareness to workgroup of warranty concern on both Engine and Chassis line since both lines handle this hose. Check was added to the Chassis line rad hose process to verify that the rad hose is not twisted or kinked after final routing to ensure orientation is proper and to prevent outflow."
+
+"{NNA-CAR-21-01271}
+Temporary Countermeasure:
+Supplier issued a Quality Alert on 10/4/2021 to check power module for any abnormal condition (check for abnormal condition, bent pins, broken (cracks), oxide on busbar contacts, no serial number (Barcode), etc)
+Q3 VIN: 1N4AZ1CVXNC552754 on 10/20/2021
+
+Permanent Countermeasure:
+1) For future occurrences: Prevent overlapping of error signatures which are important for working out the failure causes, due to alignment of the processes during failure analysis. No gel removal in cases of confirmed NTC malfunction (started on 2/4/2022 at Tier N supplier).
+2) Continuous Improvement item: Prevention of material contamination and particle monitoring due to greenline methodology and technical cleanliness (started at Tier N supplier on 1/26/2022)
+
+
+Temporary Countermeasure:
+Supplier issued a Quality Alert on 10/4/2021 to check power module for any abnormal condition (check for abnormal condition, bent pins, broken (cracks), oxide on busbar contacts, no serial number (Barcode), etc)
+Q3 VIN: 1N4AZ1CVXNC552754 on 10/20/2021
+
+Permanent Countermeasure:
+1) For future occurrences: Prevent overlapping of error signatures which are important for working out the failure causes, due to alignment of the processes during failure analysis. No gel removal in cases of confirmed NTC malfunction (started on 2/4/2022 at Tier N supplier).
+2) Continuous Improvement item: Prevention of material contamination and particle monitoring due to greenline methodology and technical cleanliness (started at Tier N supplier on 1/26/2022)
+
+
+
+Temporary Countermeasure:
+Supplier issued a Quality Alert on 10/4/2021 to check power module for any abnormal condition (check for abnormal condition, bent pins, broken (cracks), oxide on busbar contacts, no serial number (Barcode), etc)
+Q3 VIN: 1N4AZ1CVXNC552754 on 10/20/2021
+
+Permanent Countermeasure:
+1) For future occurrences: Prevent overlapping of error signatures which are important for working out the failure causes, due to alignment of the processes during failure analysis. No gel removal in cases of confirmed NTC malfunction (started on 2/4/2022 at Tier N supplier).
+2) Continuous Improvement item: Prevention of material contamination and particle monitoring due to greenline methodology and technical cleanliness (started at Tier N supplier on 1/26/2022)"
+
+
+
+"{NML-CAR-21-00618}
+なし"
+
+
+{NML-PIR-21-02045}
+
+
+{NML-CAR-21-00488}
+{NML-CAR-21-00536}
+"{NML-PIR-21-01976}
+再発防止までに回答する"
+
+
+"{NNA-PIR-21-01424}
+Tech have correct build reference while sub assembling part.
+
+Clean point VIN: 1N4AZ1CV4NC553804 
+Date: 11/8/21"
+"{NNA-PIR-21-01413}
+Raised awareness to workgroup of warranty concern. Suspect parts with the push pins not fully inserted through the rubber strip were given to Tepro (supplier) for part layout and further analysis to determine if the rubber was the proper thickness and/or the clip was the proper height/width. The parts provided to Tepro were allegedly within spec. Manufacturing added a tactile check to their process to run fingers along the bottom portion of the parting seal after install to ensure all clips retained to the door. If the clips were not fully inserted this check method would expose a no good condition and allow the operator to correct the concern to prevent outflow. SOS work instructions were updated to reflect this added check. Changes were made on both left and right side door line processes to ensure containment on all doors."
+"{NNA-CAR-21-01458}
+Operators instructed regarding part stacking and bolt handling via OPL and raised awareness of concern."
+
+
+"{NNA-PIR-21-01406}
+Raised awareness to workgroup of warranty concern. Yard audit was conducted to check units built around the incident unit for the presence of the tire kit. All units checked in the yard checked OK- zero issues identified. SOS work instructions were updated on a downstream process in the zone by adding a check to verify that the tire kit had been installed to the unit to prevent further outflow. "
+
+
+
+
+"{NML-QRR-21-00219}
+
+{NML-CAR-22-00095}
+不具合発生箇所のリアコンビランプと車体の隙値を管理ポイントに追加する。
+検具での部品寸法測定時には段付きボルトではなく車両取り付け状態を再現できるフリーボルトを使用する。
+建付け寸法評価手順書の更新。
+
+
+{NML-CAR-22-00153}
+不具合発生箇所のリアコンビランプと車体の隙値を管理ポイントに追加する。
+検具での部品寸法測定時には段付きボルトではなく車両取り付け状態を再現できるフリーボルトを使用する。
+建付け寸法評価手順書の更新。
+
+
+{NML-CAR-22-00230}
+不具合発生箇所のリアコンビランプと車体の隙値を管理ポイントに追加する。
+検具での部品寸法測定時には段付きボルトではなく車両取り付け状態を再現できるフリーボルトを使用する。
+建付け寸法評価手順書の更新。"
+"{NNA-PIR-21-01352}
+Temporary Countermeasure:
+Supplier issued a Quality Alert on 10/4/2021 to check power module for any abnormal condition (check for abnormal condition, bent pins, broken (cracks), oxide on busbar contacts, no serial number (Barcode), etc)
+Q3 VIN: 1N4AZ1CVXNC552754 on 10/20/2021
+
+Continuous improvement items
+BRCM and Wafer Foundry has always been continuously improving BEOL loop defect performance to reduce possibility of particle/ IC defects occurrence by CIT actions as follows:
+CIT-1: Tighten ME_ET chamber turbo lifetime (Done, Q4.2017)
+CIT-2: Optimize robot transfer sequence (Done, Q2.2018)
+CIT-3: Tighten Etching strip chamber pressure(1000mT to 300mT). (Done, Q4.2018)
+CIT-4: Enhance the PM quality by using superfine fiber wiper (Done, 2020Q2)
+CIT-5: Define helium gas to purge particle and pump, enhance clean (Done 2020Q4)
+
+
+PQE, Tier 1 supplier Marelli, and FQI Engineer Eddie Gonzalez had a meeting on 3/3/22 to agree on next steps. FQI is requesting more parts to be returned and investigated.
+Marelli is working on this request."
+
+"{NNA-PIR-21-01345}
+Improvement of fill the ink 3 times per shift and improve the camera spec of 62% to 72% (September 21 2020)
+Improvement of fill the ink 3 times per shift and improve the camera spec of 62% to 72%
+
+{NNA-PIR-22-00571}
+Q3: Verify rack location of all combination switches does not adversely affect picking the correct part VIN: 1N4AZ1BV3NC564102 SEQ:277318 5/17/2022
+
+NTCNA studying having Valeo/nyles (imposed supplier) add barcode identifier to B12P and L42N.
+{NNA-PIR-22-00543}
+."
+
+
+"{NNA-PIR-21-01336}
+200% repair validation implemented with ""buddy check."""
+
+
+
+
+
+
+"{NNA-PIR-21-01290}
+Quality best controlled at the process level. Raised awareness to workgroup of warranty concern. Alert screen was added on the Spare Tire job that performs the final placement and secure of the ESVE bag. The alert screen will sound off with an audible prompt that states to confirm the U1 or U2 bag that is required for the unit. The operator will verify the bag is correct then confirm the alert screen. If the alert screen is not confirmed before the unit reaches the end of the pitch the line will stop and require a bypass generating an automatic Inspect entry and repair. SOS work instructions were updated to verify bag and confirm alert screen."
+
+"{NNA-PIR-21-01534}
+Q3.
+1. Quality Alert shared with the team involved in the process.
+2. Parameters revision in the process.
+3. Warranty Ran defined. (Sunvisor can not be marked, it is a critical/view part)
+Clean point: SH25352
+Q4.
+1. Attach visual aid on components 1, machine welding application / pokayoke lighting.
+2. Training of the workforce of detection in welding application variations.
+3. Assurance OK of Coordinate Settings and Comp. 1 by maintenance and QA leader.
+4. Change Standard operation sheet / Quality points for detection of welding abnormalities.
+5. Add weld verification point on first pieces.
+Clean point: 1N4AZ1BV6NC557662 01/13/2022"
+
+
+
+
+"{NML-CAR-22-00046}
+無し
+１．ＳＴＡ観察頻度増し　実施時期 ： 2021年11月～　（ＦＣＭ採用時期 ： 2022年02月07日）
+２．接触角評価（ＴＳＳＯＰ）追加　実施時期 ： 2021年11月～　（ＦＣＭ採用時期 ： 2022年02月07日）
+３．ペン試験（水はじき）追加　実施時期 ： 2021年11月～　（ＦＣＭ採用時期 ： 2022年02月07日）"
+"{NCI-PIR-21-00111}
+1. Add Transfer pallet to weekly PM schedule to inspect for missing/broken guides."
+
+"{NNA-PIR-21-01496}
+Reduction in internal defects confirms reduced risk of latent defect outflow
+
+
+Reduction in internal defects confirms reduced risk of latent defect outflow"
+
+
+"{NNA-PIR-22-00193}
+PE requested PQA update for Function Check/ RPM station PN Tables to remove 'either/or' logic for the Inverter PN check.
+PN Tables updated to compare Inverter PN read with Leaf vehicle spec (40kW or 60kW).
+
+Adoption Date: 2/16/22
+Starting VIN: 1N4AZ1CVXNC559669
+PE requested PQA update for Function Check/ RPM station PN Tables to remove 'either/or' logic for the Inverter PN check.
+PN Tables updated to compare Inverter PN read with Leaf vehicle spec (40kW or 60kW).
+
+Adoption Date: 2/16/22
+Starting VIN: 1N4AZ1CVXNC559669
+
+23MY PT unit (Body #055527) with wrong Inverter- identified at FC/RPM PN check with updated PN Tables.
+INITIAL DETECTION –5
+FINAL DETECTION –3"
+
+
+
+
+
+"{NML-PIR-22-00427}
+・大連工場でスクリーニング適用。
+・2/21出荷296M1 6WX0A(補給品) 35台より対策実施済み。
+
+
+・大連工場でスクリーニング適用。
+・2/21出荷296M1 6WX0A(補給品) 35台より対策実施済み。"
+"{NNA-PIR-21-01466}
+Raised awareness to workgroup of warranty concern. SOS work instructions were updated by adding a check to the installation process to verify that he foam is not making contact to the fitting. OK/No Good pictures of foam placement were also added to the work instructions for reference. PQE and SPI were engaged to review parts in the Supplier totes and communicate to the Supplier the foam placement wet out and alignment concerns. The Supplier addressed the issue and provided a certified RAN # SG34503 shipping from the Supplier."
+
+
+
+"{NML-CAR-21-00590}
+・確認作業後でもダブルチェックの確認は徹底することを各協力会社の責任者に朝礼で展開し周知させた。
+
+【CC0追記】
+オプション取付後の完成検査時の復元確認不足。未復元状態の管理徹底の内容を確認した。以降の市場様子見する。"
+
+
+
+
+
+"{NML-PIR-21-02571}
+・メタル配線形成工程にKLA検査を導入
+⇒KLA検査導入により、ウエハ表面のパーティクル欠陥などの検出性を向上。
+適用日：2017年11月10日"
+{NML-QRR-21-00226}
+{NML-QRR-21-00225}
+
+
+
+
+
+
+
+
+"{NML-CAR-22-00094}
+不具合発生箇所のリアコンビランプと車体の隙値を管理ポイントに追加する。
+検具での部品寸法測定時には段付きボルトではなく車両取り付け状態を再現できるフリーボルトを使用する。
+建付け寸法評価手順書の更新。
+
+
+{NML-CAR-22-00150}
+不具合発生箇所のリアコンビランプと車体の隙値を管理ポイントに追加する。
+検具での部品寸法測定時には段付きボルトではなく車両取り付け状態を再現できるフリーボルトを使用する。
+建付け寸法評価手順書の更新。
+
+
+{NML-CAR-22-00228}
+不具合発生箇所のリアコンビランプと車体の隙値を管理ポイントに追加する。
+検具での部品寸法測定時には段付きボルトではなく車両取り付け状態を再現できるフリーボルトを使用する。
+建付け寸法評価手順書の更新。"
+
+"{NNA-PIR-21-01600}
+Raised awareness to workgroup of warranty concern and downstream check to verify that the washer hose is connected when the operator checks that the washer tube boot is fully seated to prevent additional defect outflow. SOS work instructions were updated to reflect this added check."
+
+
+"{NML-CAR-23-00064}
+◆試験条件緩和を前提とした試験を実施しOK判断した"
+"{NNA-CAR-21-01634}
+Define a procedure to clean the rails guide on ABE routine (daily). [January 15th, 2022]
+Define a procedure to clean the rails guide on ATE routine (each preventive maintenance) [January 15th, 2022]
+For the pokayoke: Determine the minimum voltage in short test as 1,70 KV minium, this will increase the detection of shorts, if the pokayoke detects lower value, the battery will be rejected.
+Normal values in Clarios process are 1.30 to 2 KV, which is applied on the dry batteries, this is to detect a possible short circuit , in this case,for Nissan project, Clarios will close the range in order to make stronger and increase the detection [January 08th, 2022]
+Define a procedure to clean the rails guide on ABE routine (daily). [January 15th, 2022]
+Define a procedure to clean the rails guide on ATE routine (each preventive maintenance) [January 15th, 2022]
+For the pokayoke: Determine the minimum voltage in short test as 1,70 KV minium, this will increase the detection of shorts, if the pokayoke detects lower value, the battery will be rejected.
+Normal values in Clarios process are 1.30 to 2 KV, which is applied on the dry batteries, this is to detect a possible short circuit , in this case,for Nissan project, Clarios will close the range in order to make stronger and increase the detection [January 08th, 2022]"
+{NML-CAR-22-00031}
+
+
+"{NML-CAR-22-00035}
+無し。"
+{NML-CAR-22-00011}
+
+
+
+"{NML-PIR-22-00634}
+ADI社の製造欠陥の対策としては、出荷検査工程では過去不具合案件の対策で限界までテスト強化しており、
+新たな対策は困難となります為、FABにおいて継続的な発生低減活動を実施することで不具合低減に努めて参ります。"
+"{NNA-CAR-22-00097}
+Additional verification is being performed before releasing units from hold.
+Additional verification is being performed before releasing units from hold."
+"{NNA-PIR-22-00055}
+
+Temporary Countermeasure:
+
+• Quality alert posted, shorting material at Nippon Seiki plant.
+• Automatic inspection is capable to detect the failure mode.
+RAN SH85260           VIN 1N4AZ1BV7NC558030              AD 1-22-22"
+"{NNA-PIR-22-00050}
+Raised awareness to workgroup of warranty concern. Yard audit was conducted to check units in the yard for opera glass concerns. SOS work instructions were updated to reflect this change."
+
+{NML-PIR-22-00199}
+"{NNA-PIR-22-00041}
+Q3 Containment adopted on 1/20/22
+Online stock & delivered warehouse stock has been sorted for tab defects. No missing or compromised tabs were witnessed.
+Inspection of parts is ongoing as new parts are delivered.
+Quality Alert QA-I11ANA-108 has been issued to alert technicians on the proper method of separating the column covers from the shipping condition.
+
+- Refer to Attached documents to see QA and initial 8D report
+Clean Date 1/20/22."
+"{NNA-PIR-22-00039}
+New lights installed throughout Pre-Delivery Paint Repair. This increases technician visibility and aids with seeing defects during painting."
+"{NNA-PIR-22-00033}
+Outflow will be prevented at the last possible place during inspection. Units past PP50 are WWS responsibility."
+"{NNA-PIR-22-00025}
+1. Add Transfer pallet to weekly PM schedule to inspect for missing/broken guides."
+
+{NML-CAR-22-00103}
+
+"{NNA-PIR-22-00003}
+After replacing the nut runner and adjusting the cylinder there have not been any further concerns with the machine picking up the hubs.
+{NNA-PIR-22-01141}
+Tech awareness will help get non conforming parts away from the work area and get them processed decreasing the chance for bad parts being used."
+"{NNA-PIR-22-00001}
+Raised awareness to workgroup of warranty concern. SOS work instructions were updated to reflect added check.
+{NNA-PIR-22-00352}
+All units checked in the yard checked OK- zero issues identified. SOS work instructions updated with detailed visuals and verbiage of how to properly route the cable to the PKB bracket to ensure proper routing. Step added to tuck the cable and SMJ harness under the carpet on EPKB units to prevent damage to the cable during CPM decking. SOS work instructions updated to perform a function check of the hood release lever after the cable is connected to verify that the cable is fully inserted and locked into place. Operators were trained on all above process changes to ensure understanding."
+"{NNA-PIR-22-00234}
+100% inspected all inventory for guide rod function to confirm guide rod is fully seated.
+
+Clean Point
+Ran: SK47601 - 2/24/2022
+1N4BZ1CV1NC560276 - 2/25/2022"
+
+
+"{NML-CAR-22-00264}
+NDS 7-4-1複合強度耐久強度試験に（22/4/1改定済）GRIPのカバー部とボディ部に分かれる2ピースタイプハンドルの負荷試験を追加した
+（判定基準はGRIPの抜け力：490N以上＠室温）。"
+
+
+{NML-CAR-22-00052}
+"{NNA-PIR-22-00169}
+Quality best controlled through tooling and process improvements.Raised awareness to workgroup of warranty concern. Tooling Engineering team changed the tooling angle settings from 0-500 to 15-250, which will better detect a cross threaded condition. Reverse capabilities were removed from the tool, which prevents the operator from reversing a bolt and re-securing in the event that an angle/torque failure occurs. This will require the line to pause and require a bypass and repair prior to the unit leaving the plant to prevent additional outflow. Tooling team monitored these changes and confirmed that said changes are effective and working as intended. These changes have been applied to both left side and right side door line tools to cross deploy countermeasures."
+"{NNA-PIR-22-00139}
+1. Establish robust Work Instructions of handling and inspection of the part at two points: after the contactors are installed to the pedal, and after all the pedal components have been assembled, prior the closing of the part. - 2/28/22"
+
+
+"{NNA-PIR-22-00099}
+Raised awareness to workgroup of warranty concern. Audible alert was added to Alert Screen 54 that will callout and prompt the operator to confirm the park brake connection. If the prompt is not touched and confirmed the production line will pause and require confirmation or bypass. If a bypass is made to the confirmation screen, an Inspect entry will generate and require review, repair, and buyoff of the defect prior to the unit shipping from the plant."
+
+"{NML-PIR-22-01022}
+無し"
+"{NNA-PIR-22-00408}
+New operator gauge added to 100% in-line verification of connections to decrease risk of partial connection escapes. Used in Envision production beginning on 7/12/2022."
+
+{NML-QRR-22-00035}
+
+"{NNA-PIR-22-00318}
+Q3: Posted Quality Alert to check for possible damage power modules"
+"{NNA-PIR-22-00304}
+Same as above"
+
+"{NML-PIR-22-00708}
+無し"
+"{NML-PIR-22-00682}
+無し"
+
+
+
+
+
+{NML-PIR-22-00959}
+
+"{NNA-PIR-22-00513}
+Daily check was added to both Supervisor and Leader Controlled Items List to validate the push check is being properly performed to ensure containment.
+Daily check was added to both Supervisor and Leader Controlled Items List to validate the push check is being properly performed to ensure containment."
+"{NML-PIR-22-01145}
+①リーダーから作業者へ、異常が発生した場合は異常品へ識別をして、異常品箱へ入れる事の再教育を実施した。2022/5/9
+②複数名ラインの前工程作業者にスキルライターの携帯又は各工程に設置し異常品が発生した場合は直ちに識別出来るようにした。2022/5/9
+③ライン内に異常品箱（置き場）を追加設置し、作業者が異常時に直ぐ異常品を異常品箱（置き場）へ入れられるようにした。2022/5/9
+④標準作業書を見直し、溶接部位を1ビードづつ、略図指示を追記した。見直した標準作業をリーダーから作業者へ教育を実施した。2022/5/9"
+{NML-QRR-22-00047}
+
+
+
+{NML-PIR-22-00999}
+
+"{NNA-PIR-22-00406}
+Q3: WIP checked and verified. (6 OK / 0 NG)
+Q4: Add buddy check (secondary check) to verify the harness is secure, witness mark will be placed on harness housing to validate process."
+"{NNA-PIR-22-00628}
+Quality is best controlled through process improvements. Raised awareness to workgroup of warranty concern. Yard audit was conducted to check units in the yard for loose kick plates. All units checked in the yard checked OK- zero issues identified. SOS work instructions were updated to require the operator to verify all 3 body flange clips were present prior to installation of the kick plate to ensure alignment and retention of the part. OK/No Good visuals were also added to the SOS work instructions and operators leveled to ensure compliance."
+
+"{NML-CAR-22-00165}
+⁻
+(特定の充電スポットについての確認はできない)
+⁻
+(特定の充電スポットについての確認はできない)
+
+⁻
+(特定の充電スポットについての確認はできない)"
+
+
+"{NML-PIR-22-02365}
+再発防止時に回答する"
+
+{NML-PIR-22-01302}
+"{NML-PIR-22-01978}
+作業教育及び作業観察実施
+通常作業観察に加えて作業観察カメラによる観察も実施（2022.7.22）"
+
+
+
+
+"{NML-PIR-22-01594}
+ダーク色製品ではクリア塗膜有無を目視による判別ができないので、クリア塗料有無の判別を塗膜硬度測定によることとする。
+クリア塗装有の場合、塗膜硬度はHとなり、クリア塗装なしの場合はFなので、ロット初品の塗膜硬度がHであることを確認
+するよう変更した。（2022年6月8日生産～）"
+
+
+"{NML-QRR-22-00048}
+修正箇所を確認する際、①変色がないかも確認する②ZE1　RR確認時はBMPRを手前に引いて確認することを標準作業所に追記。"
+
+
+"{NML-CAR-22-00351}
+再発防止時に回答する
+再発防止時に回答する"
+
+
+
+{NML-PIR-22-01775}
+"{NML-CAR-22-00223}
+A/Cパイプを締結するとOリングの状態が確認できないため対策不可。"
+"{NML-PIR-22-01699}
+－"
+"{NML-PIR-22-01668}
+再発防止時に実施する"
+
+
+
+"{NNA-PIR-22-00696}
+Quality best controlled through process improvements. Raised awareness to workgroup of warranty concern. One point lesson was issued to secure the velcro straps back to the PDM cover immediately after the AC lines were freed to prevent the straps from making contact with the AC line at install. SOS work instructions were updated to reflect this change. Job observations were performed to ensure compliance to new process."
+
+"{NNA-CAR-22-00606}
+Q3: 
+Added 100% inspection on RD for new parts; OK parts identified with mark on RD and on Leak tester label
+80 pcs of next shipment inspected - 100% in Good condition
+
+Next shipment scheduled for 9/2022"
+"{NML-CAR-22-00193}
+作り込み対策で流出防止できる"
+"{NML-PIR-22-01602}
+再発防止時に回答"
+
+
+
+
+
+
+
+
+"{NML-PIR-22-01762}
+Q-POINT作成し最終検査工程に掲示し検査員教育を実施した　　-2022.6.30"
+
+
+"{NNA-PIR-22-00647}
+N/A"
+
+"{NML-PIR-22-02188}
+再発防止時に回答"
+"{NNA-PIR-22-00824}
+Same as above"
+"{NML-PIR-22-02214}
+✓暫定：安全荷重検査実施までは全数こじり検査実施。
+✓恒久：インラインでの安全荷重検査を実施。（9/6～）　「他4ライン(9部品)へも水平展開済」
+
+
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+CC0追記('22.9.7)：つくり込み対策は推定原因への対策であるが、見逃し対策として新たに安全荷重検査装置を採用済で流出は防げると判断することから、本件はクローズする。"
+
+
+"{NNA-PIR-22-00795}
+Yard audit conducted with no findings of this condition.  Issued Quality alert to the zone for quick communication of the concern that impacted the customer.  Standard work instructions were updated to ensure the sash is fully seated to the upper sash prior to the secure with a visual inspection and also to grasp and hold the sash during the secure process.
+
+
+Clean Vin# 1N4CZ1CV3PC551702 8/16/2022"
+
+
+{NML-PIR-22-03578}
+{NML-PIR-22-02459}
+
+"{NML-PIR-22-01927}
+無し"
+
+
+
+
+"{NML-PIR-23-01007}
+サプライヤが作り込んだ領域では無いフリーオープンソースの顕在不具合については、今回のように問題点を発見次第、直ぐにF/Bをし改善を要求する。"
+
+
+"{NNA-PIR-22-00867}
+Marelli Shelbyville Containment Activity for ZE1 FCM # 21493B210B which is installed in part# 21481 5SA0A:
+5/26/22 - Notified by Marelli Japan to verify lot code on ZE1 fan controller #21493B210B. Range for NG Lot Code: 1E10 TO 2B06. Total NG fan controller identified and scrapped = 1858."
+
+"{NML-PIR-22-03069}
+無し"
+
+"{NML-QRR-22-00114}
+
+仕様再確認の為ワンポイントによる再教育。
+
+マスキング時にサービス品（KBH）張り紙実施。
+VIN：ZE1-205590　CCR：290540　2022/9/5～
+{NML-CAR-22-00413}
+・ワンポイントを作成し仕様を再教育。下部色目視チェックを再指導。9/23～
+・車種毎のサービスラベルを見える化。9/28～
+・投入時と2回目塗装マスキング時に”サービス”の識別を貼る。9/28～
+
+【CC0補足追記】
+・赤ラインチェック作業で、サービス品の識別札を貼付する。(2022/10～)
+・車種毎のサービスラベルの見える化：投入計画を確認しサービス品の投入時は、指定の場所に識別札を取り付ける。(2022/10～)
+　＜SILL着荷作業標準作業書(32-9-002)に追記＞"
+"{NML-CAR-23-00127}
+無し"
+
+"{NML-CAR-23-00145}
+経時での発生のため、見逃し対策なし。"
+
+
+"{NML-PIR-22-03159}
+無し
+無し"
+
+
+
+"{NNA-CAR-22-00978}
+Q3: 100% inventory certification. suspect anvils removed from process. Applies to all packs shipped after 2/24/2022, pack ID SM12229000318
+Q4: Created visual aid for inspection of coated anvils"
+"{NNA-CAR-22-00976}
+
+Temporary Countermeasure:
+
+• EEPROM data was updated.
+• All clusters pass in the automatic inspection machine, this machine could detect the 100% of this defect.
+Permanent Countermeasure:
+
+• Update process for validation of EEPROM data creation.
+• Update process checklist for Full variation test.
+• Update Inspection Report.
+• EEPROM implementation D-Note Y2E032, Y2E030 and Y2F320 released.
+RAN SX55369          VIN 1N4AZ1BV4PC554813              AD 11/7/22
+
+
+Temporary Countermeasure:
+
+• EEPROM data was updated.
+• All clusters pass in the automatic inspection machine, this machine could detect the 100% of this defect.
+Permanent Countermeasure:
+
+• Update process for validation of EEPROM data creation.
+• Update process checklist for Full variation test.
+• Update Inspection Report.
+• EEPROM implementation D-Note Y2E032, Y2E030 and Y2F320 released.
+RAN SX55369          VIN 1N4AZ1BV4PC554813              AD 11/7/22"
+"{NNA-PIR-22-01111}
+Customer implemented ( comm plan ) an action allowing to all LEAF vehicle to connectt to AT&T
+with both APN:
+1- ( infiniti-us-igen2-tm.com.attz )
+2- ( nissan-ev-us.gen2-biz--t.com.attz. )
+
+Confirmed that there is no any incidence/ change in the Ficosa assembly line process.
+Confirmed same SW configuration, no changes recorded in the assembly line.
+
+Checked EOLT records about Nok and Ok part reported, results of both parts were Ok when they
+were manufactured at Ficosa
+
+
+{NNA-CAR-22-01050}
+"
+
+"{NML-CAR-23-00004}
+１）テーピング作業における異物発塵をなくすために、テーピング機のカバープレートを取り付けた後、出来栄え確認することを追加。
+２）　テーピング後の外観検査で使用する限度見本および検査項目を追加します。
+３）XTAL端子部へのAOI異物検出検査ウィンドウ追加
+４）SUB-CPU端子部へのAOI異物検出検査ウィンドウ追加"
+
+
+
+
+
+
+"{NML-PIR-22-03346}
+製品温度が常温に戻った時に気泡が消えるのを避けるため、エイジング後30分以内に気泡検査を完了する事を追記。2022/11/15"
+"{NML-PIR-22-03291}
+③コンタミカバー清掃→型交換時（22/8/8～）
+④集電箔切断型の清掃基準の見直し。
+・頻度変更1回/日→ 2回/直（22/8/8～）"
+
+
+"{NML-PIR-23-00411}
+無し"
+
+
+{NML-CAR-23-00213}
+
+
+"{NNA-CAR-22-01108}
+Quality Alert issued to the zone to bring tech awareness up on the concern that impacted the customer.  Standard work instructions were updated to read broadcast block 009 to determine if connections are needed. 
+
+
+Clean Vin #5N1BT3ABXPC766243 12/5/22"
+
+
+{NML-PIR-23-01208}
+
+
+
+
+
+
+"{NML-PIR-23-00325}
+無し"
+"{NCI-PIR-23-00021}
+Countermeasures confirmed during LPA audit process."
+{NML-QRR-23-00040}
+
+
+
+
+
+
+
+{NML-QRR-23-00051}
+
+
+
+"{NNA-CAR-23-00300}
+
+Countermeasure ActionConfirmation method
+
+Adjusted a hold down and added another hold down to close the gap.Gap Check and monthly Maintenance PM
+
+100% gap check by EOL at armrest area on the LH and RH doors.Job Observation
+
+
+
+
+
+Documents Updated 999-17590   999-19572 999-17746 1335-17489Documents updated for KCAR 01412
+
+Clean PointIPF2090182"
+
+
+
+
+
+
+
+{NML-QRR-23-00061}
+
+
+
+"{NNA-CAR-23-00380}
+Body shop made a move to close the seal gap in the switch and lock area.
+1N4CZ1CV0PC559224
+3/6/2023"
+
+
+
+
