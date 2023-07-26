@@ -1,0 +1,1068 @@
+根本原因:見逃し要因
+"{NML-CAR-21-00415}
+
+{NML-CAR-21-00439}
+出荷検査時には異物はパネル表示外（死角）にあり、検出ができなかったと考えられる。
+出荷時には検出が困難であると判断する
+
+
+出荷検査時には異物はパネル表示外（死角）にあり、検出ができなかったと考えられる。
+出荷時には検出が困難であると判断する"
+"{NML-PIR-21-01908}
+
+{NML-PIR-21-02218}
+②端子電気チェックによるTH疑似断線(抵抗値異常)の検出力が弱い
+・結果、2点の推定原因に対し対策を行った。"
+"{NML-PIR-22-03176}
+なし
+{NML-PIR-23-00187}
+なし
+なし"
+{NML-QRR-22-00167}
+"{NML-PIR-23-01162}
+出荷検査時にFFC断線が顕在化しておらず導通を保持しており、検査合格となった。"
+
+複合要因で発生する現象であり、ユニット単体での評価では検出できなかった。
+
+-
+"{NML-CAR-20-00644}
+基板設計段階でC3端子の剥離が起こる可能性があったが、サプライヤから剥離による影響性無しとの検証レポートが提出されたため、市場発生が起こらないと判断した（恒久対策として社内展開）
+また、十分な実機検証を行ったが、剥離による影響を受けることが極めて稀だったため検出できなかった
+
+
+{NML-AFR-21-00010}"
+"{NML-CAR-20-00644}
+基板設計段階でC3端子の剥離が起こる可能性があったが、サプライヤから剥離による影響性無しとの検証レポートが提出されたため、市場発生が起こらないと判断した（恒久対策として社内展開）
+また、十分な実機検証を行ったが、剥離による影響を受けることが極めて稀だったため検出できなかった
+{NML-AFR-21-00010}"
+{NML-PIR-21-01790}
+NML-PRO-21-02161で実施
+"{NML-CAR-22-00528}
+XM6評価で再現・確認することができなかった。"
+"{NML-PIR-22-00505}
+
+{NML-PIR-22-00852}"
+{NML-CAR-22-00034}
+"{NML-PIR-22-01389}
+本不具合は経時的な劣化を含む為、開発時の実験評価では確認することができない。"
+"{NML-PIR-22-01914}
+
+基盤の目視確認はしているが、半田付け不良を検出する事は不可
+
+{NML-PIR-22-01913}
+
+・基盤の目視確認はしているが、半田付け不良を検出する事は不可
+
+{NML-PIR-22-01912}
+
+基盤の目視確認はしているが、半田付け不良を検出する事は不可"
+
+
+
+
+
+
+
+
+
+
+
+-
+
+
+
+-
+-
+{NML-PIR-20-01763}
+{NML-PIR-20-01820}
+-
+
+
+
+
+
+
+
+
+{NML-PIR-20-02149}
+
+"{NML-CAR-20-00415}
+ー"
+{NML-CAR-20-00634}
+
+
+
+-
+ー
+
+
+
+{NML-PIR-20-02261}
+{NML-CAR-20-00597}
+{NML-CAR-20-00640}
+{NML-CAR-20-00751}
+
+
+Operator need to twist head of drain hose when assembly. Risk of drain hose bended.
+
+
+"{NML-CAR-20-00631}
+- ホイールマスクに傷があることから、ホイールマスク貼り付け前に傷がついていた可能性がある。
+- ホイールマスク貼り付け工程で、傷の確認を実施しておらず、傷に気が付かなかった可能性がある。"
+{NML-CAR-20-00635}
+
+
+
+"{NMAP-QRR-20-00006}
+{NMAP-CAR-20-00029}
+Not have procedure to manage mileage."
+
+
+
+
+
+
+-
+
+-
+
+
+
+
+{NML-PIR-20-02881}
+{NML-PIR-20-02505}
+
+{NML-CAR-20-00566}
+
+
+ー
+
+
+
+ー
+{NML-CAR-20-00710}
+
+
+{NML-CAR-20-00753}
+
+
+工場出荷時には正常であったと推定します。
+{NML-PIR-20-02712}
+{NML-PIR-20-02826}
+-
+
+
+ー
+
+"{NMT-CAR-21-00025}
+"
+
+{NML-PIR-20-02318}
+-
+
+
+"{NML-QRR-21-00019}
+
+{NML-CAR-21-00109}"
+{NML-PIR-21-00340}
+{NML-CAR-21-00080}
+{NML-CAR-20-00743}
+
+
+"DC-LOTデータ確認を実施したが、設計のNEMチェックリスト結果を確認し OK判断してしまった
+{NML-PIR-20-02488}"
+ー
+
+{NML-CAR-20-00629}
+"{NML-CAR-20-00729}
+
+{NML-AFR-21-00009}"
+{NML-CAR-20-00713}
+
+
+"{NMT-CAR-20-00093}
+W/I at receiving inspection no item check for Connector deformation"
+"{NMT-CAR-20-00091}
+The interlayer insulation crack after LED turn on"
+
+{NML-PIR-20-02811}
+-
+
+
+ー
+
+
+{NML-PIR-20-02214}
+{NML-PIR-20-02761}
+-
+{NML-CAR-20-00721}
+　
+{NML-PIR-20-02869}
+{NML-CAR-20-00742}
+
+{NML-PIR-21-00294}
+occur on the edge of hood after install PGF 
+
+
+{NML-PIR-20-02664}
+"{NML-PIR-20-02592}
+CC0コメント
+外部要因による不具合のため、本件をクローズし、市場発生状況をモニターする。"
+-
+
+ー
+{NML-PIR-21-00399}
+{NML-CAR-20-00678}
+{NML-PIR-20-02521}
+
+
+ー
+{NML-CAR-20-00749}
+-
+{NML-CAR-20-00747}
+
+{NML-PIR-20-02655}
+Suspected root cause is VTC solenoid possible contamination stuck then make abnormal operation.
+{NML-PIR-20-02634}
+depend usage time, on speed of natural chemical reaction
+
+"{NMT-QRR-20-00055}
+
+
+
+{NMT-CAR-20-00092}
+scratch occur inside between FDR and BMPR"
+"{NMT-PIR-22-00095}
+After recheck production tracking sheet from supplier MTH and Tier-2 (Nihon-plast) not found abnormal part.
+Then assume that re-assembly was done after delivery to NMT."
+
+-
+
+
+"{NML-QRR-20-00297}
+
+{NML-CAR-21-00097}"
+{NML-QRR-21-00045}
+{NML-QRR-21-00039}
+"{NML-QRR-21-00001}
+
+{NML-QRR-20-00296}
+
+{NML-CAR-21-00077}"
+"{NML-QRR-20-00295}
+
+{NML-QRR-21-00058}
+完検票関連履歴なし
+出荷以降関連履歴なし
+{NML-CAR-21-00036}"
+{NML-CAR-20-00754}
+{NML-CAR-20-00745}
+{NML-PIR-21-00085}
+{NML-QRR-20-00290}
+"{NMT-QRR-20-00058}
+-
+{NMT-CAR-20-00094}
+-"
+{NML-PIR-20-02825}
+{NML-PIR-20-02854}
+{NML-PIR-21-00060}
+{NML-PIR-21-00248}
+{NML-PIR-20-02799}
+"{NMT-QRR-20-00057}
+"
+"{NMT-QRR-20-00056}
+Measurement method incorrect supplier didn't control parallelism
+{NMT-CAR-21-00005}
+Measurement method incorrect supplier didn't control parallelism"
+{NML-CAR-21-00019}
+{NML-CAR-20-00740}
+{NML-CAR-21-00038}
+"{NML-PIR-20-02879}
+開発時の実車取付確認では問題なく圧着でき、剥がれた事例は無かった。
+結果、取付要領書の内容チェック時も手順の不備を検出できなかった。"
+{NML-PIR-20-02822}
+"{NMT-QRR-20-00054}
+-"
+{NML-QRR-20-00283}
+"{NML-QRR-20-00282}
+
+{NML-CAR-21-00037}"
+{NML-PIR-21-00205}
+{NML-PIR-20-02750}
+"{NML-QRR-21-00008}
+
+{NML-CAR-21-00108}"
+"{NML-QRR-21-00007}
+
+{NML-QRR-21-00006}
+
+{NML-CAR-21-00129}
+
+{NML-CAR-21-00130}"
+{NML-QRR-20-00280}
+{NML-CAR-20-00712}
+-
+"{NML-CAR-20-00748}
+・取り付け後の目視での確認が不十分だった。"
+{NML-PIR-20-02749}
+{NML-PIR-20-02779}
+{NML-PIR-20-02755}
+
+{NML-CAR-20-00703}
+{NML-QRR-21-00002}
+{NML-QRR-21-00003}
+"{NML-QRR-20-00274}
+
+{NML-CAR-21-00132}"
+{NML-CAR-21-00028}
+{NML-PIR-20-02827}
+{NML-CAR-20-00711}
+"{NML-QRR-20-00271}
+
+{NML-CAR-21-00099}"
+{NML-PIR-20-02711}
+{NML-PIR-20-02683}
+{NML-CAR-20-00697}
+{NML-CAR-20-00739}
+{NML-CAR-20-00692}
+-
+{NML-CAR-20-00717}
+{NML-CAR-20-00714}
+"{NML-PIR-20-02650}
+
+After assembly don’t have process to confirm complete part appearance and broken(confirm by VQA and TCS)"
+{NML-CAR-20-00752}
+{NML-PIR-20-02828}
+部品回収できなかったため、原因究明できず
+"{NML-PIR-20-02696}
+CC0結論：交換したスイッチ以外に原因があると推定します。次回発生時には、発生状況や関連部品を含めて確認お願いします。"
+"{NML-QRR-21-00046}
+
+{NML-PIR-21-00387}"
+-
+{NML-PIR-21-00173}
+{NML-PIR-21-00383}
+"{NML-CAR-21-00121}
+傷の位置が下側で見ずらい為、見落としてしまった"
+{NML-CAR-21-00079}
+"{NML-QRR-21-00040}
+
+{NML-PIR-21-00376}"
+"{NML-QRR-21-00041}
+
+{NML-PIR-21-00353}"
+{NML-QRR-21-00042}
+"{NML-PIR-21-00147}
+-
+-"
+"{NML-QRR-21-00030}
+
+{NML-CAR-21-00126}"
+"{NML-QRR-21-00031}
+
+{NML-CAR-21-00134}"
+"{NML-QRR-21-00032}
+
+{NML-CAR-21-00135}"
+{NML-QRR-21-00033}
+"{NML-QRR-21-00034}
+
+{NML-CAR-21-00136}"
+"{NML-QRR-21-00035}
+
+{NML-PIR-21-00400}"
+-
+{NML-PIR-21-00148}
+{NML-PIR-21-00268}
+"{NML-CAR-21-00091}
+
+{NML-CAR-21-00252}
+-"
+{NML-PIR-21-00157}
+{NML-PIR-21-00103}
+"{NML-QRR-21-00028}
+グリルとヘッドライトの面差確認不足
+{NML-CAR-21-00131}
+グリルとヘッドライトの面差確認不足"
+"{NML-QRR-21-00027}
+{NML-CAR-21-00160}
+After time passing and temperature increasing the silicone drop down"
+"{NML-QRR-21-00057}
+完検票関連履歴なし
+出荷以降関連袈装履歴なし
+PDIでは鏡面の曇りを見ていない"
+"{NML-PIR-21-00227}
+NHK Synchro area no item check due to must be take out plastic cover for check"
+{NML-PIR-21-00159}
+{NML-PIR-21-00145}
+"Due to appearance standard and limit sample under setting between NMT and supplier after SOP.
+So, official document release to production line delay and effect to delay training to operator (Skill not enough)"
+"{NML-QRR-21-00021}
+
+{NML-PIR-21-00223}"
+"{NML-QRR-21-00022}
+
+{NML-PIR-21-00415}"
+{NML-QRR-21-00023}
+"{NML-QRR-21-00018}
+
+{NML-CAR-21-00133}"
+-
+{NML-PIR-21-00266}
+{NML-PIR-21-00174}
+{NML-CAR-21-00011}
+{NML-CAR-21-00030}
+{NML-QRR-21-00011}
+"{NML-QRR-21-00012}
+
+{NML-PIR-21-00224}"
+"{NML-QRR-21-00043}
+
+{NML-CAR-21-00142}"
+"{NML-QRR-21-00044}
+
+{NML-QRR-21-00005}"
+"{NML-QRR-21-00004}
+
+{NML-CAR-21-00029}"
+"{NML-QRR-21-00076}
+
+{NML-QRR-21-00079}
+
+{NML-CAR-21-00162}"
+{NML-CAR-21-00145}
+{NML-PIR-21-00430}
+{NML-CAR-21-00150}
+{NML-PIR-21-00428}
+"NMT-CAR-20-00078
+(Reference)"
+{NML-CAR-21-00127}
+{NML-CAR-21-00234}
+{NML-PIR-21-00354}
+　
+{NMT-QRR-21-00007}
+{NML-PIR-21-00473}
+{NML-MD-21-00003}
+{NML-PIR-21-00370}
+{NML-CAR-21-00086}
+{NML-PIR-21-00265}
+"{NML-PIR-21-00292}
+出荷時には現象発生していなかったと推定します。"
+{NML-PIR-21-00253}
+{NML-CAR-21-00115}
+{NML-PIR-21-00240}
+{NML-PIR-21-00218}
+{NML-CAR-21-00078}
+"{NML-QRR-21-00050}
+
+{NML-QRR-21-00060}
+・完検票関連履歴なし
+・出荷以降関連履歴なし
+・PDIでは確認項目になっていない
+{NML-CAR-21-00082}"
+"{NML-QRR-21-00048}
+
+{NML-CAR-21-00089}"
+"{NML-PIR-21-00170}
+調査結果バッテリパックに異常は見られませんでした。"
+{NML-CAR-21-00227}
+"{NMT-QRR-21-00015}
+-
+{NMT-PIR-21-00036}
+
+Leakage test can’t detect leak 100%"
+"{NML-PIR-21-00710}
+-
+{NML-PIR-21-01652}"
+"{NMT-QRR-21-00013}
+-
+{NMT-PIR-21-00020}"
+"{NML-PIR-21-00676}
+別紙Actionプランにて調査進める
+{NML-PIR-21-01042}
+-"
+"{NML-PIR-21-00670}
+Burr could not be removed by air blowing and suction."
+"{NML-PIR-21-00648}
+
+{NML-PIR-21-00982}"
+"Root cause:
+
+• Operator doesn’t clear point of view for surface cleaning without spatter by wiper. (Spatter volume criterial remain on surface)
+• Operator doesn’t wipe or not enough spatter to clean after welding."
+{NML-PIR-21-00765}
+"{NMT-CAR-21-00019}
+"
+"{NMT-CAR-21-00018}
+"
+"{NMT-QRR-21-00011}
+"
+{NML-PIR-21-00542}
+"{NML-PIR-21-00541}
+
+{NML-PIR-21-00898}"
+"{NMT-CAR-21-00016}
+"
+{NML-PIR-21-01066}
+"{NML-PIR-21-00903}
+Tire1要因：メーターファンクション工程でGPメモリチェックエラーの過去故障の場合は検出していなかった。
+Tier2要因：DDRの検査工程で、ノイズの発生を検出できなかった。"
+{NML-PIR-21-00902}
+{NML-PIR-21-00953}
+{NML-PIR-21-00936}
+{NML-PIR-21-00934}
+"{NML-PQR-21-00040}
+P02F JPN is first time that adopt YOKOHAMA THI with alphabet CONICITY. Some customers may not
+familiar with alphabet on tire sidewall.
+YOKOHAMA THIの採用は初めてであり、一部のお客様は、タイヤサイドウォールのアルファベットに慣れていない場合があります。"
+"{NML-CAR-21-00259}
+視認性の目標値を当時の現行SRVMの不満内容を検討し、性能トップレベルで置いていたが、お客様の期待値を予測できなかった。
+{NML-CAR-21-00330}
+視認性の目標値を当時の現行SRVMの不満内容を検討し、性能トップレベルで置いていたが、お客様の期待値を予測できなかった。"
+{NML-QRR-21-00109}
+{NML-QRR-21-00108}
+{NML-PIR-21-00806}
+{NML-PIR-21-00800}
+"{NMT-PIR-21-00033}
+
+{NMT-QRR-21-00019}
+Inspection did not specify function check at side mirror."
+{NML-PIR-21-00797}
+"{NML-AFR-21-00016}
+
+{NML-PIR-21-00745}"
+"{NMT-PIR-21-00025}
+In the electrical characteristics inspection process, we confirmed the occurrence of voids for those that exceeded the standard
+value, but, that it could be detected by inspection, so supplier decided that there was no problem with products that were
+judged to be OK products. It is suspected outflow that passed the electrical characteristics inspection.
+The PCB supplier noticed this defect and carried out an improvement, but there was no report to us and the lot was flowed."
+{NMT-PIR-21-00024}
+{NMT-PIR-21-00023}
+{NMT-PIR-21-00022}
+{NMT-PIR-21-00021}
+{NML-PIR-21-01476}
+"{NML-QRR-21-00143}
+
+{NML-CAR-21-00542}"
+"{NML-PIR-21-01123}
+出荷時には正常であったため。"
+Base on incident part condition, the rubber GSKT was damaged after ENG take a time for running
+NML-PRO-22-00422 <https://fqidrive.jp-east-2.cf-app.net/#/pros/1000000000027275> にて対応
+{NML-QRR-21-00138}
+{NML-QRR-21-00137}
+{NML-PIR-21-01071}
+{NML-PIR-21-01026}
+{NML-CAR-21-00304}
+-
+{NML-QRR-21-00123}
+"{NML-QRR-21-00122}
+
+{NML-CAR-21-00376}"
+{NMT-PIR-21-00044}
+{NMT-PIR-21-00043}
+{NMT-PIR-21-00042}
+{NMT-PIR-21-00041}
+"{NMT-CAR-21-00032}
+Only cool down test was conducted during development, NTCSEA couldn’t confirm in cool condition (warm up state)"
+{NML-PIR-21-01644}
+"{NML-PIR-21-01522}
+<サポートプレート溶接部の盛り上がりに関して>
+サプライヤの製品検査が不十分だったためと考える。
+
+
+{NML-PIR-21-01918}
+<サポートプレート溶接部の盛り上がりに関して>
+サプライヤの製品検査が不十分だったためと考える。
+
+
+{NML-CAR-21-00566}"
+1件の調査結果はNDF。その他は未回収。別途回収部品にて調査させてください。
+{NML-PIR-21-01379}
+"{NML-AFR-21-00019}
+
+{NML-PIR-21-01387}"
+{NML-PIR-21-01347}
+{NML-PIR-21-01341}
+{NML-QRR-21-00160}
+{NML-PIR-21-01302}
+"{NML-QRR-21-00159}
+完成検査で両方のレバーを操作した
+（P15はレバーが隣にある為、両方いっぺんに引っ張った事により異常に気が付かなかった）"
+"{NMT-CAR-21-00046}
+-"
+"{NML-PIR-21-01256}
+Since it was a change over time, it could not be found by inspection after plating
+経年変化の為、メッキ後の検査では見つからなかった"
+{NML-CAR-21-00364}
+{NML-PIR-21-01211}
+{NML-QRR-21-00154}
+"{NML-CAR-21-00351}
+-"
+
+-
+{NML-PIR-21-01860}
+-
+{NML-PIR-21-01672}
+{NML-PIR-21-01651}
+{NML-CAR-22-00007}
+"{NMT-PIR-21-00062}
+Incidence occur after assembly part on vehicle. Then supplier cannot find in part production process."
+"• Process occurring from CNC process
+• Process out flow problem from final inspection"
+"{NML-PIR-21-01598}
+ー
+
+
+{NML-PIR-21-01973}
+ー"
+{NML-PIR-21-02126}
+"{NML-QRR-21-00168}
+・完検票関連履歴なし
+・PDIではｼｰﾄ上の異物確認をしていない
+{NML-QRR-21-00171}"
+{NML-PIR-21-01503}
+{NML-CAR-21-00410}
+{NML-PIR-21-01871}
+"{NMT-PIR-22-00017}
+The jig used at that time in the terminal insertion process (hereinafter referred to as the old jig) has the
+potential to be inserted diagonally. In the reproduction confirmation, it was confirmed that the
+spring lock was deformed and the terminal was opened when it was inserted diagonally."
+{NML-PIR-21-01858}
+{NML-QRR-21-00183}
+"{NML-PIR-21-01824}
+{NML-PIR-21-02294}
+{NML-PIR-21-02783}
+{NML-CAR-21-00678}
+
+Although it is an initial failure mode built in at the time of assembly,
+If it is in contact even a little, it will not detect as a defect.
+
+サプライヤ殿(ハヤカワ電線工業株式会社殿)による調査結果、端子挿入工程で端子の変形(開き)が発生したと推定する。 
+端子挿入工程にて当時使用していた治具(以降旧治具)は斜め挿入となるポテンシャルが あり、再現確認にて斜め挿入時にバネロックが変形し端子開きが発生する事を確認した。"
+"{NML-PIR-21-01791}
+
+{NML-PIR-21-02441}
+
+{NML-PIR-22-00843}"
+{NML-PIR-21-01775}
+{NML-PIR-21-01774}
+"{NML-PIR-21-01773}
+入射部からのへこみは、酸によるクロムメッキ層の損傷です。"
+{NML-PIR-21-01752}
+"Conclusion some stone hitting on edge of paint wheel and effect to small paint peel off.
+Then, customer continue to usage the vehicle maybe, some chemical or some oil stale between layer aluminum & paint and effect with more paint peel off."
+{NML-PIR-21-01727}
+{NML-QRR-21-00203}
+{NML-PIR-21-02199}
+"{NML-PIR-21-02174}
+車両工順の作業者は、組立前に部品の外観確認をしていない。"
+{NML-CAR-21-00557}
+"{NML-CAR-21-00517}
+工場内でACが正常作動しているかどうかを検出できません。"
+"{NML-PIR-21-02131}
+
+{NML-PIR-21-02682}"
+{NML-PIR-21-02130}
+{NML-CAR-21-00516}
+"{NML-PIR-21-02007}
+ICサプライヤのMaxim殿工程内での試験条件が不適切だった。"
+{NML-PIR-21-02127}
+12/3　現品は外的要因での破損であるためCD0との合意にて調査不要と判断しPROをクローズする。
+{NML-PIR-21-01921}
+{NML-QRR-21-00190}
+"{NMT-MD-21-00007}
+
+Possibility that they don’t confirm the correct lashing hole while lashing operation due to they don’t understand the risk on the hooking into wrong hole."
+{NML-PIR-21-02458}
+{NML-QRR-21-00221}
+{NML-PIR-21-02482}
+"{NML-PIR-21-02437}
+
+{NML-PIR-21-02934}
+原因不明"
+"{NMT-PIR-21-00080}
+
+{NMT-CAR-21-00070}
+-"
+{NML-PIR-21-02869}
+{NML-PIR-21-03021}
+"{NMT-QRR-21-00027}
+
+{NMT-CAR-21-00062}
+Process design by operator assurance(No Interlock System )
+{NMT-MD-21-00006}
+
+Process design by operator assurance(No Interlock System )"
+
+"{NML-QRR-21-00206}
+・ZEROの現行の業務運用には、トレーラーへ車両積載後の点検項目に、緊締部の作業確認を行うプロセスが含まれていなかった。結果、固縛状況の最終確認が実施されなかった。
+{NML-MD-21-00044}
+-
+-
+
+-"
+"{NML-CAR-21-00643}
+【CQ0追記】
+ABS真空充填時のエア残留により不具合発生したと考えられる。
+工場での真空引きの際の真空充填のロバスト性向上のため、真空充填時のVDCバルブ作動パターンを変更した。"
+{NML-QRR-21-00232}
+-
+"{NML-PIR-21-02779}
+
+{NML-PIR-22-00098}
+
+{NML-PIR-22-00598}"
+{NML-PIR-21-02815}
+"{NML-PIR-21-02887}
+製造工程では現象が顕在化していない為検出が出来なかった。"
+{NML-PIR-21-02686}
+"{NML-PIR-21-02663}
+
+{NML-PIR-22-00018}"
+"{NML-PIR-21-02889}
+コンプレッサの⽣産時履歴調査結果に問題ないことから、運転確認時は疑似接触により導通していたものと推定します。
+その後、未はんだ部分の疑似接触部分が外れたことにより作動しなくなったものと推定します。
+はんだ付けの出来栄えの確認は作業者による外観チェックを行っておりますが、今回は作業者がハンダ付け不良を見のがしたため流出したと判断します。
+
+
+コンプレッサの⽣産時履歴調査結果に問題ないことから、運転確認時は疑似接触により導通していたものと推定します。
+その後、未はんだ部分の疑似接触部分が外れたことにより作動しなくなったものと推定します。
+はんだ付けの出来栄えの確認は作業者による外観チェックを行っておりますが、今回は作業者がハンダ付け不良を見のがしたため流出したと判断します。"
+{NML-PIR-21-02574}
+{NML-PIR-21-02575}
+{NML-PIR-21-02556}
+{NML-PIR-21-02540}
+{NML-PIR-21-03170}
+"{NML-PIR-21-03186}
+-"
+{NML-PIR-21-03113}
+{NML-PIR-21-03165}
+{NML-CAR-22-00006}
+{NML-PIR-21-02978}
+{NML-QRR-21-00235}
+"{NMT-CAR-21-00068}
+-Insufficient lighting of the process made the operator overlook the oil seal lip turned over."
+-
+"{NML-PIR-22-00193}
+-"
+{NML-PIR-22-00461}
+"{NMT-PQR-22-00003}
+N/A
+N/A"
+{NML-PIR-22-00151}
+"{NMT-PQR-22-00002}
+-"
+{NML-PIR-22-00144}
+{NML-PIR-22-00143}
+{NML-PIR-22-00094}
+{NML-PIR-22-00093}
+{NML-PIR-22-00109}
+{NML-PIR-22-00066}
+
+{NML-PIR-22-00028}
+"{NMT-CAR-22-00002}
+N/A"
+ー
+ー
+{NML-PIR-22-00919}
+{NML-PIR-22-00918}
+
+{NML-PIR-22-00352}
+{NML-PIR-22-00351}
+{NML-CAR-22-00030}
+"{NML-PIR-22-00259}
+
+{NML-PIR-22-00762}"
+"{NMT-PIR-22-00019}
+-"
+{NML-QRR-22-00038}
+"{NML-PIR-22-00804}
+-"
+"{NML-PIR-22-00787}
+
+{NML-PIR-22-01001}"
+{NML-PIR-23-00119}
+"{NML-PIR-22-00740}
+-"
+"{NML-PIR-22-00722}
+
+{NML-PIR-22-01172}
+カバー前面の前のX-Yプレス工程 (Yプレス) でホーン内部に異物が入ったことが原因
+スイッチを押すとホーンの中を動き回ります。接点上下に異物が侵入した場合。
+回路への焼損と絶縁効果は閉ループを流れることができず、ホーンへの効果は機能せず、NOサウンドになります。"
+"{NML-PIR-22-00737}
+サプライヤ調査結果により。液晶注入口のエンドシールから液晶内部に入り込んだ気泡により発生したと推定され、オペレータがバルブを急に開けると、エンドシールが液晶内部に急速に入り込む。そのため、外気も LC パスを通って内部に入る。
+最終的に気泡がメインシールに沿って液晶内部に入る。その後の使用環境によって気泡が大きくなっていく。"
+"{NML-PIR-22-00731}
+普段実施している品確メニューには、停車間際の液圧昇圧タイミングでブレーキペダル信号を瞬間的に入力する意地悪パターンは存在しなかった。
+また、設計段階で初組み合わせに対する懸念点抽出ができていなかったため、今回のようなADAS3.1、C1N、日産パワトレ組み合わせを鑑みた評価シナリオ検討ができていなかった。
+普段実施している品確メニューには、停車間際の液圧昇圧タイミングでブレーキペダル信号を瞬間的に入力する意地悪パターンは存在しなかった。
+また、設計段階で初組み合わせに対する懸念点抽出ができていなかったため、今回のようなADAS3.1、C1N、日産パワトレ組み合わせを鑑みた評価シナリオ検討ができていなかった。"
+{NML-QRR-22-00031}
+-
+"{NML-PIR-22-00668}
+キャリパー取り付け面の上下形状が、ハの字となることが、モーン音の感度があることが、設計間で認識としてなかった。
+キャリパー取り付け面の上下形状が、ハの字となることが、モーン音の感度があることが、設計間で認識としてなかった。"
+"CONCLUSION:
+
+- Shock absorber oil leaked from oil leakage cause by outside dust and not concern Hitachi manufacturing process.
+
+{NMT-PIR-22-00014}
+
+CONCLUSION:
+
+- Shock absorber oil leaked from oil leakage cause by outside dust and not concern Hitachi manufacturing process."
+{NML-PIR-22-00619}
+ー
+"{NMT-PIR-22-00036}
+-"
+"{NML-PIR-22-01169}
+Foglampは標準のEOTテストをOKで通過しました。"
+{NML-PIR-22-01168}
+"{NMT-PIR-22-00035}
+Contamination has been dissolved, but due to some load.
+It is estimated that conduction was reached after (VE-J) shipment"
+"{NMT-PIR-22-00033}
+-"
+"{NML-CAR-22-00124}
+ターンテーブルのフリクションが基準値を超えていることを見逃したまま調整していた。"
+"本案件、CQ0案件として別PROで対策刈り取りを行う。
+NML-TR-22-17271がCQ0案件として発行されており、参照。"
+
+"Doesn't check Moving force STD
+{NMT-CAR-22-00029}
+"
+"{NMT-PIR-22-00025}
+-"
+"{NMT-PQR-22-00011}
+N/A"
+"{NMT-PQR-22-00010}
+
+No countermeasure has been planned to solve this issue on P15 or even its elongation model (P02H). Considering on P02F elongation model, due to the limitation of the budget, P02H would focus on EXT refreshment, INT PQ improvement (such as door trim, new IP and dashboard) and adding some convenience features (such as Power seat, rain sensing wiper). Others would be kept in the same condition as P02F. Therefore, Sunglass holder had finally not been considered for P02H."
+"{NMT-PQR-22-00009}
+N/A"
+{NML-PIR-22-01426}
+{NML-PIR-22-01424}
+"{NML-PIR-22-01404}
+流出原因：Maxim殿工程内での試験条件が不適切だった。"
+{NML-PIR-22-01375}
+"{NML-PIR-22-01373}
+１）設備の日常点検において、フォークのズレは管理項目ではなく、 この異常を検出することはできませんでした。 2)自動目視検査では検出できないほどの微小なクラック シンギュレーション後、テーピング機にて。また、顕微鏡では検出されませんでした。 キープサンプルの確認。 (添付のレポートを参照)"
+"{NML-QRR-22-00059}
+
+{NML-QRR-22-00057}
+
+{NML-MD-22-00029}"
+"{NML-PIR-22-01316}
+
+{NML-CAR-22-00237}
+
+{NML-CAR-23-00202}"
+"{NML-QRR-22-00056}
+
+{NML-CAR-22-00167}"
+"{NMT-PIR-22-00044}
+N/A"
+{NML-PIR-22-01194}
+{NML-PIR-22-01193}
+"{NMT-PIR-22-00038}
+-
+{NMT-CAR-22-00044}
+-"
+"{NML-PIR-22-01876}
+①検査員は製品の意匠面が正対するように、製品を水平に対して45°傾けて検査台にセットするが、4個ある検査台のうち
+　　1個だけ、置台の寸法が大きく、製品を45°傾けて置くことができず水平になってしまい、意匠面の一部が見えづらい角度
+　　になっていたため、不具合部位を見逃した。【添付資料2　サプライヤー補足資料】Appendix　p2をご参照ください。
+②検査場の照明が一部影になって見づらくなっており、不具合部位を見逃した。
+③検査員が検査手順通りには検査していないことに対して、リーダーは修正指導を行わなかった。
+
+CC0追記: 22/8/4
+流出原因は、検査台の1つが規定通りになっておらず塗装溜まりを見逃したこと、また、手順通りに検査が行われていないことを直さなかったこと。
+対策として、検査場所の修正および定期的な作業監査を実施。
+対策効果有りと判断する。"
+"{NMT-PQR-22-00014}
+N/A"
+"{NMT-PQR-22-00012}
+N/A"
+-
+"{NML-CAR-23-00076}
+RNDSに評価が無く、シリコン雰囲気下での試験を実施しなかったこと。
+M2開発時はお客様使用のシリコーンがドア内に充満することを把握していなかった。"
+{NML-PIR-22-02782}
+{NML-PIR-22-03662}
+"{NML-PIR-22-01805}
+
+{NML-CAR-22-00397}"
+{NML-PIR-22-01601}
+{NML-PIR-22-01550}
+{NML-PIR-22-01503}
+"{NMT-PQR-22-00018}
+Not consider THI customer's variance.
+Only referring JPN seat comfort evaluation by XR4
+
+Priority of JPN RR SEAT usage less than THI based on luggage room."
+{NML-CAR-22-00294}
+{NMT-PQR-22-00016}
+"{NML-PIR-22-02173}
+-External hitting to aluminum wheel Because, hole defect is very small and zoom in with defective part verify by microscope."
+"{NML-PIR-22-01899}
+
+{NML-PIR-22-01897}"
+"{NMT-QRR-22-00008}
+No process check for QTY of bolt.
+{NMT-QRR-22-00007}
+-
+{NMT-PIR-22-00064}
+Tier-3 (DENI China): No process confirm QTY of Bolt.
+Tier-2 (Nissan Trading THI): New operator didn't understand clearly for WI. 
+Tier-1 (MTH, Marelli THI): No process confirm QTY of Bolt.
+{NMT-CAR-22-00052}
+
+Tier-3 (DENI China): No process confirm QTY of Bolt.
+
+Tier-2 (Nissan Trading THI): New operator didn't understand clearly for WI.
+
+Tier-1 (MTH, Marelli THI): No process confirm QTY of Bolt."
+{NML-PIR-22-02502}
+"{NMT-PIR-22-00085}
+-"
+"{NMT-PIR-22-00082}
+Terminal deformed was not check in process before.
+
+(Please refer attached report)"
+"{NMT-PIR-22-00081}
+Unable to identify (refer to attached report)"
+
+"{NMT-PQR-22-00019}
+Part common apply with P02F ICE and P02F e-Power."
+"{NMT-PIR-22-00077}
+The problem happened after assembly"
+"{NMT-PIR-22-00076}
+-"
+"{NML-PIR-22-02306}
+-"
+This is P15 STEP-0 with long stock
+ー
+{NML-PIR-22-02243}
+{NMT-PIR-22-00130}
+{NML-QRR-22-00128}
+"{NMAP-PIR-22-00023}
+Closed as monitoring."
+"{NMT-PIR-22-00126}
+External hitting to aluminum wheel Because, hole defect is very small and zoom in with defective part verify by microscope."
+"{NMT-PIR-22-00125}
+N?A"
+"{NMT-PIR-22-00122}
+-"
+"{NMT-PIR-22-00121}
+-"
+"{NMT-PIR-22-00118}
+Design had duplicated the brake noise with the incident parts in bench test. As a result of measuring the mating surface of the rear suspension beam,
+they had confirmed that the gap on the upper and lower caliper mounting surfaces were large. The caliper tilts due to this gap, and the brake pad contact became uneven.
+Then, the brake noise was occurred due to uneven pad contact."
+"{NMT-PIR-22-00116}
+-
+{NMT-CAR-22-00070}
+-"
+"{NMT-PIR-22-00115}
+-"
+"{NMT-PIR-22-00114}
+It was suspected dirty occurred after delivery to NMT."
+"{NMT-PIR-22-00113}
+-"
+{NML-PIR-22-02717}
+"{NMT-CAR-22-00051}
+-"
+"{NMT-CAR-23-00009}
+Did not think to broken IGBT by startup current load
+Did not think risk to increase COMPR On-Off frequency for Auto Cooler vehicle
+{NMT-CAR-23-00007}
+The problem related to endurance of the part which not able to detect during initial stage based on NDS test."
+"{NMAP-QRR-22-00002}
+Root cause cause not be identify."
+{NML-PIR-22-04075}
+{NMT-PIR-22-00100}
+
+"{NMT-PIR-22-00099}
+-"
+"{NMAP-PIR-22-00011}
+See supplier report (NG cause by external factor)"
+{NMT-PIR-22-00091}
+"{NPI-QRR-22-00005}
+-"
+{NML-PIR-22-03115}
+{NML-PIR-22-03208}
+"{NMT-CAR-22-00065}
+-"
+{NMT-PIR-22-00147}
+"{NML-PIR-22-02989}
+
+{NML-PIR-22-03645}
+
+{NML-PIR-23-00221}"
+"{NMT-CAR-22-00063}
+-"
+"{NMT-PIR-22-00138}
+-"
+{NML-QRR-22-00133}
+{NML-PIR-22-02915}
+"{NMAP-PIR-22-00025}
+See supplier report (NDF)"
+"{NMT-PIR-22-00133}
+-"
+"{NMT-PIR-22-00180}
+-"
+"{NMT-PIR-22-00173}
+-"
+
+"{NMAP-PIR-22-00032}
+See attached report NDF"
+{NML-PIR-22-03290}
+{NML-PIR-22-03289}
+
+"{NML-PIR-22-04067}
+-"
+{NML-PIR-22-03970}
+"{NML-CAR-23-00129}
+キャリパ取付面の位置や上下取付面の段差の影響を把握できていなかった。
+(キャリパがロータに対して相対的に傾くことの影響を見逃していた）"
+"Short circuit occurred from foreign material stuck between the AGND top metal and M2 SW8 layer, suspected the foreign material generated during ILD2 deposition process from inappropriate equipment and machine maintenance.
+
+ [1671445797577.png] 
+
+
+Conclusion (C/M)
+Supplier changing the maintenance schedule frequency of Tin depot equipment by 2.5 times improved.
+
+The occurrence of foreign material reduced by 77.4% from dummy wafers with particle counter verification.
+
+For outflow countermeasure improved by changing the test condition by applied 69v to each pin of SW1 to SW12.
+Refer: NML-PIR-22-01404
+
+
+HV batt adoption serial: 2022060100458
+Adoption VIN: MNTFEAP15Z0005416
+Adoption date: 3-Nov-2021
+
+
+This issue closed with MREP paper, please refer attachement."
+"{NMT-PQR-22-00020}
+Due to evaluator's variance not meet THI customer's scene (one hand with belonging operation)"
+
+{NML-PIR-23-00026}
+"{NML-PIR-23-00684}
+
+{NML-PIR-23-01234}"
+
+{NML-AFR-23-00015}
+{NML-PIR-23-00843}
+
+{NMT-PIR-23-00054}
+"{NMT-CAR-23-00018}
+Grease application no constant in term of area and amount."
+"{NMAP-CAR-23-00002}
+QLT ELE team confirm both of incident part send to supplier (all result is NDF)
+From Gemba at NMT assembly process, there are operation wiring harness interferent with other wire harness."
+"{NMT-PIR-23-00075}
+-"
+
