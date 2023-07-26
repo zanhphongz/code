@@ -1,0 +1,74 @@
+import pandas as pd
+import unicodedata
+import os
+import pickle
+import pandas
+from tqdm.auto import tqdm
+def Split_words(comment):
+    List_remove_dup = ["は", "を", "の", "に", "で", "が", "へ","現車処置内容","作業内容","結果","修理内容","処置","原因・処置"]
+    List_del_alpha = [" the ", " is ", " are "]
+    List_del_kata = []
+    List_del_kanji = []
+    List_data=[]
+    
+    List_replace_sym = ["、", "。", "※", "【", "】", ":", ",", ".", "(", ")", "・", "&", "!", "[", "]", "「", "_", "」", "*"
+                        , "?", "・", "■","/",'\\',"→","⇒","%",'"']
+    # List_bonus_symb = [ord("々")]
+
+    List_big_alpha = [*range(65, 91)]
+    List_normal_alpha = [*range(97, 123)]
+    List_normal_alpha.append(45)
+    List_total_alpha = List_big_alpha + List_normal_alpha
+
+    # List_number = [*range(48, 58)]
+
+    # List_hira = [*range(12352, 12448)]
+    List_kata = [*range(12448, 12544)]
+    List_kanji = [*range(19968, 40880)]
+
+    comment = str(comment)
+    comment = unicodedata.normalize('NFKC', comment)
+    for symbol in (List_replace_sym + List_remove_dup + List_del_alpha + List_del_kata + List_del_kanji):
+        comment = comment.replace(symbol, " ")
+    cmt_split = comment.strip().split()
+    # print(cmt_split)
+    
+    for group in cmt_split:
+        group = group.strip()
+
+        length = len(group)
+        for i in range(length):
+            if ord(group[i]) in (List_kanji + List_kata + List_total_alpha):
+                List_data.append(group[i])
+    return(''.join(List_data))
+
+def cal_ascii_ratio(text): #check language
+
+    word_list = list(text.replace(' ',''))
+    if word_list == []:
+        return 0
+    is_ascii = list(map(lambda x:x.isascii() , word_list))
+    return sum(is_ascii)/len(word_list)
+
+# b = "【現車処置内容】処置済み：シートベルトＡＳＳＹ交換 【結果】交換後良好. フロントバンパーの白塗装面に、オレンジ色の線のようなものがある。"
+pkl_file = "bin/DrivePro.pkl"
+with open(pkl_file, 'rb') as f:
+    data_Drivepro = pickle.load(f)
+data_excel = pd.read_excel("aaa/data_total_final_2.xlsx")
+column_drive_pro_2 = ("お客さまの声","修理内容/結果","現車点検内容","根本原因:作りこみ要因","対策:作りこみ対策","根本原因:見逃し要因", "対策:見逃し対策")
+data = set()
+sentences = set()
+for x in column_drive_pro_2:
+    for b in data_Drivepro[x]:
+        if type(b) is str:
+            if cal_ascii_ratio(b) < 0.3:
+                sentences.add(b)
+    for s in tqdm(sentences):
+        data.add(Split_words(s))
+    with open(F"file_text_{x}.txt", mode='w') as f:
+        for ss in data:
+            try :
+                f.write(''.join(ss))
+                f.write('\n')
+            except:
+                pass
