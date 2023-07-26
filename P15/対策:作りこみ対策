@@ -1,0 +1,1827 @@
+対策:作りこみ対策
+"{NML-CAR-21-00439}
+フロントパネルの置き場を移動し、異物がフロントパネル上での作業を廃止した
+フロントパネルの置き場を移動し、異物がフロントパネル上での作業を廃止した"
+"{NML-PIR-21-02218}
+発生対策
+※当て板の変形/異物/破損管理が不足していた為、作業標準の明文化を作業指示書に追記いたします（赤枠は追加内容）
+対策実施日:２１年１０月２０日～
+※当て板の確認結果を記載できるよう記録用紙を修正しました。LOT毎に確認実施後の記録を行う。
+対策実施日:２１年１０月２０日～"
+"{NML-PIR-22-03176}
+SW修正、レーダ内部周波数異常によるフェール確定の判定回数変更。判定中は一時不作動状態(通知有）とし復帰可能とする。
+{NML-PIR-23-00187}
+SW修正、レーダ内部周波数異常によるフェール確定の判定回数変更。判定中は一時不作動状態(通知有）とし復帰可能とする。
+SW修正、レーダ内部周波数異常によるフェール確定の判定回数変更。判定中は一時不作動状態(通知有）とし復帰可能とする。"
+{NML-QRR-22-00167}
+"{NML-PIR-23-01162}
+FFC挿入不完全を検出した際は、コネクタロックを解除し、FFCをコネクタから抜いて接続ケーブルの状態を確認する。
+＊硬質板が折れ曲がっていないこと
+＊端子部のめくれがないこと
+硬質板部が折れ曲がっているの端子は、廃棄することを作業指導票へ追記。
+2023/3/14～実施済み"
+
+"対策
+[JP-CAR-19-000178]
+減速機 1軸エンドプレー規格上限値縮小(70μm←240μm)
+
+結論
+[JP-CAR-19-000178]
+本現象は、発生ピッチ：駆動モータ回転1次、周波数：200-1200Hzの打音。発生メカニズムは、駆動トルクの0クロスによる、1軸(駆動モータ＋減速機)の自励振動によって励起される1軸回転1次のスラスト方向打音と推定。
+部品調査(駆動モータ/減速機)結果、いずれも規格値内だが、上記仮説に基づくFTAより、下記因子複合により現象が発生していると推定。
+ ①減速機 1軸エンドプレー、②駆動モータ スプライン歯溝振れ、③駆動モータ 軸スプライン累積ピッチ誤差
+
+検証のため、①減速機 1軸エンドプレー、②駆動モータ 軸振れのスペック選定品を用いて再現実験した結果、双方要因となることが判明した。
+暫定対策として、減速機 1軸エンドプレー規格上限値縮小(70μm←240μm)を進める。
+ただし、ワイブル分布上、劣化型である本現象の劣化要因が未解明であるため、劣化要因調査および恒久対策の必要性検討は継続する。
+
+
+
+{NML-CAR-19-00779}
+
+Countermeasure Effectiveness(%): 90%
+
+Countermeasure Details:
+
+対策内容
+
+減速機 1軸エンドプレー規格上限値縮小(70μm←240μm)
+
+
+
+
+First Aid Countermeasure
+
+-
+
+
+
+
+Temporary Countermeasure
+
+減速機 1軸エンドプレー規格上限値縮小(70μm←240μm)
+
+
+
+
+Permanent Countermeasure
+
+減速機 1軸エンドプレー規格上限値縮小(70μm←240μm)
+
+
+
+
+結論
+
+本現象は、発生ピッチ：駆動モータ回転1次、周波数：200-1200Hzの打音。発生メカニズムは、駆動トルクの0クロスによる、1軸(駆動モータ＋減速機)の自励振動によって励起される1軸回転1次のスラスト方向打音である。
+
+部品調査(駆動モータ/減速機)結果、いずれも規格値内だが、上記仮説に基づくFTAより、下記因子複合により現象が発生していると推定。
+
+①減速機 1軸エンドプレー、②駆動モータ スプライン歯溝振れ、③駆動モータ 軸スプライン累積ピッチ誤差
+
+
+
+
+検証のため、①、②選定品を用いて再現実験した結果、双方要因となることが判明した。
+
+暫定対策として、減速機 1軸エンドプレー規格上限値縮小(70μm←240μm)を手配済み：Design Note [T7C183]。
+
+また、本現象はワイブル分布上、劣化型を示しているが、これは駆動モーター側ベアリングの経時変化による減衰低下が、0トルク付近の駆動モーター・ローターの自励振動を誘発しているためである。
+
+そこで、劣化要件込みの暫定対策スペック公差上限品（ギヤボックス エンドプレー：70μm　＋ 試作モーター 歯溝振れ公差MAX相当：58μm)で評価した結果、OKレベル（評点3.0以上）を確保できることが確認できた。よって、暫定対策を恒久対策として採用する。
+
+
+
+
+ユニットシリアル
+
+32010 5WK0A（標準車）；2/4 ユニット出荷；号機 0201035～
+
+32010 5WK0B（ニスモ）；2/4 ユニット出荷；号機 0201234～
+
+Field Fix Recommendation:
+減速機交換"
+"対策
+[NML-CAR-19-00284]
+Viaエッチング装置の電極は、寿命が近付くとパーティクル発生要因になる為、電極の交換頻度を見直す。（対策前電極交換頻度1回/2000h→対策後1回/1350h 　実施時期2018/2/1）
+
+
+結論
+[JP-CAR-19-000076]
+＜判断＞
+中間報告とする。
+＜結論＞
+1次調査の結果、アナログ出力画に於いてのみ画異常が確認された為、IC702（CMOS)の単体の不具合と考えられる
+IC702（CMOS) ）部品メーカー解析結果、映像、消費電流、RAWデータ画像に不具合が有る事を確認した。
+今後更なる色異常の発生要因を解析する為、今回は中間報告とする。
+
+＜CC0追記＞
+CAR002を発行し、最終報告を刈り取る。
+
+[NML-CAR-19-00284]
+＜判断＞
+部品不良と判断する。
+＜結論＞
+IC702（CMOS) ）部品メーカー解析結果、映像、消費電流、RAWデータ画像に不具合が有る事を確認した。
+アナログ回路のレジスターインターフェイス回路に異常が有ると判断し、剥離解析実施した結果、Metal1層のViaの欠損を確認しました。
+対策として下記を実施しました。
+
+＜CC0追記＞　対策後の市場状況をモニターします。"
+"{NML-PIR-20-01403}
+暫定
+　　スマート展開により、DTC過去記録で交換しないように通知（7/14 B200713001 発行済）
+
+恒久
+　　レーダのソフトウェア変更（同一IGN ON中に3回初期化発生時のみ、DTCを残す）"
+"{NML-CAR-20-00644}
+ソフト対策：画像処理チップーDDRメモリ間の通信エラーの判定回数を変更（3回の連続IGNサイクルで判定）
+ハード対策：C3端子接続の校正用抵抗削除により、端子はんだ剥離による影響を受けない構成に回路を変更"
+"{NML-CAR-20-00644}
+ソフト対策：画像処理チップーDDRメモリ間の通信エラーの判定回数を変更（3回の連続IGNサイクルで判定）
+ハード対策：C3端子接続の校正用抵抗削除により、端子はんだ剥離による影響を受けない構成に回路を変更"
+
+
+"{NML-CAR-22-00528}
+処置：SWでの対策
+　本対応により、カメラ表示で青×が表示されるタイミングはカメラ映像固着(2s以上同じ映像)時のみとなった。"
+"{NML-PIR-22-00505}
+
+・ランダムファブデフェクトの継続的改善活動(CIP)として、Siウェーハのダイシング後検査に自動処理を導入
+
+　　（手動でSiウェーハに接触する可能性を低減/ 導入時期：2022年2月15日、有効性：従来比25%の改善）
+
+{NML-PIR-22-00852}
+
+ベルヌーイチャック工程　設定最適化（Z軸変位, クリアランス, 保護ダンパの設置, ストッパーの設置）の実施　　(対策完了予定日：2022年3月末)
+
+
+ベルヌーイチャック工程　設定最適化（Z軸変位, クリアランス, 保護ダンパの設置, ストッパーの設置）の実施　　(対策完了予定日：2022年3月末)"
+"{NML-CAR-22-00034}
+
+対策＜基板押し込み作業へのリスク低減処置＞
+
+下記のように、作業指示書に作業注意ポイントを明記して、作業者への再教育を実施する事で、リスク低減対策を実施。
+
+・作業指示書への注意ポイント追記済み2022/03/02
+
+・作業者への再教育実施済み2022/03/02"
+"{NML-PIR-22-01389}
+電線を樹脂でモールドする構造に変更し、メス端子に直接応力が掛からないようにする。"
+"{NML-PIR-22-01914}
+
+{NML-PIR-22-01913}
+
+造り込み要因
+
+乾燥設備の変更による乾燥能力の改善（IRヒータ⇒熱風強制ブロア）
+
+　　　　　　　（2020年5月22日～）
+
+乾燥性能に相関する設備条件管理の追加
+
+       （2021年5月1日） 
+
+{NML-PIR-22-01912}
+
+乾燥設備の変更による乾燥能力の改善（IRヒータ⇒熱風強制ブロア）
+
+　　　　　　　（2020年5月22日～）"
+"{NML-QRR-20-00076}
+
+/////////////////////////////////////////////////////////////////////////
+CC0追記
+本件はワンポイントレッスンにて再発防止まで完了している為、Q3=Q4と判断し、PROクローズとする。"
+"Temporary C/M
+SAKANOBORI, found NG 126/632 units
+ Issue method for Sakanobori and repair 25/6-3/7
+
+. Addition control setting height of Hood BMPR rubber at Mechanic line as trial for proper condition as 36 mm (LH), 37 mm (RH)
+
+Permanent C/M
+NTCSEA Evaluation new design gap condition between
+Hood-Grill, and Hood –H/Lamp  Plan 31-Jul’20
+
+'/////CC0追記/////
+原因が特定され、適切な対策がされている事より、OKと判断します。
+
+
+///////////////CC0追記　SMART発行せず////////////////////////////////////////////
+本件、工程改善、且つ修理方法は明らかなためSMART発行せず。"
+"{NML-PIR-20-01346}
+
+1．部品のマークを見えない位置にする方法及びWIの見直し
+2.　裏面に識別マークをするようQAとPDの作業者を再教育
+3．工程での流出防止のためQアラートを発行
+4．結果を他の部品にも展開する"
+{NML-CAR-20-00331}
+
+{NML-CAR-20-00333}
+{NML-CAR-20-00434}
+{NML-CAR-20-00468}
+{NML-CAR-20-00470}
+"{NML-QRR-20-00125}
+
+{NML-CAR-20-00506}"
+"{NML-QRR-20-00124}
+
+{NML-CAR-20-00504}"
+"{NML-QRR-20-00122}
+Q3 Action
+-Set limit sampling at NMT paint shop on 02-Jul’20
+Adoption date : 01-Aug'20
+ Adoption VIN : P15-009471 
+
+{NML-CAR-20-00590}
+Additional SASH TAPE setting position to make good appearance."
+"{NML-PIR-20-01811}
+SMに注意喚起と開度位置を追加する。（全車に適用）"
+
+"{NML-QRR-20-00114}
+
+現物の状況から物流請求が適正と判断し、L請求として処理することをCD0に依頼済み。
+輸送会社へP15の一回り点検強化を依頼し、流出対策を実施済み。
+
+
+(CC0記)
+原因は飛び石によるものであり、追浜工場出荷以降での物流工程でが発生したと判断する。しかしながら発生場所の特定が出来なかったが、車両輸送会社へ注意喚起を実施しており、本対策で流出防止がされていると判断され、今後の市場情報を注視する、"
+
+"{NML-QRR-20-00113}
+
+{NML-CAR-20-00579}"
+{NML-PIR-20-01763}
+"{NML-PIR-20-01820}
+NMTのQ3アクションとして、
+■NMT-PQAまたはサプライヤーで、ラジエーターの上部カバーのマークを消去
+■NMT-VQAは、NMTにある車両のラジエータートップカバーのマークを消去
+採用日：20/3/25
+採用号機：Vin P15-001931~
+
+Q4アクションとして、ラジエータートップカバーのマークの位置を前面から背面に変更
+採用日：20/8/12
+採用号機：Vin P15-011094~"
+"{NML-QRR-20-00108}
+
+{NML-CAR-20-00554}"
+"{NML-QRR-20-00107}
+【流出防止対策】
+ﾜﾝﾎﾟｲﾝﾄを作成し注意喚起実施。
+「ﾄﾞｱｹｰｼﾝｸﾞを脱着するﾘﾍﾟｱ実施時は、必ずﾌﾟﾙﾊﾝﾄﾞﾙｷｬｯﾌﾟの組付けと、組付け後の跡見確認をする事」
+2020/7/22"
+"{NML-QRR-20-00106}
+///////////////////////////////////////////////////////////////////////////////////////
+CC0追記
+ワンポイントレッスンを作成したことを確認できたのでQ3＝Q4と判断します。"
+"Q4 Action: Permanence countermeasure
+-Addition job allocation  on 18-Jun’20
+-Revise SOS to usage guide check 3 mm to confirm gap between splash guard
+ on 21-Jun’20"
+"{NML-QRR-20-00104}
+
+{NML-CAR-20-00589}
+There is no process to check the Butyl rubber"
+"{NML-QRR-20-00103}
+
+{NML-PIR-20-02247}
+冷却水リザーバータンクにマークすることを廃止する。
+冷却水リザーバータンクにチェックマークをすることの廃止についてSOSを改訂した。
+採用号機：Vin No.P15-019547~
+採用日：2020/10/1~"
+"{NML-QRR-20-00102}
+ストックヤードの車両を遡り点検実施済。
+CC0追記
+ストックヤードの車両を遡り点検実施済及び生き物が入り混んだ不具合でレアケースと判断、 Q3=Q4と判断します。"
+"{NML-CAR-20-00404}
+1.限度見本設定(2020/7/20)
+2.ゲージ切断方法の見直し
+3.標準作業書改定
+4.Ｑポイント追加
+1.限度見本設定(2020/7/20)
+2.ゲージ切断方法の見直し
+3.標準作業書改定
+4.Ｑポイント追加
+
+1.限度見本設定(2020/7/20)
+2.ゲージ切断方法の見直し
+3.標準作業書改定
+4.Ｑポイント追加
+
+1.限度見本設定(2020/7/20)
+2.ゲージ切断方法の見直し
+3.標準作業書改定
+4.Ｑポイント追加"
+"{NML-QRR-20-00099}
+添付 連絡票を作成 当該納整内へ展開し再防止のための教育実施済"
+"{NML-PIR-20-02149}
+1) Station20: AC Pipe Assembly
+作業者はキャップを外したらすぐにACパイプを組付け、チューブにキャップ確認の印を付ける
+
+2）手袋の種類　□　ナイロンポリウレタンの手袋を使用し、1日に2回交換することをSOSで規定
+
+3)　冷媒の充填　□　　製造は自動機を使用します。システムで漏れが発生すると、タワーランプが赤色のライトで警告します。作業者はチェックシートにACガスの量を記録します。
+
+カットオフ：P15-090631　2020/6/29～"
+"{NML-QRR-20-00098}
+【流出防止】
+ﾜﾝﾎﾟｲﾝﾄを作成し、ﾌｰﾄﾞﾌﾟﾚｽﾗｲﾝ検出時は腰を落とし十分な光を取り込むことを指導、注意喚起実施。
+2020/7/15~
+/////////////////////////////////////////////////////////////////////////
+CC0追記
+本件、Q3対応にて再発防止まで完了している為、Q3=Q4と判断し、PROクローズとする。"
+"{NML-CAR-20-00415}
+1.INRスライドとOTRスライド/レッグに不織布を追加。(Z3D276)
+2.INRスライドカバーとOTRレッグカバーを追加。 (TYE120)
+ 3.INRとOTRのスライドレールを33mmカット。 (TUL744)"
+"{NML-QRR-20-00083}
+-パーツ仕分けOK 816/816個確認済。
+-PQAプロセスの確認　(2020年7月3日）
+-NMT在庫での受け入れ100％検査活動（6ヶ月延長）
+
+- Parts sorting OK 816/816 Pcs.
+- PQA Process confirmation 3-Jul-20
+- Shokiyodo activity 100% receiving inspection at NMT stock (extend 6 month)
+{NML-CAR-20-00634}"
+"{NML-QRR-20-00082}
+【流出防止対策】
+・ﾘﾍﾟｱが発生した車両は掃除機を使用してﾌﾛｱﾏｯﾄを清掃する。
+・ﾌﾛｱﾏｯﾄｶﾊﾞｰが破れている場合は新品に交換する。
+・完成品車両運搬が発生した場合は運搬者にﾜﾝﾎﾟｲﾝﾄで注意喚起する。（ﾜﾝﾎﾟｲﾝﾄ作成）2020/7/6
+
+【CC0追記】
+本件、QRRにて7/6より完成品車両運搬（再検戻し等）の際、運搬者に対して注意喚起による再発防止まで完了している為、Q3=Q4と判断し、PROクローズする。"
+"{NML-QRR-20-00079}
+【発生源・流出防止対策】
+・完成品車両運搬の可能性があるT21・T31・T46にﾜﾝﾎﾟｲﾝﾄを作成し展開。2020/7/4～
+・再検等で車両運搬が発生した際は、T46がｾﾝﾀｰとなり搬送対象者にﾜﾝﾎﾟｲﾝﾄで注意喚起する。
+
+
+
+{NML-QRR-20-00100}"
+"{NML-QRR-20-00078}
+【流出防止対策】
+ﾌﾛﾝﾄｶﾞﾗｽｳｨﾝﾄﾞｳ傷修正を実施した場合は、FIN手直し履歴ﾁｪｯｸ兼F/Bｼｰﾄに修正内容を記入して、修正後はT31が後見確認を実施する。2020/7/14
+
+【CC0追記】
+本件、QRRにて7/14より修正が発生した場合の再発防止まで完了している為、Q3=Q4と判断し、PROクローズする。"
+"{NML-PIR-20-01494}
+VHBテープの面積縮小し、はみ出しを無くした。（更に赤色フィルムを無くし、透明のVHBテープのみとした。片側のグリスを廃止し、両側VHBテープ仕様に変更。)
+ [1594794758106.png]"
+"{NML-QRR-20-00077}
+
+{NML-PIR-20-01622}
+①インフレーターコネクタ部保持テープ追加　　　：7/16以降完検開始車両以降採用
+②インフレーターコネクター向き変更、ハーネス位置規制テープ追加：　　9/22　NMT採用
+③コンタミ防止インフレータ荷姿改善　　　　：　10/1　NMT採用"
+"{NMT-CAR-20-00068}
+1.Announce rule “Stop Call Wait” by Agm
+2. Improve start up process to
+check box before assembly. Box must have full bolt or nut before start assembly.
+
+
+3. Add check mark at beside of back view camera to confirm bolt was tighten. (SOS revised)
+
+
+
+{NMT-QRR-20-00029}
+-ad point check at MC line by push the RR Camera for confirm screw missing
+-Training Inspector follow one point lesson (27-Aug’20)
+Adoption VIN: MNTFEAP15Z0002562"
+{NML-QRR-20-00158}
+"• Measure the thickness of foam plate at incoming inspection, measureing 5 points of each piece. See annex 1.
+• Increase the frequency of foam ring sampling, from 5pcs each batch to 5pcs each package. See annex 2.
+• Check foam ring supplier regularly, monthly confirm the progress and mantainance of countermeasures; Annex 3"
+"{NML-PIR-20-02261}
+FINアウターリブのシボを廃止。"
+{NML-CAR-20-00597}
+"{NML-QRR-20-00150}
+
+{NML-CAR-20-00640}"
+"{NML-QRR-20-00149}
+
+{NML-CAR-20-00751}"
+
+"Q3 Action:
+1.  Hood Setting Jig adjustment for Gap balance to centering Y:-1.0mm,
+   Adoption: 18-Aug’20 [P15-012368]
+2.  Addition control setting height of Hood BMPR rubber at Mechanic line as trial for proper condition as 36 mm (LH), 37 mm (RH)
+   Adoption: 26-Jul’20 [P15-004549]
+Q4 C/M by
+1.  Improve Hood accuracy at HEM#6 R1301 Adoption: 19-Aug’20 [P15-012597]
+2. Add Go no GO gauge for Hood rubber height checking. Adoption: 26-Jul’20 [P15-004549]
+'/////CC0追記/////
+原因が特定され、適切な対策がされている事より、OKと判断します。
+
+///////////////CC0追記　SMART発行せず////////////////////////////////////////////
+本件、傾向性なく、市場での修正方法も明らかなため市場案内はせず。"
+"{NML-QRR-20-00147}
+
+{NML-CAR-20-00587}
+Q4 action : Increase hardness of drain hose (refer to V-pf spec)"
+"{NML-QRR-20-00146}
+
+今後はイレギュラー時は木々の側には置かない、一列空けるように対応する。"
+{NML-CAR-20-00488}
+"{NML-QRR-20-00144}
+
+{NML-CAR-20-00631}
+PGF貼り付け時に、外周部を2度押し付けることで車両移動時に剥がれないようにする。"
+{NML-CAR-20-00635}
+
+{NML-CAR-20-00493}
+"{NMT-CAR-20-00056}
+Body shop : Reduce Hood OTR Flange from 5 mm to 2.7 mm by handwork before Hemming process
+Paint shop : Use Jig for prevent flow paint to the angle of Hood when robot painting"
+"{NMAP-QRR-20-00006}
+trainning operator follow NEM KC2-20059(Operation standard for the Mileage Management in Delivery of the Production Vehicle)
+(20-Aug'20)
+
+Implementation
+Record of vehicles of which travel distance exceeded the threshold value 
+Implementation contents Vehicle production plant quality assurance dept. shall record the odometer value of the vehicle which exceeds the threshold value. Threshold value is 40 kms or 25 miles. However, vehicle production plant may set new threshold value if more strict control is needed. 
+In the case where multiple inspections are implemented by more than one vehicle production plant, both of the odometer values after the transaction of inspection OK or the following evaluation such as AVES audit at each production plant shall be recorded. 
+{NMAP-CAR-20-00029}
+Record mileage in check sheet if conduct sakanobori by moving vehicle for vehicle which already passed Final-OK."
+"{NMT-CAR-20-00055}
+1.Limit sample setting 10-Jul-20
+2.Review gate cutting method
+3.Revise WI and final Inspection document
+4.Add Q-Point"
+"{NML-QRR-20-00134}
+
+{NML-CAR-20-00476}"
+"{NML-QRR-20-00132}
+
+{NML-CAR-20-00533}"
+{NML-QRR-20-00131}
+{NML-PIR-20-01819}
+"{NML-QRR-20-00154}
+塗料を使用したﾘﾍﾟｱを実施した際は、塗料垂れや塗料飛びの恐れがあるので、完了後はﾘﾍﾟｱ箇所周辺も確認すること。
+ﾜﾝﾎﾟｲﾝﾄを作成し、注意喚起実施。
+2020.8.31
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+CC0追記
+ワンポイントレッスンを作成し、不具合内容と注意ポイントを作業員全員に指導、教育したことでQ3=Q4と判断する。"
+
+
+"{NML-QRR-20-00270}
+
+{NML-CAR-20-00696}"
+"{NML-CAR-20-00581}
+
+1) HOOD process sealing adjust diameter 12mm to 10mm At Roller Hem#6 Robot R101 Start adoption on 24 Aug’20 [Control key:451013607]
+
+2). Change sealing no (Supplier) Current 2231T (NMS-20) New A23TN (NMS-20) on26 Aug’20 time:12.00 [Control key:451013607]"
+
+{NML-CAR-20-00613}
+"{NML-CAR-20-00555}
+
+{NML-CAR-20-00656}
+
+<初号車>
+
+　① 外した部品の左右差、上下差を認識する必要があるものをDOP確認会で部品の脱着時に確認する。
+
+②SCでの新車DOP教育時に、左右差、上下差を認識する必要がある部品について展開する。
+
+<日常オペレーション>
+
+　(作りこみ)　2020/9/末
+
+　① 取り外したサンバーザーの右は右側に、左は左側に区別しておくことを徹底する。
+
+　② サンバイザー取り付け時は、袋をめくり、コーションラベルは運転席側に「運転に関する注意事項」、助手席側に
+
+  「AIRBAGの注意事項」が記載されたコーションラベルがあることを確認して取り付けることを標準作業とする。
+
+(流出防止)　2020/9/末
+
+ ① 完成検査にサンバーザーの点検を追加する。
+
+
+<初号車>
+
+　① 外した部品の左右差、上下差を認識する必要があるものをDOP確認会で部品の脱着時に確認する。
+
+②SCでの新車DOP教育時に、左右差、上下差を認識する必要がある部品について展開する。
+
+<日常オペレーション>
+
+　(作りこみ)　2020/9/末
+
+　① 取り外したサンバーザーの右は右側に、左は左側に区別しておくことを徹底する。
+
+　② サンバイザー取り付け時は、袋をめくり、コーションラベルは運転席側に「運転に関する注意事項」、助手席側に
+
+  「AIRBAGの注意事項」が記載されたコーションラベルがあることを確認して取り付けることを標準作業とする。
+
+(流出防止)　2020/9/末
+
+ ① 完成検査にサンバーザーの点検を追加する。"
+{NML-PIR-20-02881}
+{NML-PIR-20-02505}
+"{NMT-QRR-20-00031}
+1.Add one point MC-line,COG for prevention out flow(Normally VQA have checking process for Door trim appearance at MC-line , COG )
+Adoption date : 24-Sep’20
+Adoption VIN : #MNTFEAP15Z0003541
+2. Add one point at TC shop for confirm appearance of Door trim before assembly and inspect after finish Door trim assembly process
+Adoption date: 24-Sep’20
+Adoption Trim : P15-018520
+3.VQA monitoring this issue by MC line DPHU
+
+
+
+{NMT-CAR-20-00084}
+1.Check door fin during assembly must not have a gap between door trim and confirm clip position is normal for confirm door panel is complete assembly
+2.Confirm top of the door trim not dent or bending
+3.Add shokiryodo check for confirm door trim complete assembly (200%)by refer same point before send to assembly with vehicle
+Adoption date : 19-Nov"
+{NML-CAR-20-00566}
+
+{NML-CAR-20-00636}
+{NML-CAR-20-00564}
+"{NML-QRR-20-00172}
+
+{NML-CAR-20-00632}"
+"Die modification
+1.Notch 1.0mm
+2.Hole move 1.0mm
+3.Hole move RH :0.9mm,LH:1.1mm
+4.Hole move RH 0.5mm,LH 1.0mm"
+
+"{NML-QRR-20-00169}
+
+{NML-CAR-20-00646}"
+"{NML-QRR-20-00167}
+
+{NML-CAR-20-00710}"
+"{NMT-CAR-20-00070}
+Q4
+-Metal line added weight balance 10 kg. while adjust FR END at Metal line on 13-Jul-20
+-Metal line adjust Gap FR FDR in nominal data.
+-Re-training how to recording the repair history check sheet."
+"{NML-QRR-20-00166}
+ﾘﾍﾟｱ等でﾘﾔｺﾝﾋﾞﾗﾝﾌﾟを取り付ける際はｸﾘｯﾌﾟとｸﾘｯﾌﾟ穴の位置を確認して破損に注意すること。
+ﾜﾝﾎﾟｲﾝﾄを作成し、注意喚起実施。2020.9.7～"
+"{NML-QRR-20-00186}
+ﾜﾝﾎﾟｲﾝﾄを作成し、作業者に注意喚起実施。2020/10/5
+{NML-QRR-20-00182}
+
+{NML-CAR-20-00753}"
+{NML-CAR-20-00563}
+{NML-CAR-20-00505}
+"{NML-QRR-20-00160}
+＜流出防止/暫定対策内容＞
+ﾊﾞｯｸﾄﾞｱﾘｸｴｽﾄｽｲｯﾁの目視による外観ﾁｪｯｸを追加。
+標準作業書（編成版）に追記改訂　　2020.9.1
+{NML-QRR-20-00170}"
+{NML-QRR-20-00222}
+
+"{NML-PIR-20-02668}
+#1 Add black tape [TYG847]
+#2 Add white Tape [TYP738]
+#3 Inflator packaging modified"
+"{NML-QRR-20-00226}
+
+【CC0判断】
+Q3=Q4でクローズします。"
+"{NML-QRR-20-00225}
+当該部位の重点ﾁｪｯｸ開始
+ﾜﾝﾎﾟｲﾝﾄを作成し、ﾍｯﾄﾞﾗｲﾄ傷確認の注意喚起実施。
+2020/10/29
+{NML-QRR-20-00219}"
+"{NML-QRR-20-00218}
+
+{NML-QRR-20-00242}
+ﾜﾝﾎﾟｲﾝﾄを作成し、作業者に注意喚起実施・重点ﾁｪｯｸ実施。
+2020/11/13
+
+//////////////////////////////////////////////////////////////////////////////////
+CC0追記
+
+外的要因の可能性も有り、部品回収も出来ないことから原因不明だがワンポイントレッスンにて作業者に教育実施したことでQ3=Q4と判断する。"
+"{NMT-CAR-20-00078}
+
+Change Software form ( Ver. 171 To 180 ) Ver.180 is countermeasure software for this issue"
+"{NMT-QRR-20-00037}
+1.Added Item check and training inspector at general check (1-Oct’20)
+Adoption VIN : MNTFEAP15Z0003772
+2. Monitor tracking for confirm this concern not outflow from NMT until Dec’20
+
+
+
+{NMT-CAR-21-00025}
+Change CAP PULL HANDLE type from Urethane PAD to Plastic CAP same as RR DOOR"
+{NML-QRR-20-00216}
+
+{NML-QRR-20-00215}
+"{NML-QRR-20-00214}
+add point check at COG
+adoption VIN : P15-025540
+(5-Nov'20) 
+(CC0 記）
+全数チェック実施後の今後の状況を注視する。Q3=Q4としてクロースします。
+
+対策効果率(1-100)%"
+{NML-QRR-20-00213}
+"{NML-QRR-21-00019}
+
+{NML-CAR-21-00109}"
+"{NML-QRR-20-00208}
+
+{NML-PIR-21-00340}"
+"{NML-QRR-20-00207}
+
+{NML-CAR-21-00080}"
+"{NML-QRR-20-00244}
+
+{NML-CAR-20-00743}"
+
+"{NML-QRR-20-00206}
+
+{NML-PIR-20-02523}"
+"{NML-PIR-20-02488}
+暫定対策：サプライヤにて3.83mm以上のものを選別して出荷する(ライン採用2020/11/4 VIN: P15-025563～)
+恒久対策：①ブラケット取付部位の2°の傾斜　②エンボス部位のA級公差（±0.08）を織り込む
+暫定対策：サプライヤにて3.83mm以上のものを選別して出荷する(ライン採用2020/11/4 VIN: P15-025563～)
+恒久対策：①ブラケット取付部位の2°の傾斜　②エンボス部位のA級公差（±0.08）を織り込む"
+{NML-CAR-20-00627}
+
+{NML-CAR-20-00629}
+"{NML-PIR-20-02574}
+（Spacer平行度改善：サプライヤでの全数検査（11月16日~）)
+Spacer平行度工程能力の改善：両面加工の図面指示追加（12月15日~サプライヤー工程切り替え実施）。
+
+
+{NML-CAR-20-00729}"
+"{NML-QRR-20-00203}
+
+{NML-QRR-20-00241}
+ﾜﾝﾎﾟｲﾝﾄを作成し、作業者に注意喚起実施・重点ﾁｪｯｸ実施。
+2020年11月13日
+////////////////////////////////////////////////// //////////////////////////////////
+CC0追記
+推定要因での対策となるためワンポイントレッスンの作成、注意喚起、重点チェックにてQ3=Q4と判断する。
+{NML-CAR-20-00713}"
+"{NML-QRR-20-00212}
+当該部位の重点ﾁｪｯｸ開始
+ﾜﾝﾎﾟｲﾝﾄを作成し、Aﾋﾟﾗｰの異物付着の注意喚起実施。
+2020.10.26
+{NML-QRR-20-00202}
+
+(CC0記)
+
+現時点、現品回収できていないため、詳細原因調査はできませんでしたので、Q3=Q4にてOKと判断、今後発生時は現品回収調査を実施する。"
+"{NML-QRR-20-00211}
+当該部位の重点ﾁｪｯｸ開始
+ﾜﾝﾎﾟｲﾝﾄを作成し、ﾘﾔﾊﾞﾝﾊﾟｰ取付けﾎﾞﾙﾄ周辺ｷｽﾞの注意喚起実施。
+2020.10.26
+{NML-QRR-20-00201}
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////
+CC0追記
+調査した結果、ﾘﾔﾊﾞﾝﾊﾟｰ取付けﾎﾞﾙﾄ周辺ｷｽﾞの原因は不明だがワンポイントレッスンを作成し
+作業者全員に今回の市場指摘の情報と注意喚起を行ったことでQ3=Q4と判断する。"
+"{NMT-QRR-20-00036}
+100% check headlamp in tester line refer specification check (3-Oct’20)
+ Adoption VIN : MNTFEAP15Z0003880
+
+
+
+{NMT-CAR-20-00093}
+Packaging change by reduce quantity of harness stack in the packaging, The inner packing has been changed. Reduce from 10 pcs/plastic bag to 5 pcs/plastic bag"
+"{NMT-QRR-20-00035}
+Revised SOS running check by add vertical line on IRVM display check (8-Oct’20)
+Adoption VIN :MNTFEAP15Z0004015
+
+
+
+{NMT-CAR-20-00091}
+Added Maintenance frequency to cleaning washing process 
+*Checking of production Engineer (Within 1 week after glass crack)
+*When the production is stopped for a short time such as switching, the necessity of maintenance is judged after checking of washing.
+*Checking of foreign material condition. (two weeks)
+*If not, do maintenance again."
+"{NMT-QRR-20-00034}
+From our serial No., it is a product produced at the same time as the last occurrence (R60-2003-HC005), and as a temporary outflow
+countermeasure, we are confirming that all the images have been output at our product warehouse.
+
+
+{NMT-CAR-20-00076}
+Countermeasure for occurrence:
+In order to prevent the insulation layer from bulging, the SUS plate is changed to 3 sheets to prevent the insulation layer from bulging.
+It has been implemented since 21st Aug 2019 (process improvements have been implemented to prevent voids).
+
+Countermeasure for occurrence and outflow
+1. Electrical characteristic inspection defective product is analyzed and voids are confirmed Lot disposal
+2. Review of resistance criteria for electrical characteristics inspection <standard value +50% → <standard value +30%"
+"• Improve the mold and adjust process parameter.
+• Make defect warning card and update inspection instruction."
+"{NMT-QRR-20-00033}
+Q3: PQA addition non-woven 5x10xt1.0 mm. (VAE support material for temporary) Refer Limited D/Note: TZ3472
+Q3: PQA addition non-woven 5x10xt1.0 mm. (VAE support material for temporary) Refer Limited D/Note: TZ3472
+
+{NMT-QRR-20-00051}
+
+- Design decide new part no. P02F END CAP RH/LH ADD NON WOVEN FOR C/M SQUEAK NOISE CONCERN"
+
+"{NML-QRR-20-00196}
+当該部位の重点ﾁｪｯｸ開始
+ﾜﾝﾎﾟｲﾝﾄを作成し、作業者に展開
+2020.10.14
+{NML-QRR-20-00188}"
+{NML-CAR-20-00588}
+
+
+{NML-PIR-20-02214}
+
+
+"{NML-QRR-20-00263}
+
+{NML-CAR-20-00721}"
+
+"{NML-QRR-20-00259}
+
+{NML-PIR-20-02869}"
+"{NML-QRR-20-00258}
+
+{NML-CAR-20-00742}"
+{NML-CAR-20-00679}
+{NML-QRR-20-00256}
+"1.Revise SOS to cut PGF method
+2.Retraining operator.
+Start : P15-025807"
+"{NMT-QRR-20-00050}
+addition one point lesson
+adoption :MNTFEAP15Z0004562
+4-Nov'20
+{NMT-CAR-20-00090}
+Z2T910: Add Grease Height control to be < 1 mm at this rotating point just to secure more clearance with DOOR GLASS
+Z2T910: Add Grease Height control to be < 1 mm at this rotating point just to secure more clearance with DOOR GLASS"
+"{NMT-QRR-20-00049}
+Part Sorting OK 148/148 pcs."
+
+
+"{NML-CAR-20-00688}
+ウインターブレードのクリップベース形状を変更し、ワイパーアームのリブとの干渉を解消する。
+対策は以下の通り暫定対策と恒久対策の2通りで実施する。
+【暫定対策】
+　-ブレードのクリップホルダーの干渉範囲を削る(ディーラーによる緊急対応)
+　　　①ステンレス製のクリップホルダーをグラインダーで削る
+　　　②黒色タッチアップペイントで切削部を塗る
+　-ブレードクリップホルダーをレーザーカットにて成型し、サプライヤの市光でブレードに組み替える(在庫対応 2,100本)
+【恒久対策】
+　-クリップホルダーのブランク型を修正し形状変更を行う
+なお、ウインターブレードはディーラOPT部品のため、工場採用部品に影響なし
+ [1607912595192.png]"
+
+"{NML-QRR-20-00251}
+
+{NML-QRR-20-00276}
+＜流出防止/暫定対策内容＞　
+ﾜﾝﾎﾟｲﾝﾄを作成し、注意喚起・重点ﾁｪｯｸ実施。
+2020.12.9～"
+"{NML-QRR-20-00261}
+ﾜﾝﾎﾟｲﾝﾄを作成し、重点ﾁｪｯｸ実施。
+2020.11.24
+{NML-QRR-20-00250}
+
+{NML-PIR-21-00399}"
+"{NML-QRR-20-00249}
+
+{NML-CAR-20-00678}"
+{NML-PIR-20-02521}
+"{NML-QRR-20-00245}
+addition Vacuum cleaning process before deliver
+
+(CC0 記）
+蟻浸入経路不明であるため、出荷前のバキュームクリーニングで、今後の状況を注視する。Q3=Q4としてクロースします。"
+
+{NML-QRR-20-00240}
+{NML-QRR-20-00239}
+{NML-QRR-20-00238}
+"{NML-QRR-20-00237}
+
+{NML-CAR-20-00747}"
+"Q4
+1.Add blue check mark after finish connecting (100%)
+2.Addition 200% check by touching a Plug must be tight and confirm by white mark plug Station T-06
+adoption: P15-025738(5-Nov)
+Q5.
+Standard Operation sheet has been updated to add above operation. UPdated on 2020-Nov-5th.
+
+
+CC0　コメント
+NML-QRR-20-00232 にてQ4、Q5実施済みであり、CARの発行は不要と判断する。"
+"{NML-PIR-20-02645}
+
+#1 Add black tape [TYG847]
+#2 Add white Tape [TYP738]
+#3 Inflator packaging modified
+
+{NML-PIR-20-02656}
+#1 Add black tape [TYG847]
+#2 Add white Tape [TYP738]
+#3 Inflator packaging modified
+
+
+{NML-PIR-20-02655}
+
+#1 Add black tape [TYG847]
+#2 Add white Tape [TYP738]
+#3 Inflator packaging modified"
+"To prevent the risk of contamination concern. NPT take C/M by reduce some operation.
+1) Cancel reuse cap of VTC solenoid.
+2) VTC solenoid supply by direct side line. (Change from kitting process)."
+{NML-PIR-20-02634}
+{NML-QRR-20-00230-
+"{NMT-QRR-20-00044}
+addition one point lesson (20-Oct'20)
+MNTFEAP15Z0004311"
+"{NMT-QRR-20-00043}
+set limit sample at the process sealing
+adoption 451032332 สี XDN (09-Dec'20)
+
+
+{NMT-QRR-20-00055}
+set OK/NG sample at sealing station
+set OK/NG sample at sealing station
+
+{NMT-CAR-20-00092}
+1.Operator use rubber wipe out the seal
+2.addition check at check man
+Adoption :
+ 451032332 color XDN"
+"{NMT-QRR-20-00042}
+addition item check at general check
+(20-Oct'20)
+ [1607050095374.png] 
+
+{NMT-PIR-22-00095}
+Nihon-plast (Tier-2): Added green marking on spring position to confirm spring assembly with correct position."
+"{NML-QRR-20-00223}
+
+{NML-CAR-20-00698}"
+{NML-QRR-20-00224}
+"{NMT-QRR-20-00041}
+[Q3] Part Sorting by visual check result OK 45/45 pcs.
+[Q3] Part Sorting by visual check result OK 45/45 pcs.
+
+{NMT-CAR-20-00085}
+1.Revise internal wrapping STD to increase over lap by change tape wrapping from 3 turn to 2 turn
+2.Revise WI wrapping method
+3.Training to operator
+
+Cut off VIN No.: P15-028198 
+
+Date: 22-Nov-20"
+"{NMT-QRR-20-00040}
+Add Q-Gauge 100% check NMT stock before supply to Production line
+Add Q-Gauge 100% check NMT stock before supply to Production line"
+"{NML-QRR-20-00297}
+
+{NML-CAR-21-00097}"
+"{NML-QRR-21-00045}
+ﾜﾝﾎﾟｲﾝﾄを作成し、重点ﾁｪｯｸ実施 2021/1/14"
+"{NML-QRR-21-00039}
+ﾜﾝﾎﾟｲﾝﾄを作成し、磨き粉残り確認の注意喚起実施。2021/1/14
+////////////////////////////////////////////////////////////////////////////
+CC0追記
+ワンポイントレッスンを作成し、磨き粉残りの確認方法の展開、注意喚起実施によりQ3=Q4と判断する。"
+"{NML-QRR-21-00001}
+暫定対策
+治具を当て傾きがないことを確認する。
+標準作業書（編成版）に追記 2020/12/21
+{NML-QRR-20-00296}
+
+{NML-CAR-21-00077}"
+"{NML-QRR-20-00295}
+
+{NML-QRR-21-00058}
+
+{NML-CAR-21-00036}"
+{NML-CAR-20-00754}
+{NML-CAR-20-00745}
+{NML-PIR-21-00085}
+"{NML-QRR-20-00290}
+
+【CC0追記】
+Q3対応にて、対策及び再防まで完了している為、Q3=Q4と判断し、PROクローズする。"
+"{NMT-QRR-20-00058}
+addition one point lesson in MC line
+{NMT-CAR-20-00094}
+-re training operator following SOS and confirm after assembly ,complete lock , flushness
+-announce operator for assembly sequence and addition one point lesson for this defect
+-FM job observation 2 time/shift
+Adoption 17-Dec’20
+ for THI MARKET on 25-Dec'20"
+"{NML-PIR-20-02825}
+以下仕様に変更したソフトウェアをECUに織り込む
+・データ消去完了するまでECU OFFしない仕様に変更する。
+・不完全なデータが残っている場合は、必ずデータ消去を実施するようにする。
+
+【CQ0追記】
+サプライヤ調査結果、ECU Flashのデータ消去不良により不完全なデータが残り、不完全なデータでENG ON時にアクチュエーションするためにブレーキ引きずりが発生したと判断する。不完全なデータが発生しないようソフト仕様変更する。"
+
+
+"{NML-QRR-20-00289}
+
+{NML-PIR-21-00248}"
+{NML-PIR-20-02799}
+"{NMT-QRR-20-00057}
+Seal eliminated for water leak CM refer D/note. Z3G524"
+"{NMT-QRR-20-00056}
+[Q3]
+Part sorting by parallelism 100% check
+
+
+[Q4]
+
+•Issue D-Change(TZC180) for double side machining instruction (20th Dec~)
+
+•Permanent 100% inspection (Tier1&2)
+•Making maintenance WI and audit (Done) 
+{NMT-CAR-21-00005}
+• Issue D-Change(TZC180) for double side machining instruction (20th Dec~)
+• Making maintenance WI and audit (Done)"
+{NML-CAR-21-00019}
+{NML-CAR-20-00740}
+"{NML-QRR-20-00285}
+
+{NML-CAR-21-00038}"
+"{NML-PIR-20-02879}
+取付要領書の当該部分の作業手順を以下のように変更する。対策予定時期：～2/12 取付要領書校了予定
+(旧)　面ファスナーオス/メスをセットでドライブレコーダー本体に貼付け、その後、ドライブレコーダー本体ごとグローブBOX天面に押し付けて貼り付ける
+(新)　面ファスナーオス/メスをあらかじめ分離し、片側をグローブBOX天面に強く圧着し確実に貼り付ける。
+　　　その後の工程で、もう片方の面ファスナーを貼り付けたドライブレコーダー本体を、前工程でグローブBOX天面に貼り付け済みの面ファスナー部に取り付ける。
+　※(新)の手順に変更する事で、グローブBOX天面に貼り付けた面ファスナーの両面テープ圧着力が安定した後に本体を設置できる効果も見込める。"
+
+"{NMT-QRR-20-00054}
+Part sorting by visual check grease"
+{NML-QRR-20-00283}
+"{NML-QRR-20-00282}
+
+{NML-CAR-21-00037}"
+
+{NML-PIR-20-02750}
+"{NML-QRR-21-00008}
+暫定対策
+ﾜﾝﾎﾟｲﾝﾄを作成し、重点ﾁｪｯｸ実施
+2020/1/7
+{NML-CAR-21-00108}"
+"{NML-QRR-21-00007}
+暫定対策
+ﾜﾝﾎﾟｲﾝﾄを作成し、重点ﾁｪｯｸ実施
+2020/1/7
+{NML-QRR-21-00006}
+暫定対策
+ﾜﾝﾎﾟｲﾝﾄを作成し、重点ﾁｪｯｸ実施
+2020/1/7
+{NML-CAR-21-00129}
+
+{NML-CAR-21-00130}"
+"{NML-QRR-20-00291}
+ﾜﾝﾎﾟｲﾝﾄを作成し、注意喚起、重点ﾁｪｯｸ開始。
+不具合現品を作業者全員確認。
+2020/12/17
+{NML-QRR-20-00280}"
+{NML-CAR-20-00712}
+-
+"{NML-CAR-20-00748}
+・フロントバンパー組付け時にクリップが車体側の嵌合部に入っていることを確認し、組付ける。
+・フロントバンパー脱着後は左右のヘッドランプとフロントバンパーの隙差を目視で確認する。
+・管理項目一覧表に落とし込み、作業完了後に管理監督者による点検を実施する。
+・フロントバンパー脱着作業の作業観察を実施する。"
+{NML-PIR-20-02749}
+
+
+"{NML-QRR-20-00277}
+
+(CC0記）
+原因は、販社で汚れを気泡と誤認したものであり、クローズします。"
+{NML-CAR-20-00703}
+"{NML-QRR-21-00002}
+ﾜﾝﾎﾟｲﾝﾄを作成し、重点ﾁｪｯｸ実施。2020/12/21"
+"{NML-QRR-21-00003}
+暫定対策
+ﾜﾝﾎﾟｲﾝﾄを作成し、重点ﾁｪｯｸ実施。2020/12/21"
+"{NML-QRR-20-00274}
+
+{NML-CAR-21-00132}"
+"{NML-QRR-20-00273}
+
+{NML-CAR-21-00028}"
+
+{NML-CAR-20-00711}
+"{NML-QRR-20-00271}
+
+{NML-CAR-21-00099}"
+{NML-PIR-20-02711}
+{NML-PIR-20-02683}
+{NML-CAR-20-00697}
+"{NML-QRR-20-00266}
+
+{NML-CAR-20-00739}"
+{NML-CAR-20-00692}
+{NML-QRR-20-00268}
+"{NML-CAR-20-00717}
+・ドライブレコーダーユニットは車種により、ブラケット・両面テープ・マジックテープ等、仕様が異なるので取付要領書をよく確認の上で作業を実施する。
+・ドライブレコーダーユニットは車種により、ブラケット・両面テープ・マジックテープ等、仕様が異なるので取付要領書をよく確認の上で作業を実施する。"
+"{NML-CAR-20-00714}
+
+①　バックドアの開閉を繰り返し、切り粉を排出させる。(切り粉を排出方向へ寄せるのが目的なので大きく揺すり切り粉の排出状況を確認する）
+
+②　エアーを出しながら切り粉を排出方向へ誘導し、排出させる。 (まんべんなくエアーで排出方向へ吹き付ける）　
+
+③　①&②を切り粉が出なくなるまで繰り返す。 　
+
+④　防錆材をバックドア内に吹き付ける。 　 　
+
+⑤　バックドアの開閉を繰り返し、切り粉が無い事を確認する。   "
+"{NML-PIR-20-02650}
+
+If the returned parts have obvious appearance damage, Haila will carry out 100% inspection on the products during production to ensure the product quality.(PQA)"
+"1. Revise  SOS addition point check ROOF RACK
+2.Revise Job Allocation addition point check ROOF RACK before/after install
+3. set CHECK SHEET for record
+
+Start date : 30-09-2020
+Vin no. P15-019805"
+
+{NML-QRR-20-00264}
+
+"{NML-QRR-21-00046}
+
+{NML-PIR-21-00387}"
+
+{NML-PIR-21-00173}
+
+"{NML-CAR-21-00121}
+インストロアドライバーパネル取外時、上の爪を先に外し、下の爪を外す際にフィニッシャーを引っ張るが
+凹傷を防止する為に薄いヘラを差し込んで脱着する"
+{NML-CAR-21-00079}
+{NML-QRR-21-00040}
+"{NML-QRR-21-00041}
+
+{NML-PIR-21-00353}"
+{NML-QRR-21-00042}
+"{NML-PIR-21-00147}
+プロセスにおけるCu汚染の改善実施
+：E13およびP15バックアップ用のPP3Aセルに適用"
+"{NML-QRR-21-00030}
+
+{NML-CAR-21-00126}"
+"{NML-QRR-21-00031}
+
+{NML-CAR-21-00134}"
+"{NML-QRR-21-00032}
+
+{NML-CAR-21-00135}"
+{NML-QRR-21-00033}
+"{NML-QRR-21-00034}
+
+{NML-CAR-21-00136}"
+"{NML-QRR-21-00035}
+
+{NML-PIR-21-00400}"
+"{NML-PIR-21-00249}
+
+1.HPW process adjust
+
+2.Confirm GAUGE with adjusted parts correlation on 25-JUN-2020 by PUB at NMT.
+
+3. GAUGE modification from Jul-20. <Part stock built>
+
+Adoption Date: (27-Jul’20)
+
+[JPN] VIN No: P15-009265
+検具修正"
+
+{NML-PIR-21-00268}
+{NML-CAR-21-00091}
+
+
+"{NML-QRR-21-00028}
+架装作業者は確実にグリルを奥まで押し込み、グリルを引張ってクリップが掛かっていることを確認する。
+{NML-CAR-21-00131}
+架装作業者は確実にグリルを奥まで押し込み、グリルを引張ってクリップが掛かっていることを確認する。"
+"{NML-QRR-21-00027}
+{NML-CAR-21-00160}
+1.Addition sponge for absorb silicon after apply to reduce silicone amount"
+-
+"{NML-PIR-21-00227}
+On Process Covering is confirm 200%
+At champion line has item check at Monitor 100% check.
+And double check by Q-Gate 100%."
+{NML-PIR-21-00159}
+{NML-PIR-21-00145}
+"Create WI transfer inner panel B within 1 hour
+- Add label control for Tracking time between Injection and VM process"
+{NML-QRR-21-00021}
+"{NML-QRR-21-00022}
+
+{NML-PIR-21-00415}"
+{NML-QRR-21-00023}
+"{NML-QRR-21-00018}
+
+{NML-CAR-21-00133}"
+
+
+
+{NML-CAR-21-00011}
+{NML-CAR-21-00030}
+{NML-QRR-21-00011}
+{NML-QRR-21-00012}
+"{NML-QRR-21-00043}
+
+{NML-CAR-21-00142}"
+"{NML-QRR-21-00044}
+ﾜﾝﾎﾟｲﾝﾄを作成し、重点ﾁｪｯｸ実施 2021/1/14
+{NML-QRR-21-00005}"
+"{NML-QRR-21-00004}
+
+{NML-CAR-21-00029}"
+"{NML-QRR-21-00076}
+
+{NML-QRR-21-00079}
+ﾜﾝﾎﾟｲﾝﾄを作成し、重点ﾁｪｯｸ実施
+2021/2/25
+{NML-CAR-21-00162}"
+{NML-CAR-21-00145}
+
+{NML-CAR-21-00150}
+
+
+{NML-CAR-21-00127}
+{NML-CAR-21-00234}
+
+
+
+{NML-PIR-21-00473}
+{NML-MD-21-00003}
+{NML-PIR-21-00370}
+"{NML-CAR-21-00086}
+1.追加チェックポイントJOB PART CHECK 100％
+2.追加チェックポイントJOBサブアッシータイヤチェック200％
+3.SOS JOBの追加チェックポイント後のFMトレーニング
+4.FM JOBの観察 と 確認：2回/シフトを実施
+適用号車 VIN No. P15-035325
+採用日　24/12/2020
+
+NMT-ADR-21-00146　発行済み"
+
+
+{NML-PIR-21-00253}
+{NML-CAR-21-00115}
+
+{NML-PIR-21-00218}
+"C/M to use additional Jig for the striker position adjustment in order to keep robustness of the setting within proper position (±3mm) and avoid hard-to-close
+addition Go- no go gage to confirm B/Door rubber in STD"
+"{NML-QRR-21-00050}
+
+{NML-QRR-21-00060}
+
+{NML-CAR-21-00082}"
+{NML-QRR-21-00048}
+
+
+"{NMT-QRR-21-00015}
+part sorting and SAKANOBORI
+{NMT-PIR-21-00036}
+
+Establish STD change contact tip every 30 Pcs.
+
+Make criteria and instruction for leak or not leak
+
+Re-training operator"
+"{NML-PIR-21-00710}
+（1）USWプロセスにおけるCu汚染の改善を実施
+　　　PP3Aセルに適用されます。 ※E13、P15バックアップが対象。
+（2）4つの軸で異物削減活動を行います（セクション11-2を参照）。
+{NML-PIR-21-01652}"
+"{NMT-QRR-21-00013}
+-"
+
+"{NML-PIR-21-00670}
+We added new air blowing and suction equipment to remove the bull was fallen by vivelation. (22nd Jun.2020 implemented at HITACHI IGN coil
+produced)."
+{NML-PIR-21-00982}
+"C/M action:
+
+• Man:
+• Training the operators to make clear after welding process doesn’t have spatter on exhaust muffler surface refer with limit sample.
+• M/C: Jig Improvement the spatter cover
+• 1st version of the spatter cover on Feb-20
+• 2nd version on May-21.
+• Method
+• Add 100% cleaning and checking the spatterprocess in the control plan and WI implemented date in May 2021
+• Final process double check the appearance again after the welding finished with wiper some smut and spatter to clean up by manually again.
+スパッタカバーの改善と、リミットサンプルをベースにスパッタ除去を徹底するようにオペレーターへのトレーニングを行うことを対策として、本件クローズし、今後の市場発生率を注視することとする。(CC0記)"
+{NML-PIR-21-00765}
+"{NMT-CAR-21-00019}
+1). BKKT FR FDR RH improvement 1.0mm by NSL B/S adjust#10 BKKT FR FDR up
+2). Tower accuracy RH improvement (–1.0mm) by supplier adjust surface BKKT Tower down."
+"{NMT-CAR-21-00018}
+Revised SOS to confirm bracket should not oveafter tightening"
+"{NMT-QRR-21-00011}
+"
+
+
+"{NMT-CAR-21-00016}
+C/M to use additional Jig for the striker position adjustment in order to keep robustness of the setting within proper position (±3mm) and avoid hard-to-close
+addition Go- no go gage to confirm B/Door rubber in STD"
+
+"{NML-PIR-21-00903}
+無し"
+
+
+{NML-PIR-21-00936}
+{NML-PIR-21-00934}
+"{NML-PQR-21-00040}
+Cancel CONICITY marking on tire sidewall.
+タイヤサイドウォールのコニシティマーキングをキャンセルする。
+このマークはサプライヤのみで使用する識別であり、車両生産工場(NMT)では使用していない。
+よって、マークを消しても問題はない。"
+
+{NML-QRR-21-00109}
+"{NML-QRR-21-00108}
+ﾜﾝﾎﾟｲﾝﾄを作成し、手直し後の重点ﾁｪｯｸ実施
+2021/4/15"
+{NML-PIR-21-00806}
+{NML-PIR-21-00800}
+"{NMT-QRR-21-00019}
+Revised inspection check sheet by addition check operation of outer side mirror folding and adjust view normally by installer after installation complete."
+{NML-PIR-21-00797}
+{NML-PIR-21-00745}
+"{NMT-PIR-21-00025}
+In order to prevent the insulation layer from bulging, the SUS plate is changed to 3 sheets to prevent the insulation layer from
+bulging. It has been implemented since 21st Aug 2019 (process improvements have been implemented to prevent voids)."
+
+
+
+
+
+"{NML-QRR-21-00143}
+
+{NML-CAR-21-00542}"
+
+Incorrect tightening torque sequence risk to thermostat loosen from position that cause to rubber GSKT twist 
+
+
+"{NML-QRR-21-00137}
+組み立て前にチェックを追加 1.パイプにキャップが装着されていること。そうでない場合は、オペレーターは廃棄することとした。 2.Oリングの汚れを確認します。 【CC0追記】 QRRの内容で恒久対策となっていると判断し、今後の市場を様子見する。 また、原因特定が明らかであることより、市場修理案内は見送ります。CC0中川"
+
+
+{NML-CAR-21-00304}
+
+{NML-QRR-21-00123}
+"{NML-QRR-21-00122}
+
+{NML-CAR-21-00376}
+トランクルームの清掃に作業者は靴を脱いで布で拭く様に変更。
+ワンポイントレッスン実施。"
+
+
+
+
+"{NMT-CAR-21-00032}
+AMPL software update : E-comp cut-off logic to be added (9oC OFF/12oC ON)
+
+Change AMPL ASSY from 27760 5RJ0A --> 27760 5RJ0C(OT/OP) & 27760 5RJ0B(reprogramming)
+
+Software logic is same between 27760 5RJ0B & 27760 5RJ0C"
+
+"{NML-PIR-21-01918}
+
+{NML-CAR-21-00566}"
+
+{NML-PIR-21-01379}
+"{NML-PIR-21-01387}
+全国のＺＥＲＯ様へ注意喚起の展開を実施した"
+
+{NML-PIR-21-01341}
+"{NML-QRR-21-00160}
+ﾜﾝﾎﾟｲﾝﾄを作成し、作業者に注意喚起実施
+2021/6/14"
+
+{NML-QRR-21-00159}
+"{NMT-CAR-21-00046}
+1. Reduce flow rate from 500 cc to 450 cc ,Thickness will reduce from 40 µm to 38 µm
+( Std. > 30 µm)
+2. Increase gun distance to maximum std. from 15 cm to 20 cm to assure this concern if get effect from jig dirty
+
+Date : 7/Jun"
+"{NML-PIR-21-01256}
+Plating process parameter changed by reduce process time(30sec to 25sec) and increase pH(2.00 to 2.20) to prevent excessive oxidation layer between Passivation film and Zinc plating deposit.
+皮膜と亜鉛めっき堆積物の間の過度の酸化層を防ぐために、処理時間の短縮（30秒から25秒）とpHの上昇（2.00から2.20）に変更。"
+{NML-CAR-21-00364}
+
+{NML-QRR-21-00154}
+"{NML-CAR-21-00351}
+当該工程に、Visual control (ワンポイントレッスン)を追加し、視覚的に剥がすべきシールが判るように工程改善した。
+Production department addition visual control for operator to avoid confuse"
+
+
+
+
+{NML-PIR-21-01672}
+
+"{NML-CAR-22-00007}
+対策1【基板押し込み時のリスク低減策】
+作業指示書に作業上の注意点を明確に記載し、作業者を再教育することにより、リスク低減策を講じました。
+・作業指示書に注意点を追加しました　2021/4/16
+・労働者の再教育が完了しました。　2021/4/19
+基盤分割プロセス：基盤分割後の作業指示には、エアブローに対する予防措置が欠けていることがわかりました。
+
+対策2【基盤分割後のエアブローのリスク低減策】
+作業指示書に作業上の注意点を明確に記載し、作業者を再教育することにより、リスク低減策を実施します。
+・作業指示書に注意点を追加（基盤をエアブローするときはCMOSに触れない）　2021/05/17
+・労働者の再教育が完了しました（昼/夜勤務）2021/05/18
+作業指示書の説明では、取り付け後の基盤の視覚的処理に関する注意事項が不十分であることがわかりました。"
+
+"• Change tool for deburring Bari on PCD hold from Knife to Rimmer tool
+• Training defect customer claim to final inspection and training method judgment defect by refer inspection criteria."
+"{NML-PIR-21-01973}
+また、今回はポンプゲージの誤交換と考えられる為、市場に対しサービスマニュアル改定版の展開を行い誤交換防止対策を行う。
+　・サービスマニュアル変更技連発行済　※添付別紙1参照
+
+【CC0記】2021年11月22日
+販社確認結果お客さまの給油量とメータ残量指示情報は誤記で、実際位は不明。
+ゲージに異常がなく交換されている。ESM誤記があるため今回訂正により、誤交換を防止する。それ以外の原因については、車両調査を行い原因を究明していく。
+このPIRはクローズとする。"
+{NML-PIR-21-02126}
+"{NML-QRR-21-00168}
+
+{NML-QRR-21-00171}"
+
+{NML-CAR-21-00410}
+{NML-PIR-21-01871}
+"{NMT-PIR-22-00017}
+Process measures: The wall of the Terminal insertion jig has been raised,
+diagonal insertion prevention function has been added."
+{NML-PIR-21-01858}
+{NML-QRR-21-00183}
+"{NML-PIR-21-02783}
+{NML-CAR-21-00678}
+The wall of the terminal insertion jig was raised and a diagonal insertion prevention function was added.
+. We believe that this improvement implemented as a process improvement item for suppliers is effective as a
+countermeasure. When remanufacturing the P02F bus bass case assembly, a new jig will be applied
+
+１．作り込み対策 
+端子挿入治具の壁を高くし、斜め挿入防止機能を追加した。 
+サプライヤ殿の工程改善アイテムとして実施した本改善が対策として有効であると考える。 P02F用バスバケースAssyを再生産する際は新治具を適用する。"
+
+
+"{NML-PIR-21-01774}
+ハーネスセンサーと後部座席クッション下面の間にテープを追加して固定します。 それは両方の部分の間のクリアランスと動きを排除することができます。
+ハーネスセンサーと後部座席クッション下面の間にテープを追加して固定します。 それは両方の部分の間のクリアランスと動きを排除することができます。"
+
+
+-
+
+{NML-QRR-21-00203}
+{NML-PIR-21-02199}
+{NML-PIR-21-02174}
+{NML-CAR-21-00557}
+"{NML-CAR-21-00517}
+プロセス改善＃1
+冷媒充填機設定値調整
+詳細 ：
+設定値を基準値に調整します。
+現在の設定は基準値の最大に近いです。
+提案：
+1.コストダウン活動（ロスト分を減らす）
+2.充填量を基準値に近付ける
+採用：2021年10月11日
+VIN：P15-065543
+Ref : 4M P1-VAE-Oct-21-009
+
+プロセス改善＃2
+冷媒充填量自動選択を導入
+詳細 ：
+オペレーターはAOSでバーコードをスキャンします。プログラムはCCRデータを照合し充填量を自動選択します
+提案：
+1.オペレーターの誤ったモデル選択を防ぐため
+2.データログ記録をトレースできるように
+採用：2022年1月4日
+
+Ref : 4M  P1-VAE-Dec-21-047"
+{NML-PIR-21-02682}
+
+{NML-CAR-21-00516}
+"{NML-PIR-21-02007}
+・Maxim社でILD デポ装置のプラズマ発生源の内部構造形状を改善し、異物を低減する(2020/3~)。
+　　本対策実施後、同不具合の再発はない為対策効果ありと判断する。
+・MAxim社でメタルエッチング後の洗浄工程におけるスプレー洗浄レシピの薬液量と時間を最適化し異物を低減する(2020/3~)。
+　　本対策実施後、同不具合の再発はない為対策効果ありと判断する。"
+
+
+{NML-PIR-21-01921}
+"{NML-QRR-21-00190}
+【流出防止対策】
+・当該部位検査時は、目視と触手にて確認する。
+・ワンポイントレッスン作成、指導実施
+2021/8/27"
+"{NMT-MD-21-00007}
+
+-To implement stopper while loading operation before gate out at NMT.  [Adopted :20-Oct-2021].
+
+- SOS updated. (Sep 29, 2021)
+
+- Study to add rubber cover all unhooking hole from production.  [Adopted : Trial in Nov’21]"
+{NML-PIR-21-02458}
+{NML-QRR-21-00221}
+{NML-PIR-21-02482}
+
+"{NMT-CAR-21-00070}
+Same as JP-PIR-2019-00363"
+{NML-PIR-21-02869}
+{NML-PIR-21-03021}
+"{NMT-QRR-21-00027}
+
+{NMT-CAR-21-00062}
+Install conveyor interlock for prevent operator skip FM torque process. (5 Nov’21)
+{NMT-MD-21-00006}
+
+Install conveyorinterlock for prevent operator skip FM torque process. (5 Nov’21)"
+
+"{NML-QRR-21-00206}
+
+既存のP15緊締要領書に、緊締のOK・NG箇所が視覚的にわかるように、　画像を追加し、ドライバーへ再教育を実施　（2021/10/4 実施）
+
+{NML-MD-21-00044}"
+{NML-CAR-21-00643}
+{NML-QRR-21-00232}
+ラベルの上面と側面の位置合わせガイドの使用を作業手順書に追加 (採用 21/5/8)
+{NML-PIR-22-00598}
+
+"{NML-PIR-21-02887}
+クリーンルーム内のダスト吸引機を追加設置し、拡散空気内の浮遊埃の低減を実施した。"
+
+
+"{NML-PIR-21-02889}
+コイルリード位置確認検査規格の⾒直し
+画像判定でコイルリード部曲がり品がNG判定となるように、リード部位置確認検査規格の⾒直しを実施しました。(2021/11/2〜)
+
+
+コイルリード位置確認検査規格の⾒直し
+画像判定でコイルリード部曲がり品がNG判定となるように、リード部位置確認検査規格の⾒直しを実施しました。(2021/11/2〜)"
+
+
+{NML-PIR-21-02556}
+{NML-PIR-21-02540}
+
+"{NML-PIR-21-03186}
+-"
+
+{NML-PIR-21-03165}
+
+
+{NML-QRR-21-00235}
+"{NMT-CAR-21-00068}
+[Q3 compatible]
+-Repair of the missing wall to prevent tilted insertion.
+[Countermeasures against sources] (Attachment 2) 3-Jun-2021 u/# 1601625~
+-The height of the wall has been changed from the previous 10 mm to 25 mm to enhance the effect of
+preventing tilted insertion.
+-To inspect the soundness of the wall once a shift."
+"{NML-CAR-22-00023}
+NMT-TC consider to fix area or box to keep ‘’EARPLUG’’ package after the operator unpack
+Done on 26-Jan-2022"
+"{NML-PIR-22-00193}
+USW工程でのアンビル清掃頻度 を2500ショット→1500ショットに 上げて銅異物の発塵を抑制する。 適用日：2021年9月21日"
+
+"{NMT-PQR-22-00003}
+- Change P02F A/C system from Auto Cooler A/C to Full Auto A/C (A/C with heater)
+- Target SOP = Feb'23 (to be confirmed after SSRS is replied)
+- Change P02F A/C system from Auto Cooler A/C to Full Auto A/C (A/C with heater)
+- Target SOP = Feb'23 (to be confirmed after SSRS is replied)"
+{NML-PIR-22-00151}
+"{NMT-PQR-22-00002}
+Technical solution is to add sub battery at next generation of P15. TBC: SOP CY27"
+
+
+
+
+"{NML-PIR-22-00109}
+
+C/M:
+
+• Addition magnetic for increase efficiency catch dust at I-Beam every cleaning over 1 time/ week in PM weekly.
+• Training to input wheel problem to final inspection process for verify final inspection [Final inspection correct to judgment is NG wheel]
+• Training final inspection about method judgment back dust defect by reference criteria NES C5058
+• Done on 15-Nov-21"
+{NML-PIR-22-00066}
+
+"{NML-PIR-22-00028}
+1アルゴンバルブにカバーを取り付けて、ワイヤー溶接タンクを交換する際にオペレーターが誤ってアルゴンバルブに触れたり、触れないようにします。17-Jan-2022 2ガスアルゴンレギュレーターにフローセンサーを取り付けて、ガスアルゴンが低下しないように機械アラームを設定します。24-Jan-2022 3リードスイッチの位置を調整して、オペレーターがスタビライザーを傾斜させないように機械アラームを設定します。12-Jan-2022 4位置ずれを検出するには、センサーをリードスイッチからタッチセンサーに変更します。 24-2022年1月"
+"{NMT-CAR-22-00002}
+Supplier has confirmed it is OK to increase maximum COMP OFF point to 16oC as same level as L02D without no effect to compressor oil return performance.
+Countermeasure is to increase maximum COMP OFF point to 16oC
+AMPL part No. change 27760 5RJ0C --> 27760 5RJ0E"
+
+
+
+{NML-PIR-22-00918}
+
+{NML-PIR-22-00352}
+
+"{NML-CAR-22-00030}
+図面視点での再訓練をオペレーターに行う。
+この工程のオペレーターに周知するためのワンポイントレッスンを追加"
+{NML-PIR-22-00762}
+
+{NML-QRR-22-00038}
+
+{NML-PIR-22-01001}
+
+"{NML-PIR-22-00740}
+端子挿入治具の壁を高くし、斜め挿入防止機能を追加した。 
+サプライヤ殿の工程改善アイテムとして実施した本改善が対策として有効であると考える。"
+"{NML-PIR-22-01172}
+-X-Y Pressプロセスで、元のQ'ty 1パイプから数量Air tubeをQ'ty 2パイプに追加します。
+・標準のクリーニングボックス1回/週を設定します。文書番号WI-PLN-751/09を参照してください。
+-改訂されたWI数量エアーブローハウジングQ’ty 3~5個を指定します。事前アセンブリー構成要素パーツ内。
+・改訂WI:吸引時間を加え、エアーブローは3~5秒/1本です。
+-制御パラメータAmp、Hz、dBをDWG標準に準拠させます。Amp=4.0 A (最大) Hz=360~400 Hz。dB=108-118 dB。
+Monitorテスト・プロセスにより、BRK’Tゾーンのテスト後のスタンプ・マークを管理し、パーツを識別します。100%
+-コントロールの外観チェック、アンプとサウンドのチェック100%
+-チェック後にPartタグのインスペクタに署名を確認します。
+-QCファイナル。送信前に確認します。amp, Hz, decibel, sound, shape by random inspection (基準AQL)"
+"{NML-PIR-22-00737}
+暫定対策（サプライヤ）
+1. 真空ルームにLCDを入れて気泡を検査する。（0.06 Mpの低圧）（2022年4月5日～）
+
+恒久対策（サプライヤ）
+1. スタートエンドシールをLCD内部に挿入する際の圧力の標準エア値を設定する。（0.01MPa から 0.005MPa に変更）（2022年5月1日～）
+2. 終了シールからUV照明までの時間を設定し、LC混合を防止する。（0.5 から 3 分に設定）（2022年5月1日～）
+3. WI (作業検査) 、管理計画書、FMEA、チェックシート記録の改訂（2022年5月18日～）"
+"{NML-PIR-22-00731}
+停止保持に入る直前のシーンでブレーキペダルを瞬間的に踏込んだ場合にADAS送信のACCACT信号が0から1に遷移してしまうところを、0のまま保持するようにADASソフトを修正した。
+停止保持に入る直前のシーンでブレーキペダルを瞬間的に踏込んだ場合にADAS送信のACCACT信号が0から1に遷移してしまうところを、0のまま保持するようにADASソフトを修正した。"
+{NML-QRR-22-00031}
+
+"{NML-PIR-22-00668}
+サプライヤのプレート工程改善により取付面平行度が改善された。ビームサポートプレートのプレス時のスプリングバックやビームAssyへの溶接時の溶接歪み等を考慮し、プレス時の型チューニングに見込み値として織り込んだ。
+サプライヤのプレート工程改善により取付面平行度が改善された。ビームサポートプレートのプレス時のスプリングバックやビームAssyへの溶接時の溶接歪み等を考慮し、プレス時の型チューニングに見込み値として織り込んだ。
+
+
+GAP occurs due to spring back during pressing of the mounting surface plate and welding strain during welding to the suspension beam.
+The press die has been improved so that gaps are not created when spring back/welding strain occurs.
+<Adoption>
+YOROZU-THI adopted the above countermeasure from Step1[55501-5R70A].
+(Mar/7th ~ : YOROZU-THI)"
+
+
+
+
+"{NML-PIR-22-01169}
+問題のピンを一定距離短くする。成形ツールの変更。
+OFL 7の組み立て前/組み立て工程のスクラップを毎日監視します。"
+{NML-PIR-22-01168}
+"{NMT-PIR-22-00035}
+There is no future production plan for PP3, but the PP3A will be implemented as follows.
+(1) Improvement of Cu contamination in USW process has been implemented
+Applied to PP3A cell. * B13B and P02F Back Up are targeted.
+(2) We will carry out foreign matter reduction activities based on four axes
+(see Section 11-2).
+First of all, as a current situation investigation, we will carry out an in-process
+foreign matter investigation of each of our lines."
+
+"{NML-CAR-22-00124}
+アライメントテスターのターンテーブルのベアリングを新品に交換。
+ターンテーブルのフリクションも基準値内となった。"
+
+
+"Change of new bearing : 7 Nov 2021
+Result : achieve standard below 4.0 kg
+
+
+{NMT-CAR-22-00029}
+Change of new bearing : 7 Nov 2021
+Result : achieve standard below 4.0 kg"
+
+"{NMT-PQR-22-00011}
+N/A"
+
+"{NMT-PQR-22-00009}
+N/A"
+
+"{NML-PIR-22-01424}
+暫定対策　サプライヤ：
+顔料が装置に付着したままにならないように、装置のクリーニング ポイントを確認する。2022/5/31～
+恒久対策　サプライヤ：
+清掃ポイントを明確化し標準作業書へ追加した。2022/6/21～
+配合清掃手順
+①計量器天面に付着した材料を不織布(ワイプオール)で拭き取り清掃する。
+②備品(包丁、ハサミ)も同様に拭き取り清掃する
+③作業台に付着した材料、薬品の除去と表面の清掃する。
+④計量器下、操作パネルについても清掃する。
+⑤備品、薬品容器は週末清掃する
+※特に容器内の底面汚れを拭き取る、中敷きがある場合は交換する
+⑥清掃後、①②③④に残留物が無い事を再確認する
+
+【CC0追記】
+サプライヤ製造品質問題と判断する。標準作業書改訂の内容を確認した。対策以降の市場様子見する。"
+"{NML-PIR-22-01404}
+・TiN デポ装置のメンテ頻度をレシピの KWH （出力 X 時間） 基準に変更することで、処理膜厚のバラつきによるメンテタイ ミングの差を改善。
+メンテナンスを従来の2.5倍の頻度で行うように改善した。
+【適用ICのDC：2132～】 【適用LBC製番：2022040100001】 【適用Pack製番：2022042100373】"
+"{NML-PIR-22-01375}
+1. SPECIAL BOLT LINK B 形状変更　面取り 1mm を 0.5mm に変更します。 (2021年3月頃サプライヤー採用) 2. ボルトのトルクを 15 +/- 2 から 17 +/- 2 N.m に変更します。 (2021年3月21日頃サプライヤー採用) 3. ボルト セクター ギア (リア INR) とボルト リンクを交換します。ネジ山にネジロックを追加 (サプライヤー採用 2021年5 月 21 日) CQ0コメント：他に類似情報は無く、傾向性は無いと考えられるため、当該車のボルト緩みは何等かの締め付けばらつきにより、ボルト緩みが起きたものと推定される。 　　　　　　　類似車種と同等の対策を行い、今後の市場情報を注視する。 　　　　　　　　ボルト緩みの対策として段付きボルトの面取りを小さくし、締め付けの面を拡大する。 　　　　　　　　他車のシートと同様の締め付けトルクにUPする。 　　　　　　　　他車と同様にボルトにネジロックを追加する。"
+"{NML-PIR-22-01373}
+1) 整備点検項目にフォークのズレ等の項目を追加 ローラーユニットを取り付けるとき。 (ロットNo.2114Axxxx～) 2) マウター装置 5 台すべてのシャフトを交換し、取り付け状況を再検査しました。 (ロットNo.2114Axxxx～) 3) ローラーユニットの固定部を従来のボルト固定から、 θズレを防止するフィッティング構造。 (ロットNo.2119Axxxx～) 4) ステージの片側支持構造の部分にスペーサーを導入し、 応力集中を防ぐ構造に変更。 (ロットNo.2119Axxxx～) (添付のレポートを参照)"
+"{NML-QRR-22-00059}
+
+{NML-QRR-22-00057}
+
+{NML-MD-22-00029}"
+"{NML-PIR-22-01316}
+IGN OFF時のメモリー内容にACTRの回転方向を追加し、反転時の補正制御を実行させるソフトに変更する。
+
+
+
+{NML-CAR-22-00237}
+
+{NML-CAR-23-00202}"
+"{NML-QRR-22-00056}
+
+
+Addition 200% check the anti rotation hook and confirm by red mark
+
+・FR Brake (N18,P15,K13) by PRD
+
+・RR Brake (P15) by IQA  
+
+
+{NML-CAR-22-00167}"
+
+
+
+"{NMT-CAR-22-00044}
+-"
+"{NML-PIR-22-01876}
+①スプレイガンのバルブのOリングによる不具合だったため、バルブのOリングを点検し、全数交換した。(7/5～)　
+②予防保全のルールとして、Oリングの交換周期を3か月と定め、月例点検で交換することとした。(7/14～)
+③週次予防保全点検メニューと点検方法を明確にする。(8/5～)
+④1時間毎に自動洗浄を行い、400個以上は連続塗装しない様管理することとした。(7/14～)"
+"{NMT-PQR-22-00014}
+The Smooth leather steering wheel will be adopted for P02F
+Target SOP: Feb'23"
+"{NMT-PQR-22-00012}
+Android Auto will be available from P02F step#1 (21MY)."
+
+"{NML-CAR-23-00076}
+モーターの変更(ブラシの接圧増強：227mN=>387mN)：コンミテータ表面の酸化被膜をはぎとることにより対策　"
+
+
+{NML-CAR-22-00397}
+
+
+
+"{NMT-PQR-22-00018}
+Change RR BACK UPPER shape pad to increase Back angle +1.5-2 for next model
+**New tooling development**"
+"PROTR RR-DOOR has been added.
+When FR Door Overslam, incomplete HEM area will contact the PROTR Film instead of RR-Door. Then, scratch will not occurs."
+
+{NML-PIR-22-02173}
+
+"{NMT-QRR-22-00008}
+Under more investigation.
+{NMT-QRR-22-00007}
+PQA NMT Take Q3 100% in line sub assy line by visual check before supply to T&C shop.
+Identify mark OK on Part serial label
+SAKANOBORI start from 2-JUL-2022
+{NMT-PIR-22-00064}
+Tier-3 (DENI China): Establish interlock system.
+Tier-2 (Nissan Trading THI): Improve OJT, Revised WI to check bolt QTY in sequence, Improve Job observation STD.
+
+
+{NMT-CAR-22-00052}
+
+Tier-3 (DENI China): Establish interlock system.
+Tier-2 (Nissan Trading THI): Improve OJT, Revised WI to check bolt QTY in sequence, Improve Job observation STD"
+{NML-PIR-22-02502}
+
+"{NMT-PIR-22-00082}
+The wall of the Terminal insertion jig has been raised, diagonal insertion prevention function has been added.
+
+(Please refer attached report)"
+"{NMT-PIR-22-00081}
+By changing the maintenance frequency of the TiN depot equipment to the KWH (output X time), the difference in maintenance timing due to the variation in the treatment film thickness was improved. (refer to attached report)"
+
+"{NMT-PQR-22-00019}
+
+P02F Step1 Center console design change that improve height & Length."
+
+
+
+
+
+
+
+{NML-QRR-22-00128}
+
+"{NMT-PIR-22-00126}
+Supplier support to improvement process cheeck"
+
+
+
+"{NMT-PIR-22-00118}
+By decreasing this gap, the brake noise has trend to improve its occurrence
+-Improvement of suspension beam mounting surface accuracy GAP occurs due to spring back during pressing of the mounting surface plate and welding strain during welding to the suspension beam.
+-The press die has been improved so that gaps are not created when spring back/welding strain occurs"
+"{NMT-CAR-22-00070}
+RR LAMP HOUSING MOUNTING SHAPE MODIFICATION"
+
+"{NMT-PIR-22-00114}
+-"
+
+
+"{NMT-CAR-22-00051}
+＜Tentative measures＞
+Improve the cleanliness of the VTC pulley production process to prevent contamination leakage.
+(1) Increase the frequency of cleaning solution replacement (adopted from the end of May 2021)
+(2) Increase the frequency of washing machine filters replacemnet (adopted from the end of May 2021)
+(3) Correction of the direction of cleaning nozzle aim (adopted from the beginning of July 2021)
+(4) Addition of high-pressure air blow process (adopted from the 24th-January 2021)
+(5) Improvement of ejection performance by subdividing chips (adopted from the 3rd-June 2022)
+
+＜Permanent measure>
+Attach filter to OCV to prevent contamination biting.
+　→For E13,C27 : Arrangement issued in 5th-Oct. 2021 (D/N No.Y0Y315), adopted from Middle of September 2022.
+　→For P15 : Arrangement issued in 12th-July 2022 (D/N No.Y1R851), to be adopted from Beginning of December 2022."
+"{NMT-CAR-23-00009}
+Change startup current from 25A to 7A and reduce thermal stress 68% for ALSI layer stress in IGBT where peeling was happened.
+Thermal fatigue stress was changed from 196Mpa to 63Mpa and not reach aluminum material fatigue stress.
+
+
+{NMT-CAR-23-00007}
+Software change to reduce start up current"
+"{NMAP-QRR-22-00002}
+NMT Plant VQA sakanobori P15 in stock to confirm battery terminal condition"
+"{NML-PIR-22-04075}
+１．半製品の梱包方法の改善
+　　保護スリープ梱包：輸送中の外力によるコネクターの変形を防ぐ。透明膜を強く巻きすぎて、コネクターが変形することも避ける。
+２．ハーネスの実装量改善
+　　実装量削減：１束あたりの梱包数が多いことによる、製品の潰れや変形を防ぐ。
+３．作業方法の改善
+　　持つ量の変更：ハーネスを差し込む際、作業者がハーネス持ちすぎることによるコネクターの変形を避ける。"
+
+
+
+
+
+"{NPI-QRR-22-00005}
+-"
+
+
+"{NMT-CAR-22-00065}
+-"
+
+
+"{NMT-CAR-22-00063}
+-"
+
+{NML-QRR-22-00133}
+
+
+
+
+
+
+
+
+
+
+
+
+"{NML-CAR-23-00129}
+量産工程で現工法（サポートプレートの単品プレス後にビームに溶接）でのキャリパ取付面の上下位置の精度向上はStep1部品から実施済であるが、キャリパ取付面上下位置の傾向を管理することは工程能力上限界がある。Step1仕様ではモーン音の指摘は低減されていることから、キャリパ取付面上下位置の傾向を管理した仕様(上取付面に対し下取付面が同一面～車両外側の傾向のもの)をモーン音に対するサービス専用部品として設定する。（CC0/CD0合意済）
+
+<CC0 コメント>
+P15のRR ブレーキ異音はこれまでの対策により、市場指摘は減少傾向であるが
+今後、指摘をされたお客様に対して、キャリパ取り付け面を特別に管理したビームを
+サービス専用部品として設定し対応する。サービス部品は NML-PCN-23-00078 <https://cfmd-client.nml.nissancloud.com/#/pros/0/reqs/0/pcns/1000000000001503> にて手配済み。
+本対策内容は23/5/17 2C1/CC0で合意済み。"
+
+"{NMT-PQR-22-00020}
+Change type and location of handle by carry over P42R (Nissan Pathfinder) , to be adopted in next model (P02H)"
+
+
+
+
+
+
+
+
+"{NMT-CAR-23-00018}
+Temporary C/M
+
+Improved visual check accuracy for grease 
+-Set limit sample for 100% comparison on actual part"
+"{NMAP-CAR-23-00002}
+
+Change STRG SWITCH harness routing to be following install drawing and update GOS
+
+NMT VAE updated GOS to following Install DWG. Record in 4M change history."
+
+
