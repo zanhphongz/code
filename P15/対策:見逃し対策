@@ -1,0 +1,1000 @@
+対策:見逃し対策
+"{NML-CAR-21-00439}
+LCDモジュール組み付け前に板底にエアブローし、異物除去作業を追加した。
+LCDモジュール組み付け前に板底にエアブローし、異物除去作業を追加した。"
+"{NML-PIR-21-02218}
+流出対策
+※流出対策として4端子電気チェッカ導入(疑似断線の低い抵抗値の検出能力アップ)。　
+(結果)上記同サンプルで100%検出能力を確認"
+"{NML-PIR-22-03176}
+なし
+
+
+{NML-PIR-23-00187}
+なし
+なし"
+{NML-QRR-22-00167}
+"{NML-PIR-23-01162}
+無し"
+
+本現象を目標仕様作成基準に追加した
+
+-
+"{NML-CAR-20-00644}
+IC端子故障確認時”オープン・ショート・不完全接続”条件を明示して、中間モードがないことをサプライヤに報告させる
+IC端子の役割をデータシートなどのリファレンスツールを用いで2重に確認する"
+"{NML-CAR-20-00644}
+IC端子故障確認時”オープン・ショート・不完全接続”条件を明示して、中間モードがないことをサプライヤに報告させる
+IC端子の役割をデータシートなどのリファレンスツールを用いで2重に確認する"
+
+
+"{NML-CAR-22-00528}
+再発防止にて回答する。"
+"{NML-PIR-22-00505}
+
+{NML-PIR-22-00852}"
+{NML-CAR-22-00034}
+"{NML-PIR-22-01389}
+本不具合は経時的な劣化を含む為、開発時の実験評価では確認することができない。"
+"{NML-PIR-22-01914}
+
+乾燥設備の変更による乾燥能力の改善（IRヒータ⇒熱風強制ブロア）
+
+　　　　　　　（2020年5月22日～）
+
+{NML-PIR-22-01913}
+
+{NML-PIR-22-01912}"
+
+
+
+
+
+
+
+
+
+
+
+"{NML-CAR-20-00590}
+SASH TAPE Cornering Method change (Shape Change)"
+
+
+
+
+-
+{NML-PIR-20-01763}
+{NML-PIR-20-01820}
+-
+
+
+
+
+
+
+
+
+"{NML-PIR-20-02149}
+1)　Mechanic lineの検出器で漏れを全数検査実施
+2)　エアコンの作動を全数検査実施"
+
+"{NML-CAR-20-00415}
+ー"
+{NML-CAR-20-00634}
+
+
+
+-
+ー
+
+
+
+{NML-PIR-20-02261}
+{NML-CAR-20-00597}
+{NML-CAR-20-00640}
+{NML-CAR-20-00751}
+
+
+- Confirm drain hose assembly during consistency genba check
+
+
+"{NML-CAR-20-00631}
+PGF貼り付け前に、傷がないことを100%チェックする。"
+{NML-CAR-20-00635}
+
+
+
+"NMAP-CAR-20-00029 <https://fqidrive.jp-east-2.cf-app.net/#/pros/1000000000011447/reqs/1000000000014783>
+{NMAP-CAR-20-00029}
+After complete sakanobori each mileage recorded must be review and if found over 100km must inform to TCS"
+
+
+
+
+
+
+
+
+-
+
+
+
+
+{NML-PIR-20-02881}
+{NML-PIR-20-02505}
+
+{NML-CAR-20-00566}
+
+
+ー
+
+
+
+ー
+{NML-CAR-20-00710}
+
+
+{NML-CAR-20-00753}
+
+
+"[CC0機能班記]
+Task活動により工場の出荷検査を強化しております。
+原因は輸送中に小動物にかじられた可能性が高いと推定しておりますが、2021/2/10現在ワランティ発生1件のため、PROクローズを提案いたします。"
+-
+
+-
+
+
+ー
+
+"{NMT-CAR-21-00025}
+"
+
+
+-
+
+
+"{NML-QRR-21-00019}
+
+{NML-CAR-21-00109}"
+{NML-PIR-21-00340}
+{NML-CAR-21-00080}
+{NML-CAR-20-00743}
+
+
+"設計がチェックした結果を鵜呑みにせず、3Dデータを元に判定する事。
+
+{NML-PIR-20-02488}"
+ー
+
+{NML-CAR-20-00629}
+{NML-CAR-20-00729}
+{NML-CAR-20-00713}
+
+
+"{NMT-CAR-20-00093}
+Improvement WI items
+- Insert connector to PCB by Put-Pull-Put.
+- Visual for connector no gap between PCB.
+- Add Mark 100% for confirm connector not half lock.
+- Re-Training creator WI.
+- Increase the frequency job of survey of operator. (4 weeks/time)"
+"{NMT-CAR-20-00091}
+Function check 100%"
+
+{NML-PIR-20-02811}
+-
+
+
+ー
+
+
+{NML-PIR-20-02214}
+
+
+{NML-CAR-20-00721}
+
+{NML-PIR-20-02869}
+{NML-CAR-20-00742}
+
+"MTH check before shipping (Inventory check done 112/112 OK)
+Cut off VIN : P15 – 028766
+Pin damage check at Trim 4 end
+Cut off VIN : P15 – 029249
+After STRG Wheel assembly, operator check pin condition.
+Cut off VIN : P15 - 029239
+Before Horn Pad assembly, operator check pin condition.
+Cut off VIN : P15 - 029239"
+{NML-CAR-20-00709}
+
+
+
+
+-
+
+―
+{NML-PIR-21-00399}
+{NML-CAR-20-00678}
+{NML-PIR-20-02521}
+
+
+"PQA recheck part in stock 100% before supply to line assembly.
+
+VIN: P15-022833. Date: 21-Oct-2020"
+ー
+-
+{NML-CAR-20-00747}
+
+{NML-PIR-20-02655}
+"To prevent the risk of contamination concern. NPT take C/M by reduce some operation.
+3) Firing test pattern adjust to 1Hz x5 times. (Change from 2Hz x10 times).
+For increase duration of oil flow, enhance to contamination drain out."
+{NML-PIR-20-02634}
+ー
+
+"{NMT-QRR-20-00055}
+VQA addition one point lesson at MC line to check gap and flushness on FR/R BMPR
+Adopt :MNTFEAP15Z0004696
+3-Dec'20
+VQA addition one point lesson at MC line to check FR/R BMPR
+Adopt :MNTFEAP15Z0004321 
+20-Oct'20
+
+{NMT-CAR-20-00092}
+check at MC-line"
+"{NMT-PIR-22-00095}
+MTH: Added Q-point on lock area of Lid outer to confirm that there's no abnormal condition on Lock unit."
+
+-
+
+
+"{NML-QRR-20-00297}
+
+{NML-CAR-21-00097}"
+{NML-QRR-21-00045}
+{NML-QRR-21-00039}
+"{NML-QRR-21-00001}
+
+{NML-QRR-20-00296}
+
+{NML-CAR-21-00077}"
+"{NML-QRR-20-00295}
+
+{NML-QRR-21-00058}
+ﾜﾝﾎﾟｲﾝﾄを作成し、ﾄﾞｱﾌｨﾆｯｼｬｰ仕様違いの確認実施
+2021/2/3
+{NML-CAR-21-00036}"
+{NML-CAR-20-00754}
+{NML-CAR-20-00745}
+{NML-PIR-21-00085}
+{NML-QRR-20-00290}
+"{NMT-QRR-20-00058}
+-
+{NMT-CAR-20-00094}
+-"
+{NML-PIR-20-02825}
+
+
+{NML-PIR-21-00248}
+{NML-PIR-20-02799}
+"{NMT-QRR-20-00057}
+"
+"{NMT-QRR-20-00056}
+Additional parallelism check 100%
+{NMT-CAR-21-00005}
+• Permanent 100% inspection (Tier1&2)"
+{NML-CAR-21-00019}
+{NML-CAR-20-00740}
+{NML-CAR-21-00038}
+"{NML-PIR-20-02879}
+部品への対策としては、上述の取付要領書変更にて対応。"
+
+"{NMT-QRR-20-00054}
+-"
+{NML-QRR-20-00283}
+"{NML-QRR-20-00282}
+
+{NML-CAR-21-00037}"
+
+{NML-PIR-20-02750}
+"{NML-QRR-21-00008}
+
+{NML-CAR-21-00108}"
+"{NML-QRR-21-00007}
+
+{NML-QRR-21-00006}
+
+{NML-CAR-21-00129}
+
+{NML-CAR-21-00130}"
+{NML-QRR-20-00280}
+{NML-CAR-20-00712}
+-
+"{NML-CAR-20-00748}
+・フロントバンパー脱着後は左右のヘッドランプとフロントバンパーの隙差を目視で確認する。"
+{NML-PIR-20-02749}
+
+
+
+{NML-CAR-20-00703}
+{NML-QRR-21-00002}
+{NML-QRR-21-00003}
+"{NML-QRR-20-00274}
+
+{NML-CAR-21-00132}"
+{NML-CAR-21-00028}
+
+{NML-CAR-20-00711}
+"{NML-QRR-20-00271}
+
+{NML-CAR-21-00099}"
+{NML-PIR-20-02711}
+{NML-PIR-20-02683}
+{NML-CAR-20-00697}
+{NML-CAR-20-00739}
+{NML-CAR-20-00692}
+-
+"{NML-CAR-20-00717}
+・検査工程で重点管理項目に落とし込み、ドライブレコーダーユニットの取付状態を確認する。
+・検査工程で重点管理項目に落とし込み、ドライブレコーダーユニットの取付状態を確認する。"
+{NML-CAR-20-00714}
+{NML-PIR-20-02650}
+{NML-CAR-20-00752}
+
+部品回収できなかったため、原因究明できず
+
+"{NML-QRR-21-00046}
+
+{NML-PIR-21-00387}"
+
+{NML-PIR-21-00173}
+
+"{NML-CAR-21-00121}
+注意喚起シートにて重点部位の展開及びチェックシートへの項目追加"
+{NML-CAR-21-00079}
+{NML-QRR-21-00040}
+"{NML-QRR-21-00041}
+
+{NML-PIR-21-00353}"
+{NML-QRR-21-00042}
+"{NML-PIR-21-00147}
+根本的な原因を確認し、生産ラインに反映させる。〜5月28日"
+"{NML-QRR-21-00030}
+
+{NML-CAR-21-00126}"
+"{NML-QRR-21-00031}
+
+{NML-CAR-21-00134}"
+"{NML-QRR-21-00032}
+
+{NML-CAR-21-00135}"
+"{NML-QRR-21-00033}
+
+CC0コメント：Q3=Q4採用済。クローズする。"
+"{NML-QRR-21-00034}
+
+{NML-CAR-21-00136}"
+"{NML-QRR-21-00035}
+
+{NML-PIR-21-00400}"
+-
+
+{NML-PIR-21-00268}
+{NML-CAR-21-00091}
+
+
+"{NML-QRR-21-00028}
+点検者はヘッドライトとグリルの面差が無い事を確認し、作業指示書にグリル浮きOKと記載する。
+{NML-CAR-21-00131}
+点検者はヘッドライトとグリルの面差が無い事を確認し、作業指示書にグリル浮きOKと記載する。"
+"{NML-QRR-21-00027}
+{NML-CAR-21-00160}
+1. Addition Q-Point control after ASSY Head Rest.
+2. Review WI at Q-Gate Station Addition process cleaning 100% after champion final check confirm rear seat"
+"{NML-QRR-21-00057}
+ﾄﾞｱﾐﾗｰ開閉確認時、ﾐﾗｰ鏡面の曇りを確認する。
+ﾜﾝﾎﾟｲﾝﾄ作成 2021/2/3"
+"{NML-PIR-21-00227}
+100% appearance check by take out plastic back before check"
+{NML-PIR-21-00159}
+{NML-PIR-21-00145}
+"-Re-training operator and inspector and level up to U skill.
+- 300% firewall at NMT"
+{NML-QRR-21-00021}
+"{NML-QRR-21-00022}
+
+{NML-PIR-21-00415}"
+{NML-QRR-21-00023}
+"{NML-QRR-21-00018}
+
+{NML-CAR-21-00133}"
+
+
+
+{NML-CAR-21-00011}
+{NML-CAR-21-00030}
+{NML-QRR-21-00011}
+{NML-QRR-21-00012}
+"{NML-QRR-21-00043}
+
+{NML-CAR-21-00142}"
+"{NML-QRR-21-00044}
+
+{NML-QRR-21-00005}"
+"{NML-QRR-21-00004}
+
+{NML-CAR-21-00029}"
+"{NML-QRR-21-00076}
+
+{NML-QRR-21-00079}
+
+{NML-CAR-21-00162}"
+{NML-CAR-21-00145}
+
+{NML-CAR-21-00150}
+
+
+{NML-CAR-21-00127}
+{NML-CAR-21-00234}
+
+
+
+{NML-PIR-21-00473}
+{NML-MD-21-00003}
+{NML-PIR-21-00370}
+{NML-CAR-21-00086}
+
+
+{NML-PIR-21-00253}
+{NML-CAR-21-00115}
+
+{NML-PIR-21-00218}
+{NML-CAR-21-00078}
+"{NML-QRR-21-00050}
+
+{NML-QRR-21-00060}
+・遡り確認n=50検出なし
+・触手でのﾘﾔﾅﾝﾊﾞｰﾌﾟﾚｰﾄ取付け部ﾎﾟｯﾌﾟﾅｯﾄの有無確認を項目に追加。　標準作業書（編成版）に追記
+2021/2/5～
+{NML-CAR-21-00082}"
+{NML-QRR-21-00048}
+
+
+"{NMT-QRR-21-00015}
+part sorting and SAKANOBORI
+{NMT-PIR-21-00036}
+Add process bubble check 100%"
+"{NML-PIR-21-00710}
+対策：継続性の原因となる要因を絞り込み、流出防止対策を強化
+
+
+{NML-PIR-21-01652}"
+"{NMT-QRR-21-00013}
+-"
+
+"{NML-PIR-21-00670}
+We added new air blowing and suction equipment to remove the bull was fallen by vivelation. (22nd Jun.2020 implemented at HITACHI IGN coil
+produced).
+Adoption in NPT 26-Sep-2020 / HR12-379934. --> NMT VIN P15-019073 / 26-Sep-2020.
+(incident HR12-375643 is before C/M)"
+{NML-PIR-21-00982}
+"• Q3 Action:
+• NMT-PQA recheck part in stock 100% before supply to Production line Finnish >>Visual check,
+Cut off T/S:2-25515 VIN:P15-059926  Date:23-Aug-21"
+{NML-PIR-21-00765}
+"{NMT-CAR-21-00019}
+"
+"{NMT-CAR-21-00018}
+"
+"{NMT-QRR-21-00011}
+
+re training drive for detect this noise for 3 month refer SOS running body vibration"
+
+
+"{NMT-CAR-21-00016}
+"
+
+"{NML-PIR-21-00903}
+Tier1対策：メーターファンクションチェックの条件変更。メーターファンクション工程でGPメモリチェックエラーの過去故障の場合もNG検出する。（適用日：2021/7/28 ）
+Tier2対策:DDR検査工程に以下試験を追加した。DDRの検査時、与えるノイズパターンと回数を変更し、ノイズを発生させる可能性のあるセルを検出する。 適用日：2019年26週 (不具合現品製造日：2019年16週)"
+
+
+{NML-PIR-21-00936}
+{NML-PIR-21-00934}
+"{NML-PQR-21-00040}
+-"
+
+{NML-QRR-21-00109}
+{NML-QRR-21-00108}
+{NML-PIR-21-00806}
+{NML-PIR-21-00800}
+"{NMT-QRR-21-00019}
+Revised inspection check sheet by addition check operation of outer side mirror folding and adjust view normally by PDI QA."
+{NML-PIR-21-00797}
+{NML-PIR-21-00745}
+"{NMT-PIR-21-00025}
+In the electrical characteristics inspection process, we confirmed the occurrence of voids for those that exceeded the standard
+value, but, that it could be detected by inspection, so supplier decided that there was no problem with products that were
+judged to be OK products.
+We think that this measure will prevent to voids, but we will implement the bellow,
+1. Electrical characteristic inspection defective product is analyzed and voids are confirmed Lot disposal
+2. Review of resistance criteria for electrical characteristics inspection
+<standard value +50% → <standard value +30% From 1st July 2020"
+
+
+
+
+
+"{NML-QRR-21-00143}
+
+{NML-CAR-21-00542}"
+
+"1. Issue One Point Lesson and re-training the operator to correct tightening sequence prevent thermostat drop cause to rubber GSKT deformation
+2. Addition water inlet correct torque seq. in FM job observation check sheet
+
+Adoption ENG. no. HR12-424530C (11-May-21)"
+
+
+{NML-QRR-21-00137}
+
+
+{NML-CAR-21-00304}
+
+{NML-QRR-21-00123}
+"{NML-QRR-21-00122}
+
+{NML-CAR-21-00376}"
+
+
+
+
+"{NMT-CAR-21-00032}
+Evaporator temp can be managed by COMP ON/OFF which can increase evap temp more effectively during cold outside condition"
+
+"{NML-PIR-21-01918}
+<サポートプレート溶接部の盛り上がりに関して>
+サプライヤのコントロールプランに折り込み、製品検査を確実に実施する。（NMT品証より、サプライヤーフォローをお願いします）
+
+
+{NML-CAR-21-00566}"
+
+{NML-PIR-21-01379}
+{NML-PIR-21-01387}
+
+{NML-PIR-21-01341}
+{NML-QRR-21-00160}
+
+"{NML-QRR-21-00159}
+レバーは各々操作＆作動チェックする。（2021/6/17~)
+採用号機についてはSCでは生産順で納整しているわけではないので号車については取得していません。"
+"{NMT-CAR-21-00046}
+100% check at touch up line to prevention out flow
+
+Date : 2/Jun
+451054242"
+{NML-PIR-21-01256}
+{NML-CAR-21-00364}
+
+{NML-QRR-21-00154}
+"{NML-CAR-21-00351}
+-"
+
+
+
+
+{NML-PIR-21-01672}
+
+"{NML-CAR-22-00007}
+対策3【装着後の基板目視確認時のリスク低減対策】
+作業指示書に作業上の注意点を明確に記載し、作業者を再教育することにより、リスク低減策を実施します。
+・取扱説明書に注意点を追加（マガジンの出し入れの際は傾けない）　2021/05/17
+・マガジン左右の同じ高さのレールに入れてください。
+労働者の再教育が完了しました（昼/夜勤務）2021/05/18"
+
+-
+"{NML-PIR-21-01973}
+ー"
+{NML-PIR-21-02126}
+"{NML-QRR-21-00168}
+助手席ｼｰﾄﾊﾞｯｸとｸｯｼｮﾝの隙間の異物確認開始
+ﾜﾝﾎﾟｲﾝﾄを作成し、注意喚起実施
+2021/7/6 P15-052461
+{NML-QRR-21-00171}"
+
+{NML-CAR-21-00410}
+{NML-PIR-21-01871}
+"{NMT-PIR-22-00017}
+Added confirmation of terminal alignment (no opening) to the final visual inspection
+(magnifying glass 10x)"
+{NML-PIR-21-01858}
+{NML-QRR-21-00183}
+"{NML-PIR-21-02783}
+{NML-CAR-21-00678}
+Added confirmation of terminal alignment (no opening) to the final visual inspection
+(magnifying glass 10x) item. 7/April/2021
+
+２．流出防止対策
+最終外観検査(拡大鏡10倍)項目に、端子合わせ部確認(開き無き事) を追加した。2021年4月7日"
+
+
+{NML-PIR-21-01774}
+
+
+"1) Training final inspection focus dakon defect cover area of front wheel by follow JIE20.1 final inspection.
+
+2) Packing process use air bubble cover front wheel before put plastic tray for protect dakon problem .
+
+3) Operator packing continue confirm packaging before loading wheel to customer ."
+
+{NML-QRR-21-00203}
+{NML-PIR-21-02199}
+"{NML-PIR-21-02174}
+
+ホースの変形品が組立工程で使用されていないことを作業者に知らせるための限度見本を追加した。"
+{NML-CAR-21-00557}
+{NML-CAR-21-00517}
+{NML-PIR-21-02682}
+
+{NML-CAR-21-00516}
+"{NML-PIR-21-02007}
+・Maxim社で以下のテスト条件変更を行うことで、ICのストレス強化をし、不良の流出が防止できる。(2021/8~)
+　　C1～C12、SW1～SW12の各ピンに72Vを印加するテストを追加することで、50年分相当の加速が見込まれる。
+　　本対策実施後、同不具合の再発はない為対策効果ありと判断する"
+
+
+{NML-PIR-21-01921}
+{NML-QRR-21-00190}
+"{NMT-MD-21-00007}
+-Periodical training to current driver 2 times/year and training to new driver accordingly (Oct 01.2021)
+-Job observation monthly (Done in Oct and next timing is to be in Nov 30 2021)"
+{NML-PIR-21-02458}
+{NML-QRR-21-00221}
+{NML-PIR-21-02482}
+
+"{NMT-CAR-21-00070}
+-"
+{NML-PIR-21-02869}
+{NML-PIR-21-03021}
+"{NMT-QRR-21-00027}
+Use FM torque confirm tightening and check 200% by torque wrench
+setting torque 54 N.m
+{NMT-CAR-21-00062}
+Install conveyor interlock for prevent operator skip FM torque process. (5 Nov’21)
+{NMT-MD-21-00006}
+
+Install conveyorinterlock for prevent operator skip FM torque process. (5 Nov’21)"
+
+"{NML-QRR-21-00206}
+
+緊締確認を点検項目に追加し、積み位置確認表で常時、チェックする事とした。　
+指定箇所へ緊締できている場合は○キを記載する。（2021/10/4 実施）
+{NML-MD-21-00044}"
+{NML-CAR-21-00643}
+{NML-QRR-21-00232}
+ボディからラベルのはみ出しチェックを作業手順書に追加(採用 22/3/2)
+{NML-PIR-22-00598}
+
+"{NML-PIR-21-02887}
+-"
+
+
+"{NML-PIR-21-02889}
+はんだ付け全⼯程対象
+はんだ付けの出来栄えの外観チェックにおいて、第三者によるはんだ付け不良(未はんだ)のダブルチェックを追加しました。
+(2021/11/2〜)
+
+
+はんだ付け全⼯程対象
+はんだ付けの出来栄えの外観チェックにおいて、第三者によるはんだ付け不良(未はんだ)のダブルチェックを追加しました。
+(2021/11/2〜)
+
+【CC0追記】
+サプライヤ製造品質問題と判断する。はんだ付け工程改善の内容を確認した。対策以降の市場様子見する。"
+
+
+{NML-PIR-21-02556}
+{NML-PIR-21-02540}
+
+"{NML-PIR-21-03186}
+【CC0追記】 2022/04/01
+要因は、IC2(CPU) のゲートポリシリエッチング工程にてパーティクルがWaferに付着したことによって、配線の形成異常が発生し、 不具合事象に至ったものと考えられ、以下の実施により対策効果有と判断する。
+・発生対策：静電チャックカバーリングに付着した反応副生成物の除去率向上の為、超音波洗浄ではなくフッ酸で洗浄を行う 方法へ変更。
+・流出対策：不具合の検出率を向上させる為、Wafer工程の高電圧ストレス印加試験の印加電圧を1.85V→1.95Vに上げて、 スクリーニング強化を実施。
+
+【CC0追記】 2022/04/05
+上記対策で効果有と判断する。P15 STRG COL警告灯点灯については、2022/01/25でカットオフする。PRESM更新済み。"
+
+{NML-PIR-21-03165}
+
+
+{NML-QRR-21-00235}
+"{NMT-CAR-21-00068}
+[Outflow prevention measures] (Attachment 2) 15-Jun-2021 u/#1606032～
+-An exclusive lighting for checking the oil seal was installed.
+-A picking sensor was installed in order to secure the paint check after checking the oil seal lip."
+-
+"{NML-PIR-22-00193}
+-"
+
+"{NMT-PQR-22-00003}
+N/A
+N/A"
+{NML-PIR-22-00151}
+"{NMT-PQR-22-00002}
+-"
+
+
+
+
+{NML-PIR-22-00109}
+{NML-PIR-22-00066}
+
+{NML-PIR-22-00028}
+"{NMT-CAR-22-00002}
+N/A"
+
+
+
+{NML-PIR-22-00918}
+
+{NML-PIR-22-00352}
+
+{NML-CAR-22-00030}
+{NML-PIR-22-00762}
+
+{NML-QRR-22-00038}
+
+{NML-PIR-22-01001}
+
+"{NML-PIR-22-00740}
+-"
+"{NML-PIR-22-01172}
+-X-Y Pressプロセスで、元のQ'ty 1パイプから数量Air tubeをQ'ty 2パイプに追加します。
+・標準のクリーニングボックス1回/週を設定します。文書番号WI-PLN-751/09を参照してください。
+-改訂されたWI数量エアーブローハウジングQ’ty 3~5個を指定します。事前アセンブリー構成要素パーツ内。
+・改訂WI:吸引時間を加え、エアーブローは3~5秒/1本です。
+-制御パラメータAmp、Hz、dBをDWG標準に準拠させます。Amp=4.0 A (最大) Hz=360~400 Hz。dB=108-118 dB。
+Monitorテスト・プロセスにより、BRK’Tゾーンのテスト後のスタンプ・マークを管理し、パーツを識別します。100%
+-コントロールの外観チェック、アンプとサウンドのチェック100%
+-Identifyチェック後にPartタグのインスペクタに署名します。
+-QCファイナル。送信前に確認してください。amp, Hz, decibel, sound, shape by random inspection (基準AQL)"
+"{NML-PIR-22-00737}
+暫定対策（サプライヤ）
+1. 真空ルームにLCDを入れて気泡を検査する。（0.06 Mpの低圧）（2022年4月5日～）
+
+恒久対策（サプライヤ）
+1. スタートエンドシールをLCD内部に挿入する際の圧力の標準エア値を設定する。（0.01MPa から 0.005MPa に変更）（2022年5月1日～）
+2. 終了シールからUV照明までの時間を設定し、LC混合を防止する。（0.5 から 3 分に設定）（2022年5月1日～）
+3. WI (作業検査) 、管理計画書、FMEA、チェックシート記録の改訂（2022年5月18日～）
+
+【CC0追記】
+サプライヤ製造品質問題と判断する。液晶エンドシール作業工程の対策内容・標準作業書改訂内容を確認した。対策以降の市場様子見する。"
+"{NML-PIR-22-00731}
+停止保持間際にブレーキペダルを瞬間的に踏み込む評価シナリオを新しく考案し品確を実施した。
+停止保持間際にブレーキペダルを瞬間的に踏み込む評価シナリオを新しく考案し品確を実施した。"
+{NML-QRR-22-00031}
+
+"{NML-PIR-22-00668}
+ハの字の形状、及び段差も含めた検査治具を採用する。
+ハの字の形状、及び段差も含めた検査治具を採用する。"
+
+
+
+
+{NML-PIR-22-01169}
+{NML-PIR-22-01168}
+"{NMT-PIR-22-00035}
+Strengthen measures to prevent outflow by narrowing down the factors that cause continuity
+after shipment and examining the necessity of reflecting them on the production line (including impact on
+performance and cost).
+(1) Please provide vehicle data to narrow down the factors that cause continuity.
+(2) Narrowing down the factors that cause continuity and examining the necessity of
+reflecting them on the production line.
+(3) Reflection on the production line."
+
+"{NML-CAR-22-00124}
+ターンテーブルフリクションを日々測定する。基準を超える場合はBRGの交換を行う。
+
+CC0コメント('22.8.3)：ターンテーブルのBRGを新品に交換済。かつ定期的な測定を開始済であることから本件はクローズとする。"
+
+
+"Change of new bearing : 7 Nov 2021
+Result : achieve standard below 4.0 kg
+{NMT-CAR-22-00029}
+"
+
+"{NMT-PQR-22-00011}
+2nd row seat center armrest to be adopted in P02H (P02F elongation)
+The current SOP assumption for P02H is Jan 2026"
+
+"{NMT-PQR-22-00009}
+Driver Power seat is planned to adopt in P02H (P02F elongation).
+The current SOP assumption for P02H is Jan 2026."
+
+{NML-PIR-22-01424}
+"{NML-PIR-22-01404}
+・以下のテスト条件変更を行うことで、ICのストレス強化を し、不良の流出が防止できる。 SWn端子に69Vを印加するストレステストを追加した。 
+【適用ICのDC：2143～】 【適用LBC製番：2022050900011】 【適用Pack製番：2022060100458】"
+{NML-PIR-22-01375}
+"{NML-PIR-22-01373}
+1) フォーク部との接触チェック項目を追加 日常点検項目に。 (ロットNo.2114Axxxx～) 2) キープサンプルの目視検査倍率をアップ 20倍から30倍まで拡大し、同様のパッケージクラックの検出を可能にします。 (ロットNo.2120Axxxx～) (添付のレポートを参照)"
+"{NML-QRR-22-00059}
+
+{NML-QRR-22-00057}
+
+{NML-MD-22-00029}"
+"{NML-PIR-22-01316}
+
+{NML-CAR-22-00237}
+
+{NML-CAR-23-00202}"
+"{NML-QRR-22-00056}
+
+{NML-CAR-22-00167}"
+
+
+
+"{NMT-CAR-22-00044}
+-"
+"{NML-PIR-22-01876}
+①ホイールを45°傾けて置けるよう置台を修正する。(8/12～)
+②検査部位が影にならぬよう照明を追加する。(8/12～）
+③検査員が検査標準通りに検査する様、リーダーが作業観察する。(8/12～)"
+"{NMT-PQR-22-00014}
+N/A"
+"{NMT-PQR-22-00012}
+N/A"
+
+"{NML-CAR-23-00076}
+シリコン雰囲気下での施解錠耐久スペックをRNDSに評価を追加した。(110,000回＝14年相当＞C Gr保証：10年)"
+
+
+{NML-CAR-22-00397}
+
+
+
+"{NMT-PQR-22-00018}
+Have to confirm part evaluation with Marketability team for comfort level"
+{NML-CAR-22-00294}
+
+"{NML-PIR-22-02173}
+-Supplier process improvement level up by 200% check appearance before packing
+-Implement date on 26-Aug’22 ,[1st lot implement RAN No.6NZR404 ]"
+
+"{NMT-QRR-22-00008}
+•All part sorting (Done, 4-JUL-2022). Cut off VIN no. RP15-001614
+•All vehicle sorting (Done, 1-JUL-2022).
+•Supplier MTH check 200 % for prevention out flow (4-JUL-2022). --> Potential Q4.
+
+   - Sub assy (Water Jacket) check all parts.
+
+   - Final assembly check all parts before packing.
+
+
+{NMT-QRR-22-00007}
+-
+{NMT-PIR-22-00064}
+Tier-3 (DENI China): Establish interlock system.
+Tier-2 (Nissan Trading THI): Improve OJT, Revised WI to check bolt QTY in sequence, Improve Job observation STD.
+Tier-1 (MTH, Marelli THI): Add checking QTY of bolt at Incoming, before assembly and Final inspection.
+{NMT-CAR-22-00052}
+
+Tier-3 (DENI China): Establish interlock system.
+
+Tier-2 (Nissan Trading THI): Improve OJT, Revised WI to check bolt QTY in sequence, Improve Job observation STD.
+
+Tier-1 (MTH, Marelli THI): Add checking QTY of bolt at Incoming, before assembly and Final inspection."
+{NML-PIR-22-02502}
+
+"{NMT-PIR-22-00082}
+Added confirmation of terminal alignment (no opening) to the final visual inspection (magnifying glass 10x) item of the bus bar case assembly supplier.
+
+(Please refer attached report)"
+"{NMT-PIR-22-00081}
+Unable to identify (refer to attached report)"
+
+"{NMT-PQR-22-00019}
+-"
+
+
+
+
+
+
+
+{NML-QRR-22-00128}
+
+"{NMT-PIR-22-00126}
+-Supplier process improvement level up by 200% check appearance before packing
+-Implement date on 26-Aug’22 ,[1st lot implement RAN No.6NZR404 ]"
+
+
+
+"{NMT-PIR-22-00118}
+By decreasing this gap, the brake noise has trend to improve its occurrence
+-Improvement of suspension beam mounting surface accuracy GAP occurs due to spring back during pressing of the mounting surface plate and welding strain during welding to the suspension beam.
+-The press die has been improved so that gaps are not created when spring back/welding strain occurs"
+"{NMT-CAR-22-00070}
+-"
+
+"{NMT-PIR-22-00114}
+Supplier Antolin added appearance check with Black-light in NMT area before supplier to T/C line."
+
+
+"{NMT-CAR-22-00051}
+-"
+"{NMT-CAR-23-00009}
+RNDS (C-00057) On-Off cycle testing condition change for only Auto Cooler vehicle
+
+(20 thousand time à 1 million time, Equivalent 10 years/100 thousand km)
+
+{NMT-CAR-23-00007}
+Test items is considering by supplier/designer"
+"{NMAP-QRR-22-00002}
+NMT Plant VQA sakanobori P15 in stock to confirm battery terminal condition"
+{NML-PIR-22-04075}
+
+
+
+
+
+"{NPI-QRR-22-00005}
+ONE POINT LESSON SHEET
+to confirm connector by actual part confirmation and pull test both RH and LH FR seat"
+
+
+"{NMT-CAR-22-00065}
+ONE POINT LESSON SHEET"
+
+
+"{NMT-CAR-22-00063}
+ONE POINT LESSON SHEET"
+
+{NML-QRR-22-00133}
+
+
+
+
+
+
+
+
+
+
+
+
+"{NML-CAR-23-00129}
+－"
+
+"{NMT-PQR-22-00020}
+To confirm effectiveness layout confirmation
+effectiveness force change from 78% --> 95% (better than C27)"
+
+
+
+
+
+
+
+
+"{NMT-CAR-23-00018}
+
+Permanent C/M
+
+Stabilization of grease application range/amount
+-Application color sensor to confirm that grease apply in all area
+-Install high viscosity dispenser for to control grease amount
+Cut off VIN#
+
+#MNTFFAP15Z0000052 Des.THI
+
+Off line date: 10-feb-2022"
+"{NMAP-CAR-23-00002}
+
+GOS SW ASSY-STRG for P15 STRG SW malfunction issue.
+
+We had revised for temp C/M control the layout of AIR BAG STRG WHEEL HARN.
+
+4M change adoption"
+
+
