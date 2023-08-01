@@ -1,0 +1,37 @@
+import pandas as pd
+import os
+import pickle
+
+import numpy as np
+path_QCS = "../QCS_PT_JPN_3MIS_send.xlsx"
+pkl_file = "bin/DrivePro.pkl"
+with open(pkl_file, 'rb') as f:
+    data_Drivepro = pickle.load(f)
+data_QCS = pd.read_excel(path_QCS)
+column_drive_pro_1 = ("車系","エンジン型式")
+column_QCS_1 = ("ModelCode","ENG型式","TM型式")
+dfs = pd.DataFrame()
+dfss = pd.DataFrame()
+for a in range(len(data_QCS)):
+    for x in column_QCS_1:
+        src_str = data_QCS[x].str.strip()
+        if x == "ModelCode":
+            df_des = data_Drivepro[data_Drivepro["車系"].str.contains(src_str[a], na=False)]
+        elif x == "ENG型式":
+            if src_str[a] == "BR06DE/DET":
+                change = src_str[a].split("/")
+                change[1]= change[0].replace('DE','DET')
+                df_des = df_des[df_des["エンジン型式"].str.contains(change[0], na=False)]
+            else: 
+                df_des = df_des[df_des["エンジン型式"].str.contains(src_str[a], na=False)]
+        else:
+            df_des = df_des[df_des["ミッション型式"].str.contains(src_str[a], na=False)]
+    dfs = pd.concat([dfs,df_des])
+    
+
+columns =  ['車系','エンジン型式','ミッション型式','お客さまの声', '修理内容/結果', '現車点検内容',
+                '修理内容/結果', '現車点検内容', '根本原因:作りこみ要因',
+                '根本原因:見逃し要因', '対策:作りこみ対策', '対策:見逃し対策']
+for i in columns:
+    dfss[i] = dfs [i]
+print(dfss)
